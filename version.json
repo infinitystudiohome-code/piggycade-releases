@@ -1,8 +1,8 @@
 {
+  "notes": "Two new Ultimate Tic-Tac-Toe themes: Paper and High Contrast. Clearer board outlines and saved theme choice. Improved small-screen layout.",
+  "versionName": "1.0.1",
+  "sha256": "dafab823aa489204b8cbf59f392c0b20fbb8dd9704ddfe62e5e91385475d0847",
+  "versionCode": 2,
   "available": true,
-  "sha256": "7cb545960b8684eb4f384f8858504d8745a16f8ac72289e135b171c1a8e3eb15",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.0/Qurio.apk",
-  "versionCode": 1,
-  "versionName": "1.0.0",
-  "notes": "Qurio family arcade: nine games, offline play and private online rooms."
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.1/Qurio.apk"
 }
