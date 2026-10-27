@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 4,
-  "versionName": "1.0.3",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.3/Qurio.apk",
-  "sha256": "37a14c2a3c012ec9f6a34c0e6d8270601c93816634a2a00541a855bda2647749",
-  "notes": "Live Sudoku together: up to four players fill one shared board simultaneously, without turns. Friends can join during play. Shared team lives and hints, visible teammate edits, all five difficulties, and a separate-board Race option. Shared rooms require internet; solo games remain offline."
+  "versionCode": 5,
+  "versionName": "1.0.4",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.4/Qurio.apk",
+  "sha256": "a4f12ab73f21d33d6b3e7696ef0b1bb63811a36f08b8a5e6dd3400bb87bbc7b9",
+  "notes": "Stay together in the same room between games. Replay requests notify the host for approval. Faster automatic reconnection, shared Sudoku notes and live teammate cell markers, larger digits, a glowing Notes ON button, and completed digits gently disappearing from the number bar. Update every phone to use the new live features. Solo games remain offline."
 }
