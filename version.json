@@ -1,8 +1,8 @@
 {
-  "notes": "Two new Ultimate Tic-Tac-Toe themes: Paper and High Contrast. Clearer board outlines and saved theme choice. Improved small-screen layout.",
-  "versionName": "1.0.1",
-  "sha256": "dafab823aa489204b8cbf59f392c0b20fbb8dd9704ddfe62e5e91385475d0847",
-  "versionCode": 2,
   "available": true,
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.1/Qurio.apk"
+  "versionCode": 3,
+  "versionName": "1.0.2",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/untagged-61f1b51bbd49c3cb58df/Qurio.apk",
+  "sha256": "c1e9f3324a6820f7e3d6c540ce7598a4f783bd796dec8f49ad91257efd62e7cb",
+  "notes": "Sudoku notes now clear automatically after a correct number is filled, including matching notes in its row, column and box. Notes-only cells can be erased. Fixed across all five difficulties, offline and online."
 }
