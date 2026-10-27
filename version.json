@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 3,
-  "versionName": "1.0.2",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.2/Qurio.apk",
-  "sha256": "c1e9f3324a6820f7e3d6c540ce7598a4f783bd796dec8f49ad91257efd62e7cb",
-  "notes": "Sudoku notes now clear automatically after a correct number is filled, including matching notes in its row, column and box. Notes-only cells can be erased. Fixed across all five difficulties, offline and online."
+  "versionCode": 4,
+  "versionName": "1.0.3",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.3/Qurio.apk",
+  "sha256": "37a14c2a3c012ec9f6a34c0e6d8270601c93816634a2a00541a855bda2647749",
+  "notes": "Live Sudoku together: up to four players fill one shared board simultaneously, without turns. Friends can join during play. Shared team lives and hints, visible teammate edits, all five difficulties, and a separate-board Race option. Shared rooms require internet; solo games remain offline."
 }
