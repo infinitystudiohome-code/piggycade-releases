@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 9,
-  "versionName": "1.0.8",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.8/Qurio.apk",
-  "sha256": "7d4537fb33bf848507ae7f184a8c0dec7977a586c7ccb7a355fade8b76b8f864",
-  "notes": "Titled player profiles: Save, Load or create a New profile with 1,000 chips. Saves keep your name, avatar, chips and unfinished hand on this device. The card lounge now has a proper empty-table, shuffle and deal opening, synchronized online; animated chip stacks, bets, pot awards and clear round announcements; richer table styling. Includes zoom, Fit and random NPC opponents. Update every phone for the synchronized opening."
+  "versionCode": 10,
+  "versionName": "1.0.9",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.9/Qurio.apk",
+  "sha256": "c2509ecea7e53bc67860918fd97330135ec173fdb0f911011299b3de65908b1e",
+  "notes": "Casino sound upgrade: physical-style chip clacks, shuffling, dealing, check taps, folds, betting, raises and all-in stacks. Wins add a coin cascade and cash-register-style ding with a gold table celebration; losses have a short restrained sound and gentle visual reaction. Matched win/loss effects work in solo and online rooms. All sounds are original, bundled offline and respect the Sound toggle."
 }
