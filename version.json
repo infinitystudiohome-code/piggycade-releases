@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 8,
-  "versionName": "1.0.7",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.7/Qurio.apk",
-  "sha256": "2186d3cff61505014eb16cad522287687dc17d0133af2398a7d9379bab61e8ca",
-  "notes": "Card-table zoom: Fit automatically keeps the whole table on screen, with normal-sized action buttons. Use + and − to zoom in or out and pan the enlarged table. Zoom preference is saved. Works in Hold’em and Blackjack, solo and online, with responsive portrait and landscape layouts."
+  "versionCode": 9,
+  "versionName": "1.0.8",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.8/Qurio.apk",
+  "sha256": "7d4537fb33bf848507ae7f184a8c0dec7977a586c7ccb7a355fade8b76b8f864",
+  "notes": "Titled player profiles: Save, Load or create a New profile with 1,000 chips. Saves keep your name, avatar, chips and unfinished hand on this device. The card lounge now has a proper empty-table, shuffle and deal opening, synchronized online; animated chip stacks, bets, pot awards and clear round announcements; richer table styling. Includes zoom, Fit and random NPC opponents. Update every phone for the synchronized opening."
 }
