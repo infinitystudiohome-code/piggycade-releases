@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 5,
-  "versionName": "1.0.4",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.4/Qurio.apk",
-  "sha256": "a4f12ab73f21d33d6b3e7696ef0b1bb63811a36f08b8a5e6dd3400bb87bbc7b9",
-  "notes": "Stay together in the same room between games. Replay requests notify the host for approval. Faster automatic reconnection, shared Sudoku notes and live teammate cell markers, larger digits, a glowing Notes ON button, and completed digits gently disappearing from the number bar. Update every phone to use the new live features. Solo games remain offline."
+  "versionCode": 6,
+  "versionName": "1.0.5",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.5/Qurio.apk",
+  "sha256": "9ed778d5f9a4f70207a0f399e66907936e9ca20a259dec263c2c516836d9aed7",
+  "notes": "The Card Lounge is open: Texas Hold’em and Blackjack, offline or in family rooms. Dedicated dealers, 66 new opponents plus Ivan, Lexie and Marijan, circular tables, three felts, four card backs, sounds, dialogue, saved play chips and history. Five difficulties, private poker cards, simultaneous shared-dealer Blackjack, pause, reconnect and host-approved replay. Includes hidden local 100x QA mode. Update all phones for online card games."
 }
