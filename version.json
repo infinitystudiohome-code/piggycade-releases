@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 6,
-  "versionName": "1.0.5",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.5/Qurio.apk",
-  "sha256": "9ed778d5f9a4f70207a0f399e66907936e9ca20a259dec263c2c516836d9aed7",
-  "notes": "The Card Lounge is open: Texas Hold’em and Blackjack, offline or in family rooms. Dedicated dealers, 66 new opponents plus Ivan, Lexie and Marijan, circular tables, three felts, four card backs, sounds, dialogue, saved play chips and history. Five difficulties, private poker cards, simultaneous shared-dealer Blackjack, pause, reconnect and host-approved replay. Includes hidden local 100x QA mode. Update all phones for online card games."
+  "versionCode": 7,
+  "versionName": "1.0.6",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.6/Qurio.apk",
+  "sha256": "918e72d524b41bb765ee53fee81604e67f940127b9cc91494b711cde8d58895a",
+  "notes": "Quick card-table update: Ivan, Lexie and Marijan are reserved for human player selection. Every computer opponent is a random NPC, including in saved offline hands. The dealer is now centered above the community cards on phones and larger screens. Existing games, chips, rooms and history are preserved."
 }
