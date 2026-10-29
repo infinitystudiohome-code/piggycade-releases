@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 7,
-  "versionName": "1.0.6",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.6/Qurio.apk",
-  "sha256": "918e72d524b41bb765ee53fee81604e67f940127b9cc91494b711cde8d58895a",
-  "notes": "Quick card-table update: Ivan, Lexie and Marijan are reserved for human player selection. Every computer opponent is a random NPC, including in saved offline hands. The dealer is now centered above the community cards on phones and larger screens. Existing games, chips, rooms and history are preserved."
+  "versionCode": 8,
+  "versionName": "1.0.7",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.7/Qurio.apk",
+  "sha256": "2186d3cff61505014eb16cad522287687dc17d0133af2398a7d9379bab61e8ca",
+  "notes": "Card-table zoom: Fit automatically keeps the whole table on screen, with normal-sized action buttons. Use + and − to zoom in or out and pan the enlarged table. Zoom preference is saved. Works in Hold’em and Blackjack, solo and online, with responsive portrait and landscape layouts."
 }
