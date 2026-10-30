@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 20,
-  "versionName": "1.0.19",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.19/Qurio.apk",
-  "sha256": "d947bc9ba39ebfe38461d406032e23a72346d00a9f1c1bfa65cdf244f88619df",
-  "notes": "Five dedicated Dealer portraits with shirts, waistcoats, bow ties and badges, one uniform for each difficulty. Every dealer is named Dealer and is excluded from playable characters. Works offline and in online poker and Blackjack."
+  "versionCode": 21,
+  "versionName": "1.0.20",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.20/Qurio.apk",
+  "sha256": "8795c8240bc97d49d8337b809701ce5206860f701c80b488736dd81e2d427caf",
+  "notes": "Replaces the geometric dealer artwork with one detailed chibi pixel-art dealer in a suit, matching the existing avatar roster. The same Dealer serves all difficulties in offline and online poker and Blackjack, and remains unplayable."
 }
