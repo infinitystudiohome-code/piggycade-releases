@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 23,
-  "versionName": "1.0.22",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.22/Qurio.apk",
-  "sha256": "dc245329b6b0f38c0b9fe8021406b3bcd60f6177f63edb70c76585c8cdf70418",
-  "notes": "Adds a Hand rankings help button beside the card table. Opens both supplied reference images and readable explanations of all ten poker hands, including ace rules, kickers and split pots, in a mobile-friendly, closable panel. Available offline and in online rooms."
+  "versionCode": 24,
+  "versionName": "1.0.23",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.23/Qurio.apk",
+  "sha256": "9d0785cd697083bda8dc106cfa1189c4189a146e67ca468e294b3c254201d703",
+  "notes": "Restores Ivan, Lexie and Marijan to the Host and Join room character pickers, with portrait previews. All 69 playable characters are available online and offline. Dealer remains unplayable."
 }
