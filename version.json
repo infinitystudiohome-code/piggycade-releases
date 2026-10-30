@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 17,
-  "versionName": "1.0.16",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.16/Qurio.apk",
-  "sha256": "168c6a036652658e5d508177b40fbe180b2bf4243df50e22efd5fe4db0cdf610",
-  "notes": "Update app now runs independently of the game launcher, so a launcher failure cannot disable the update button. Android builds are blocked unless browser checks pass, including an intentionally broken launcher recovery check. Includes Exit room and the launcher fixes."
+  "versionCode": 18,
+  "versionName": "1.0.17",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.17/Qurio.apk",
+  "sha256": "170428374c78d004df5fbb3de89ca72853a1583cd8606a32bbd449496d551f20",
+  "notes": "Offline Texas Hold’em and Blackjack now offer all 69 existing characters, including the family trio and 66 roster characters. Character selections are saved with each offline profile. Your chosen character is excluded from random opponents and dealers. Also preserves the host starting-chip setting when creating an online card match."
 }
