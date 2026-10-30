@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 18,
-  "versionName": "1.0.17",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.17/Qurio.apk",
-  "sha256": "170428374c78d004df5fbb3de89ca72853a1583cd8606a32bbd449496d551f20",
-  "notes": "Offline Texas Hold’em and Blackjack now offer all 69 existing characters, including the family trio and 66 roster characters. Character selections are saved with each offline profile. Your chosen character is excluded from random opponents and dealers. Also preserves the host starting-chip setting when creating an online card match."
+  "versionCode": 19,
+  "versionName": "1.0.18",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.18/Qurio.apk",
+  "sha256": "44317e5f98793c3f953dfe0314ba6279318a28b78e1bf12adfc6fdc569d70134",
+  "notes": "Character portrait previews now appear beside names in offline and multiplayer character pickers. Browse the existing roster by portrait, and see player portraits beside their names in the room lobby. Includes saved offline character choices."
 }
