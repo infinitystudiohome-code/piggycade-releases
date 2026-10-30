@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 21,
-  "versionName": "1.0.20",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.20/Qurio.apk",
-  "sha256": "8795c8240bc97d49d8337b809701ce5206860f701c80b488736dd81e2d427caf",
-  "notes": "Replaces the geometric dealer artwork with one detailed chibi pixel-art dealer in a suit, matching the existing avatar roster. The same Dealer serves all difficulties in offline and online poker and Blackjack, and remains unplayable."
+  "versionCode": 22,
+  "versionName": "1.0.21",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.21/Qurio.apk",
+  "sha256": "473f47d1d4a7c20a150ee6af0d7f533d95cd53fc4190b06be94e6752a1796d1b",
+  "notes": "Round announcements now put the winning player name in the largest center-table text, followed by smaller hand results, pot details and chip winnings. Shows actual poker winners even when you lose, and all winning Blackjack players in shared rooms. Ties and side pots are included. Winner announcements remain visible longer."
 }
