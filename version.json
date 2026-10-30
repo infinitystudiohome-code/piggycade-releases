@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 19,
-  "versionName": "1.0.18",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.18/Qurio.apk",
-  "sha256": "44317e5f98793c3f953dfe0314ba6279318a28b78e1bf12adfc6fdc569d70134",
-  "notes": "Character portrait previews now appear beside names in offline and multiplayer character pickers. Browse the existing roster by portrait, and see player portraits beside their names in the room lobby. Includes saved offline character choices."
+  "versionCode": 20,
+  "versionName": "1.0.19",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.19/Qurio.apk",
+  "sha256": "d947bc9ba39ebfe38461d406032e23a72346d00a9f1c1bfa65cdf244f88619df",
+  "notes": "Five dedicated Dealer portraits with shirts, waistcoats, bow ties and badges, one uniform for each difficulty. Every dealer is named Dealer and is excluded from playable characters. Works offline and in online poker and Blackjack."
 }
