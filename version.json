@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 11,
-  "versionName": "1.0.10",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.10/Qurio.apk",
-  "sha256": "e7e022edcdbe5b8c2045419b074ff0b86e49befeb93394bffe00f1e153c109ee",
-  "notes": "Persistent online poker tables: stay seated to spectate after folding or running out of chips. Host deals the next hand without the lobby; chip balances, opponents and dealer carry forward. Refill an empty stack between hands, request another hand, or explicitly reset the table. Includes red loss effects and casino sound effects."
+  "versionCode": 12,
+  "versionName": "1.0.11",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.11/Qurio.apk",
+  "sha256": "4f02cc6dc30bb683dfab321ce1d258f89f7001ef7e5d10780019704e320c458c",
+  "notes": "Hosted Blackjack now keeps everyone seated, just like poker. Spectate while other players finish, carry chip balances into the next hand, request another deal, and let the host deal again without returning to the lobby. Players without enough chips can spectate or refill between hands. Same room, dealer and players stay together."
 }
