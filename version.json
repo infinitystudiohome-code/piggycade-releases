@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 16,
-  "versionName": "1.0.15",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.15/Qurio.apk",
-  "sha256": "56da393038b190dd7ed1d8a68fbe5abad50f17bc93e09101d6e443c22a961f6f",
-  "notes": "Fixes launcher buttons failing to respond after character picker imports. Update checks now use GitHub directly with the room Worker as fallback, avoiding a single DNS dependency. Includes ten-player rooms, character selection and custom host chip stacks."
+  "versionCode": 17,
+  "versionName": "1.0.16",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.16/Qurio.apk",
+  "sha256": "168c6a036652658e5d508177b40fbe180b2bf4243df50e22efd5fe4db0cdf610",
+  "notes": "Update app now runs independently of the game launcher, so a launcher failure cannot disable the update button. Android builds are blocked unless browser checks pass, including an intentionally broken launcher recovery check. Includes Exit room and the launcher fixes."
 }
