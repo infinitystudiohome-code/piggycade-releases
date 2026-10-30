@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 15,
-  "versionName": "1.0.14",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.14/Qurio.apk",
-  "sha256": "c65ffd29c8c70836ad4035f16f9bfde063a0814be9addf649dc0e20511653026",
-  "notes": "Rooms now support up to 10 people. Every player can choose among 66 existing NPC characters. Hosts set the starting play-chip amount from 100 to 1,000,000 for online poker and Blackjack. Poker and Blackjack show the winning player’s name in a large center-table announcement that fades after the hand. NPC voice reactions: 26 bundled recordings, stable male/female/neutral character voices with deep, neutral and higher tones. Occasional laughs, gasps, yes/no, sighs and frustrated reactions respond to bets, wins and large losses in poker and Blackjack. Offline, no voice generation charges, respects Sound off and backgrounding. Hosted tables continue without resetting chips."
+  "versionCode": 16,
+  "versionName": "1.0.15",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.15/Qurio.apk",
+  "sha256": "56da393038b190dd7ed1d8a68fbe5abad50f17bc93e09101d6e443c22a961f6f",
+  "notes": "Fixes launcher buttons failing to respond after character picker imports. Update checks now use GitHub directly with the room Worker as fallback, avoiding a single DNS dependency. Includes ten-player rooms, character selection and custom host chip stacks."
 }
