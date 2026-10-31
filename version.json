@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 33,
-  "versionName": "1.0.32",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.32/Qurio.apk",
-  "sha256": "c35ccd5a0f80c03a4c0ecdf449b78b23f862ddfd07d8a933ef1411d26f9fdf07",
-  "notes": "UNO cards now use brighter red, yellow, green and blue, with improved yellow-card contrast. Cards keep their color while waiting for a turn. The draw pile, opponents and draw animations use classic black card backs with a red oval and yellow UNO lettering."
+  "versionCode": 34,
+  "versionName": "1.0.33",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.33/Qurio.apk",
+  "sha256": "fd70a141064942c68606b0a4e5000d365ede19858eb75be7c6527deef5f27f11",
+  "notes": "Adds experimental audio-only YouTube search, links and playlists on Android using YouTube.js, with no video panel during games. Includes a shared room queue, favourites, saved playlists, seek, shuffle, repeat, 30% starting volume, mute and Android notification controls. Bundled tracks work offline. Human poker Fold always asks for confirmation. YouTube changes or regional restrictions may temporarily prevent streaming; provider fixes arrive through Qurio app updates."
 }
