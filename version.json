@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 26,
-  "versionName": "1.0.25",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.25/Qurio.apk",
-  "sha256": "9dc062385a4cf07aa2ec8db9875a26c6386379f8383dd08059e1c0098fb96646",
-  "notes": "Adds Hide controls / Show controls to the card table. Hides the large menu, music, game heading, zoom controls, journal and online room bar to give the table more screen space, while keeping betting actions visible. The table automatically refits, and your visibility preference is remembered. Works in offline and hosted poker and Blackjack."
+  "versionCode": 27,
+  "versionName": "1.0.26",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.26/Qurio.apk",
+  "sha256": "071919492c0472eafdd36f0e7da61b93331434ee02bef5e11361f4a61e1b2574",
+  "notes": "Fixes online poker incorrectly disabling Raise for some players. Client seat order now correctly translates betting history, including previous actions, pending players and last bet amounts. Standard short all-in and minimum-raise rules are retained."
 }
