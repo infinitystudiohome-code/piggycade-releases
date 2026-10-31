@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 37,
-  "versionName": "1.0.36",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.36/Qurio.apk",
-  "sha256": "8b08df2ae43e3b73ca91435a80beaf69b4a5bc6fff865c194090b68164436e68",
-  "notes": "Blackjack now has a spade icon. UNO calls appear in huge letters to every player. Press UNO within three seconds after reaching one card; missed calls draw two automatically, with server-enforced timing in online rooms. Other players continue for places after the first winner, and scores stay across UNO rounds in the same room. Active-player cards glow in UNO, Blackjack and poker."
+  "versionCode": 38,
+  "versionName": "1.0.37",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.37/Qurio.apk",
+  "sha256": "1a179d65cfce6d378dc3e1029428d9396659fcf1b3f309782ee70ba76aa8d6a0",
+  "notes": "Blackjack now has a spade icon. UNO calls appear in huge letters to every player. Press UNO within three seconds after reaching one card; missed calls draw two automatically, with server-enforced timing in online rooms. Other players continue for places after the first winner, and scores stay across UNO rounds in the same room. UNO clearly highlights the active player with glowing cards and a TURN badge. Blackjack has only its icon changed; poker is unchanged."
 }
