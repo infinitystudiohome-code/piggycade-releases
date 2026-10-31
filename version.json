@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 27,
-  "versionName": "1.0.26",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.26/Qurio.apk",
-  "sha256": "071919492c0472eafdd36f0e7da61b93331434ee02bef5e11361f4a61e1b2574",
-  "notes": "Fixes online poker incorrectly disabling Raise for some players. Client seat order now correctly translates betting history, including previous actions, pending players and last bet amounts. Standard short all-in and minimum-raise rules are retained."
+  "versionCode": 28,
+  "versionName": "1.0.27",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.27/Qurio.apk",
+  "sha256": "2bd44dca0303058714162b64bab783773c6c18f278617b3008d1751937832e86",
+  "notes": "Fixes poker seats appearing out of turn order. Each player now sees the same circular seating order, rotated to put their own seat at the bottom. Seat positions follow that order clockwise for tables of 2 through 10 players. Betting history and raise permissions remain aligned with server seats."
 }
