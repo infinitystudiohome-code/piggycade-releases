@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 34,
-  "versionName": "1.0.33",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.33/Qurio.apk",
-  "sha256": "fd70a141064942c68606b0a4e5000d365ede19858eb75be7c6527deef5f27f11",
-  "notes": "Adds experimental audio-only YouTube search, links and playlists on Android using YouTube.js, with no video panel during games. Includes a shared room queue, favourites, saved playlists, seek, shuffle, repeat, 30% starting volume, mute and Android notification controls. Bundled tracks work offline. Human poker Fold always asks for confirmation. YouTube changes or regional restrictions may temporarily prevent streaming; provider fixes arrive through Qurio app updates."
+  "versionCode": 35,
+  "versionName": "1.0.34",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.34/Qurio.apk",
+  "sha256": "b35da4bbb156d6e9373fab4ffc4f5be44db081b63179443ecfc8514f8f0c012c",
+  "notes": "Adds 99 new guest avatars alongside Ivan, Lexie, Marijan and Ana; retired NPCs are removed from the selectable roster. Adds 38 main-character-only voice clips, including Marijan recordings with unchanged pitch and volume-balanced game copies. Adds a separate Sound & music menu, character voice volume, Marijan-only mute, and song switching. Fixes Android music Play/Add compatibility and keeps the poker Fold confirmation. Further requested character artwork is paused."
 }
