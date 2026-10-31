@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 35,
-  "versionName": "1.0.34",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.34/Qurio.apk",
-  "sha256": "b35da4bbb156d6e9373fab4ffc4f5be44db081b63179443ecfc8514f8f0c012c",
-  "notes": "Adds 99 new guest avatars alongside Ivan, Lexie, Marijan and Ana; retired NPCs are removed from the selectable roster. Adds 38 main-character-only voice clips, including Marijan recordings with unchanged pitch and volume-balanced game copies. Adds a separate Sound & music menu, character voice volume, Marijan-only mute, and song switching. Fixes Android music Play/Add compatibility and keeps the poker Fold confirmation. Further requested character artwork is paused."
+  "versionCode": 36,
+  "versionName": "1.0.35",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.35/Qurio.apk",
+  "sha256": "e81ad2613597e8c1f4ce0bf0555894b13af129be66b0b22579758f96ed9cd503",
+  "notes": "Lighter Ivan and Lexie voices; main-character speech only for wins and losses. Individual player voice mute, shared bundled room music, synchronized reactions and speech bubbles above cards. Silent action bubbles show checks, calls, folds and raise amounts. Busted NPCs are replaced between hands with fresh table starting stacks. Trumpet victory fanfare, dealer idle reminder and updated scarred Freddy Krueger artwork. YouTube integration remains deferred."
 }
