@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 24,
-  "versionName": "1.0.23",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.23/Qurio.apk",
-  "sha256": "9d0785cd697083bda8dc106cfa1189c4189a146e67ca468e294b3c254201d703",
-  "notes": "Restores Ivan, Lexie and Marijan to the Host and Join room character pickers, with portrait previews. All 69 playable characters are available online and offline. Dealer remains unplayable."
+  "versionCode": 25,
+  "versionName": "1.0.24",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.24/Qurio.apk",
+  "sha256": "483da378fc27654667c02bff2c25a312e8771196687bf6ec2f8ab16da72e3682",
+  "notes": "Translucent hand rankings panel with Close at bottom right, so your cards remain visible. Adds Makati background music with volume and mute controls, initially 30 percent. Real players can gift their own play chips to each other between hands in online poker and Blackjack; NPCs cannot receive gifts."
 }
