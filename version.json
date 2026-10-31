@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 31,
-  "versionName": "1.0.30",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.30/Qurio.apk",
-  "sha256": "2d2111bdc041c2de8aba9487477b85ab2fd0e584a49047669a1afca7e61b3263",
-  "notes": "Fixes characters covering the first and last community cards. Table layout now reserves a clear strip around all five board cards and automatically moves overlapping opponent seats above or below it, for every player perspective and zoom level. Community cards also draw above character seats as a safeguard."
+  "versionCode": 32,
+  "versionName": "1.0.31",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.31/Qurio.apk",
+  "sha256": "ce68ba0d7117dfad2c150d799cb738f35b8ad4974f01ed6d65d01c0102c77bc3",
+  "notes": "Adds UNO to the Card Lounge with the Qurio avatars, voice reactions, animated dealing, discards, penalties, reverses, UNO calls and winner celebrations. Classic 108-card rules include Wild Draw Four challenges, missed-UNO catches, two-player Reverse, no stacking and 500-point matches. Offline bots use the selected difficulty; live rooms support 2–10 players with private hands and persistent rounds. Includes an illustrated card design, detailed rule book, saved offline rounds, match history, Hide/Show controls and looped music with volume and mute."
 }
