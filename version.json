@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 36,
-  "versionName": "1.0.35",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.35/Qurio.apk",
-  "sha256": "e81ad2613597e8c1f4ce0bf0555894b13af129be66b0b22579758f96ed9cd503",
-  "notes": "Lighter Ivan and Lexie voices; main-character speech only for wins and losses. Individual player voice mute, shared bundled room music, synchronized reactions and speech bubbles above cards. Silent action bubbles show checks, calls, folds and raise amounts. Busted NPCs are replaced between hands with fresh table starting stacks. Trumpet victory fanfare, dealer idle reminder and updated scarred Freddy Krueger artwork. YouTube integration remains deferred."
+  "versionCode": 37,
+  "versionName": "1.0.36",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.36/Qurio.apk",
+  "sha256": "8b08df2ae43e3b73ca91435a80beaf69b4a5bc6fff865c194090b68164436e68",
+  "notes": "Blackjack now has a spade icon. UNO calls appear in huge letters to every player. Press UNO within three seconds after reaching one card; missed calls draw two automatically, with server-enforced timing in online rooms. Other players continue for places after the first winner, and scores stay across UNO rounds in the same room. Active-player cards glow in UNO, Blackjack and poker."
 }
