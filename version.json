@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 28,
-  "versionName": "1.0.27",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.27/Qurio.apk",
-  "sha256": "2bd44dca0303058714162b64bab783773c6c18f278617b3008d1751937832e86",
-  "notes": "Fixes poker seats appearing out of turn order. Each player now sees the same circular seating order, rotated to put their own seat at the bottom. Seat positions follow that order clockwise for tables of 2 through 10 players. Betting history and raise permissions remain aligned with server seats."
+  "versionCode": 29,
+  "versionName": "1.0.28",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.28/Qurio.apk",
+  "sha256": "4bf9be8a4f49fd3909e30a11416f6f953ff33323dd71376fe3831f600b149788",
+  "notes": "Adds Lounge Elegance alongside Makati in a continuously repeating two-track playlist, keeping volume and mute settings. Includes the circular seating fix: the same clockwise seat order is rotated correctly for each player, with raise permissions aligned to server seats."
 }
