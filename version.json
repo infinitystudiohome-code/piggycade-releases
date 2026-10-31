@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 32,
-  "versionName": "1.0.31",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.31/Qurio.apk",
-  "sha256": "ce68ba0d7117dfad2c150d799cb738f35b8ad4974f01ed6d65d01c0102c77bc3",
-  "notes": "Adds UNO to the Card Lounge with the Qurio avatars, voice reactions, animated dealing, discards, penalties, reverses, UNO calls and winner celebrations. Classic 108-card rules include Wild Draw Four challenges, missed-UNO catches, two-player Reverse, no stacking and 500-point matches. Offline bots use the selected difficulty; live rooms support 2–10 players with private hands and persistent rounds. Includes an illustrated card design, detailed rule book, saved offline rounds, match history, Hide/Show controls and looped music with volume and mute."
+  "versionCode": 33,
+  "versionName": "1.0.32",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.32/Qurio.apk",
+  "sha256": "c35ccd5a0f80c03a4c0ecdf449b78b23f862ddfd07d8a933ef1411d26f9fdf07",
+  "notes": "UNO cards now use brighter red, yellow, green and blue, with improved yellow-card contrast. Cards keep their color while waiting for a turn. The draw pile, opponents and draw animations use classic black card backs with a red oval and yellow UNO lettering."
 }
