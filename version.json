@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 30,
-  "versionName": "1.0.29",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.29/Qurio.apk",
-  "sha256": "590c82c0227e1bc3463deda12184307647f943b60a3869cad10d1ec31ce57bb1",
-  "notes": "Adds Ana after Ivan, Lexie and Marijan as a playable family character, with matching chibi pixel artwork. Adds winner-seat confetti, fireworks, glowing winner portraits and cheering, with four celebration levels for bigger wins. Both card game menu icons now show poker chips. Celebrations respect Sound off, backgrounding and reduced motion."
+  "versionCode": 31,
+  "versionName": "1.0.30",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.30/Qurio.apk",
+  "sha256": "2d2111bdc041c2de8aba9487477b85ab2fd0e584a49047669a1afca7e61b3263",
+  "notes": "Fixes characters covering the first and last community cards. Table layout now reserves a clear strip around all five board cards and automatically moves overlapping opponent seats above or below it, for every player perspective and zoom level. Community cards also draw above character seats as a safeguard."
 }
