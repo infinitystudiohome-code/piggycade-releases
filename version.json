@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 47,
-  "versionName": "1.0.46",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.46/Qurio.apk",
-  "sha256": "9c554c4dcf923b58d431621d0c7c7f33bd45681cde0c799a2b7f0b688c9dd7cc",
-  "notes": "Winning fuchsia hearts in Ultimate Tic-Tac-Toe bounce slowly upward; winning purple X symbols bounce downward. Both winning symbols have no glow. Small cells retain purple X marks and filled fuchsia hearts. Reduced-motion settings disable the bounces. No room-server deployment; ongoing games and saved progress are preserved."
+  "versionCode": 48,
+  "versionName": "1.0.47",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.47/Qurio.apk",
+  "sha256": "10340e0134722f84de7a221de7f060c856c47e48892ecc5aae41943d4c90e2af",
+  "notes": "Orange and purple Ultimate Tic-Tac-Toe title across all themes. Winning fuchsia hearts in Ultimate Tic-Tac-Toe bounce slowly upward; winning purple X symbols bounce downward. Both winning symbols have no glow. Small cells retain purple X marks and filled fuchsia hearts. Reduced-motion settings disable the bounces. No room-server deployment; ongoing games and saved progress are preserved."
 }
