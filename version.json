@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 51,
-  "versionName": "1.0.50",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.50/Qurio.apk",
-  "sha256": "e7673515f162645b0acc63095a045129ae0e348e4a61cd2655cc13bd0c052615",
-  "notes": "Adds European Roulette to the Card Lounge, with the poker-style felt and gold trim, existing character avatars and a roulette-wheel icon. Offline saved profiles, NPC company, real payouts for play-chip bets, wheel/ball animation, rule book, chip selection and repeat/undo/double bets. Shared rooms support simultaneous betting, ready checks, one synchronized host spin and persistent chip balances. Lightweight compressed artwork and local music; existing games remain intact."
+  "versionCode": 52,
+  "versionName": "1.0.51",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.51/Qurio.apk",
+  "sha256": "61b5153eca3d054155ff6a7cd389f8194cf61e3803986a4ccc1ff1295eaff06b",
+  "notes": "Includes the new European Roulette in the poker-style Card Lounge, offline profiles and shared live spins. Adds six original character-specific text lines for each of 104 characters, including the four main characters and Dealer, mapped to welcome/thinking/betting/folding/winning/losing. Silent characters use gestures. Main-character recordings remain unchanged and play only at their designated outcomes. Action-message wording stays clear; extra catchphrases are rate-limited, and roulette shows one bubble at a time. Lightweight artwork, local music and existing room continuity are preserved."
 }
