@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 45,
-  "versionName": "1.0.44",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.44/Qurio.apk",
-  "sha256": "989fe7afc81d0dd3952857b9477eb546005055b1af8a84a39c9cf739b83f6fb6",
-  "notes": "Manual or automatic opening dice for Ultimate Tic-Tac-Toe; dice disappear after the reveal. Won boards show fuchsia hearts and purple X symbols with chartreuse highlights. Compact ending recaps and five-second hearts, sparkles and fireworks. A tiny pink piggy surprises both Ivan and Lexie only when they are the only two room players, up to twice per match. Existing rooms and saved games are preserved."
+  "versionCode": 46,
+  "versionName": "1.0.45",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.45/Qurio.apk",
+  "sha256": "6d7ac7036bffddfc169cce70a183d59301ac96736944525e5dddc5ad993cecb2",
+  "notes": "Ultimate Tic-Tac-Toe now uses filled fuchsia hearts for the O side and purple X symbols throughout the board. Softer orange turn highlights for Ivan and pale chartreuse green for Lexie/player two. Manual opening dice are the default: best of three, first to two wins, ties replayed. Both players roll for themselves; the recorded roll history and score remain available in a compact Dice score panel. Existing games retain their opening rules and progress."
 }
