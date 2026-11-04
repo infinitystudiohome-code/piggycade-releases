@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 42,
-  "versionName": "1.0.41",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.41/Qurio.apk",
-  "sha256": "0d8fb2a26cf40e2a5ce0c3827aea7afe9856824f58fc1dde55449c5e93c8e492",
-  "notes": "Ultimate Tic-Tac-Toe now rolls a die for every player before new matches. Highest roll starts; tied players reroll. Online, the winner becomes X without changing host authority. Animated dice and a brief move lock show the result; offline games also roll, so the computer can start. Existing games keep their boards, turns and players. Includes SoundCloud public track/playlist playback, volume, mute, repeat and compact game dock from 1.0.40."
+  "versionCode": 43,
+  "versionName": "1.0.42",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.42/Qurio.apk",
+  "sha256": "c3e55b709ae8d2e4c9486461b47e48fe31c5b9d1bb8dd1c82424fe8314308aa9",
+  "notes": "Adds a consistent top-right Menu to every game, including Sound and volume settings, Music, and Top charts. Every game now has an ending recap before scores, with final-board or final-answer review and its own victory chime, fireworks and confetti. Saved game charts and a Family cup keep scores independently of match history: 3 points per win and 1 per draw. SoundCloud tracks and imported playlists now use the shared room queue and host playback clock, with synchronized pause, seek, next and catch-up after reconnect. All players should install this version for shared SoundCloud support. New competitive Sudoku and Wordle races stop for everyone once the winner is decided. Notes now keep every manually entered candidate without filtering; a newly placed correct digit still clears matching peer notes. Fixes X/O alignment in the arcade icon. Retains fair dice starts and protection for existing live games."
 }
