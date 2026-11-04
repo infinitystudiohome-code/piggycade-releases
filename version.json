@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 40,
-  "versionName": "1.0.39",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.39/Qurio.apk",
-  "sha256": "ff0cdda6a4fabcb68886f99156b044ee36fc2f55cea2760ad292b41c51c9dd6e",
-  "notes": "Recognizable illustrated game icons across the arcade and game menus: numbered Sudoku grid, Wordle tiles, matching memory cards, Recall brain and answer prompt, Letter Lab tiles, Hangman gallows, Answer Catcher basket and nested tic-tac-toe board. Adds an always-visible Sudoku rankings preview, automatic saved scores for solved puzzles and Top charts by difficulty. Scoring uses difficulty points plus a speed bonus minus mistake and hint penalties; separate solo, shared and race boards with assisted results separated. Existing saved Sudoku records are retained."
+  "versionCode": 41,
+  "versionName": "1.0.40",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.40/Qurio.apk",
+  "sha256": "425ab33d68541cdab8a513cbee7a59ff6348d6a049cd1da5f873e06a052f3dcb",
+  "notes": "Adds SoundCloud public track and playlist playback through the official embedded player. Paste a full SoundCloud link or play the included chillhop playlist. Includes 30-percent default volume, mute, previous/next, repeat, copy-link sharing and a compact playback dock during games. SoundCloud listening is per device; shared room music remains unchanged. No room-server deployment is part of this app release."
 }
