@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 46,
-  "versionName": "1.0.45",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.45/Qurio.apk",
-  "sha256": "6d7ac7036bffddfc169cce70a183d59301ac96736944525e5dddc5ad993cecb2",
-  "notes": "Ultimate Tic-Tac-Toe now uses filled fuchsia hearts for the O side and purple X symbols throughout the board. Softer orange turn highlights for Ivan and pale chartreuse green for Lexie/player two. Manual opening dice are the default: best of three, first to two wins, ties replayed. Both players roll for themselves; the recorded roll history and score remain available in a compact Dice score panel. Existing games retain their opening rules and progress."
+  "versionCode": 47,
+  "versionName": "1.0.46",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.46/Qurio.apk",
+  "sha256": "9c554c4dcf923b58d431621d0c7c7f33bd45681cde0c799a2b7f0b688c9dd7cc",
+  "notes": "Winning fuchsia hearts in Ultimate Tic-Tac-Toe bounce slowly upward; winning purple X symbols bounce downward. Both winning symbols have no glow. Small cells retain purple X marks and filled fuchsia hearts. Reduced-motion settings disable the bounces. No room-server deployment; ongoing games and saved progress are preserved."
 }
