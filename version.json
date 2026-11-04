@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 44,
-  "versionName": "1.0.43",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.43/Qurio.apk",
-  "sha256": "d5a51cedf0f5b4ae60877732453a9536eec4d99ce806ce39d25fdd3968945023",
-  "notes": "SoundCloud playback controls are now visible only inside Music; the floating player is hidden during games while shared audio continues. Adds SoundCloud song/artist search inside the Android app using its public search page. Tap a track title or Play button to choose it directly for the music queue without copying a link. Adds a persistent Listen later list with Save current, Save link, search Save for later, Play, Queue and Remove. No room-server deployment is part of this app release; ongoing games are preserved."
+  "versionCode": 45,
+  "versionName": "1.0.44",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.44/Qurio.apk",
+  "sha256": "989fe7afc81d0dd3952857b9477eb546005055b1af8a84a39c9cf739b83f6fb6",
+  "notes": "Manual or automatic opening dice for Ultimate Tic-Tac-Toe; dice disappear after the reveal. Won boards show fuchsia hearts and purple X symbols with chartreuse highlights. Compact ending recaps and five-second hearts, sparkles and fireworks. A tiny pink piggy surprises both Ivan and Lexie only when they are the only two room players, up to twice per match. Existing rooms and saved games are preserved."
 }
