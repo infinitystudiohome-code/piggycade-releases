@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 48,
-  "versionName": "1.0.47",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.47/Qurio.apk",
-  "sha256": "10340e0134722f84de7a221de7f060c856c47e48892ecc5aae41943d4c90e2af",
-  "notes": "Orange and purple Ultimate Tic-Tac-Toe title across all themes. Winning fuchsia hearts in Ultimate Tic-Tac-Toe bounce slowly upward; winning purple X symbols bounce downward. Both winning symbols have no glow. Small cells retain purple X marks and filled fuchsia hearts. Reduced-motion settings disable the bounces. No room-server deployment; ongoing games and saved progress are preserved."
+  "versionCode": 49,
+  "versionName": "1.0.48",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.48/Qurio.apk",
+  "sha256": "949d8116f4b2c5d6e6b3469c953d0f2a4dc35135ee2fe7a42100893a3cab02d2",
+  "notes": "Ultimate Tic-Tac-Toe turn borders now follow the shared active side on both phones: player 1/X neon orange, player 2/heart neon chartreuse green, independent of avatar or viewer. Both the outer board and playable small boards switch colors. Compact play view enlarges the board and adds Show/Hide controls, keeping Music in the menu. Both manual dice remain visible for 2.5 seconds before the result, followed by a winner announcement. The spinning side star is pink with a gentle pulsing glow. Winning symbols remain without glow and retain their opposite slow bounces. Tic-Tac-Toe now starts the bundled soundtrack when no queue is chosen, including synchronized room playback. Fixes the room Add-to-Play acknowledgement race. Adds SoundCloud sign-in with saved cookies. No room-server deployment; existing games stay intact."
 }
