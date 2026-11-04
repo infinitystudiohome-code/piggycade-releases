@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 41,
-  "versionName": "1.0.40",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.40/Qurio.apk",
-  "sha256": "425ab33d68541cdab8a513cbee7a59ff6348d6a049cd1da5f873e06a052f3dcb",
-  "notes": "Adds SoundCloud public track and playlist playback through the official embedded player. Paste a full SoundCloud link or play the included chillhop playlist. Includes 30-percent default volume, mute, previous/next, repeat, copy-link sharing and a compact playback dock during games. SoundCloud listening is per device; shared room music remains unchanged. No room-server deployment is part of this app release."
+  "versionCode": 42,
+  "versionName": "1.0.41",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.41/Qurio.apk",
+  "sha256": "0d8fb2a26cf40e2a5ce0c3827aea7afe9856824f58fc1dde55449c5e93c8e492",
+  "notes": "Ultimate Tic-Tac-Toe now rolls a die for every player before new matches. Highest roll starts; tied players reroll. Online, the winner becomes X without changing host authority. Animated dice and a brief move lock show the result; offline games also roll, so the computer can start. Existing games keep their boards, turns and players. Includes SoundCloud public track/playlist playback, volume, mute, repeat and compact game dock from 1.0.40."
 }
