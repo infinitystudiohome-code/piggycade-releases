@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 49,
-  "versionName": "1.0.48",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.48/Qurio.apk",
-  "sha256": "949d8116f4b2c5d6e6b3469c953d0f2a4dc35135ee2fe7a42100893a3cab02d2",
-  "notes": "Ultimate Tic-Tac-Toe turn borders now follow the shared active side on both phones: player 1/X neon orange, player 2/heart neon chartreuse green, independent of avatar or viewer. Both the outer board and playable small boards switch colors. Compact play view enlarges the board and adds Show/Hide controls, keeping Music in the menu. Both manual dice remain visible for 2.5 seconds before the result, followed by a winner announcement. The spinning side star is pink with a gentle pulsing glow. Winning symbols remain without glow and retain their opposite slow bounces. Tic-Tac-Toe now starts the bundled soundtrack when no queue is chosen, including synchronized room playback. Fixes the room Add-to-Play acknowledgement race. Adds SoundCloud sign-in with saved cookies. No room-server deployment; existing games stay intact."
+  "versionCode": 50,
+  "versionName": "1.0.49",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.49/Qurio.apk",
+  "sha256": "899694a6f47846e5132fc6c1e0bb6fd62f9a718830069ddcb7ac64fba54c1c40",
+  "notes": "Lightweight edition: removes SoundCloud, YouTube, sign-in and the crush-message piggy. Offline bundled music uses one player with saved volume and mute. Preprocessed small avatar images replace large sprite sheets and expensive phone-side masking. Fewer particles, 30fps celebrations and one cheer per win. Poker stays on the table after each hand, with the winner name and celebration only; round history and next-hand controls remain available. Action speech bubbles stay above portraits. Existing rooms and saves are preserved; no room-server deployment."
 }
