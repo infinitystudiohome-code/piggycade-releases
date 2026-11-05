@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 52,
-  "versionName": "1.0.51",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.51/Qurio.apk",
-  "sha256": "61b5153eca3d054155ff6a7cd389f8194cf61e3803986a4ccc1ff1295eaff06b",
-  "notes": "Includes the new European Roulette in the poker-style Card Lounge, offline profiles and shared live spins. Adds six original character-specific text lines for each of 104 characters, including the four main characters and Dealer, mapped to welcome/thinking/betting/folding/winning/losing. Silent characters use gestures. Main-character recordings remain unchanged and play only at their designated outcomes. Action-message wording stays clear; extra catchphrases are rate-limited, and roulette shows one bubble at a time. Lightweight artwork, local music and existing room continuity are preserved."
+  "versionCode": 53,
+  "versionName": "1.0.52",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.52/Qurio.apk",
+  "sha256": "549e7f905025cff4dc8f5b5e6cac855e49baa6293bb4a04a20e6b005aafbeb79",
+  "notes": "Adds Klondike Solitaire, Snakes & Ladders, Checkers, 8-Ball Pool and original Space Pinball, with offline saves, difficulty settings, rules, sound, compact controls and rankings. Live rooms support shared Solitaire, shared dice races, two-player Checkers/Pool and simultaneous separate Pinball runs. Hangman now groups words clearly, sways from the rope, shows crossed eyes on game over, and offers live shared rescue. Adds Zara Larsson, Tobey Maguire, Green Goblin, Willy Wonka and Oompa Loompa; refreshes Bono and PewDiePie portraits. The 1971 Gene Wilder Wonka is used. Each added character has six contextual text lines. Miles Morales, Doc Ock and Rex artwork could not be generated and is not included. Existing rooms, saved games and core recordings are preserved. Pinball uses original Qurio art and synthesized sounds, not the Windows assets. Pool uses the rules explained in its rulebook, including the arcade illegal-break simplification."
 }
