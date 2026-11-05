@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T23:44:07.779Z",
-  "hash": "6b53d5a553ae99beada16f91e499e41bcaa65ba446b9a310746e462af453041e",
+  "updatedAt": "2026-11-05T23:57:43.075Z",
+  "hash": "3b677f684fec00843074833bdcfcf137fda151177981484eb00fca6bd51d8307",
   "focus": "ACTIVE: integrating the newly authorized Bartender game. Local AI completed 109 NPC drafts and 39 UI translation candidates; Codex reviewed/corrected them. Bartender is being tested by mixing actual drinks, checking mobile layouts, sound, pause and completed-shift rankings. New painted background is being prepared for art consistency.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -632,6 +632,10 @@
       "tasks": [
         {
           "done": true,
+          "text": "Security scan found and quarantined the upstream nested Windows ZIP payload (not executed). ZIPs/binaries were excluded from the start; isolated 91-file web runtime was scanned separately with zero detections. Keep payloads out of all APK/source packages."
+        },
+        {
+          "done": true,
           "text": "Downloaded the supplied Apache-licensed source to F: and isolated the game from existing modes."
         },
         {
@@ -651,8 +655,8 @@
           "text": "Added Shake/Stir/Build controls to match the actual recipes; difficulty sets the shift duration."
         },
         {
-          "done": false,
-          "text": "Finish real-drink scoring, pause, sound settings, all viewport and completed-shift checks."
+          "done": true,
+          "text": "Real-drink scoring, correct mixing methods, pause, mute/song switching, hide/show controls, 320px–desktop layouts and completed-shift ranking checks pass."
         },
         {
           "done": false,
