@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 53,
-  "versionName": "1.0.52",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.52/Qurio.apk",
-  "sha256": "549e7f905025cff4dc8f5b5e6cac855e49baa6293bb4a04a20e6b005aafbeb79",
-  "notes": "Adds Klondike Solitaire, Snakes & Ladders, Checkers, 8-Ball Pool and original Space Pinball, with offline saves, difficulty settings, rules, sound, compact controls and rankings. Live rooms support shared Solitaire, shared dice races, two-player Checkers/Pool and simultaneous separate Pinball runs. Hangman now groups words clearly, sways from the rope, shows crossed eyes on game over, and offers live shared rescue. Adds Zara Larsson, Tobey Maguire, Green Goblin, Willy Wonka and Oompa Loompa; refreshes Bono and PewDiePie portraits. The 1971 Gene Wilder Wonka is used. Each added character has six contextual text lines. Miles Morales, Doc Ock and Rex artwork could not be generated and is not included. Existing rooms, saved games and core recordings are preserved. Pinball uses original Qurio art and synthesized sounds, not the Windows assets. Pool uses the rules explained in its rulebook, including the arcade illegal-break simplification."
+  "versionCode": 54,
+  "versionName": "1.0.53",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.53/Qurio.apk",
+  "sha256": "4e7fce04e2cac1bb27ff6d95a32fd20712f9b53cb419aad039cc51d909808eb4",
+  "notes": "Rebuilds Space Pinball into Space Expedition with original illustrated artwork, seven bumpers, open centre and side drains, moving flippers, a launch ramp, orbital lane, drop-target banks, fuel, gravity well, hyperspace kicker, linked wormholes and six timed missions. Corrects ball-saver relaunches and retains legacy saves. Pool gains detailed materials, three felts, shaded balls, aiming/impact guides, a cue that can be pulled back and released, a separate pull-to-shoot rail and a landscape layout. New matches use break/8-on-break decision choices; ongoing matches retain their previous rules. Checkers, Solitaire and Snakes & Ladders receive upgraded materials, illustrated cards, piece/card movement effects, patterned snakes and avatar pawns. Replaces the existing five games without duplicate entries. Adds Miles Morales, Rex, Doc Ock, Jesus and Grim Reaper with scythe to the shared selectable avatar roster, each with six contextual text lines. Existing recordings, rooms, chips, saves and rankings are retained. Update every phone for the new art and controls."
 }
