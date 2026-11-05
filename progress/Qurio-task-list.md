@@ -148,7 +148,7 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Larger board and keyboard, raised keyboard, softer rounded tiles.
 - [x] Published poker New Game fix and NPC rotation without duplicates/main-character opponents.
 - [x] Published updated Zendaya (2015 Oscars reference), Paris Hilton, Lady Gaga and shirtless Terry Crews portraits.
-- [ ] Nicki Minaj replacement: existing portrait remains; earlier image-service request was rejected. Do not claim this replacement was delivered.
+- [x] Nicki Minaj replacement succeeded on retry: pink blunt-bang hair, cream outfit and gemstone necklace from the supplied reference, rendered in the existing avatar style with transparent margins. Source backed up on F:.
 - [x] Published warm, rounded menu/result styling in Qurio colors, without fake levels/shops/items.
 - [x] Published local avatar/medal rankings and performance-percentage half-star awards; Android backup mirror and merge-safe backup/restore.
 - [ ] Live permanent server ranking sync was explicitly deferred by the user in 1.0.60. Track separately, verify deployment/idempotency before enabling, and never delete existing results.
@@ -169,6 +169,8 @@ Merged into the pending update while retaining the published classic engine for 
 - [ ] Final reference look/play/sound comparison; this is the third requested reference recreation.
 
 ## 10. Shared presentation, audio, performance and menus
+
+- [x] Permanent project rule: keep NPC illustration/proportions, icon style/size, shared controls and effects consistent. Reference photos guide clothes/hair/appearance without replacing the established game art style.
 
 - [x] All launcher game icons use one illustrated badge style, consistent frames and normalized artwork bounds.
 - [x] Equal icon size checked at 320, 390, 768 and 1280px; current game count includes Pac-Man.

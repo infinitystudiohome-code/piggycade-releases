@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T22:54:20.675Z",
-  "hash": "e7bfd09a976ea64ed410daf23d192ddf9eb9dde13252fdd5b3168ef869455c6b",
+  "updatedAt": "2026-11-05T22:59:49.316Z",
+  "hash": "c8a193e41e4e960565140733c0624a75445de50471a9901f369342eb1075c9eb",
   "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -492,8 +492,8 @@
           "text": "Published updated Zendaya (2015 Oscars reference), Paris Hilton, Lady Gaga and shirtless Terry Crews portraits."
         },
         {
-          "done": false,
-          "text": "Nicki Minaj replacement: existing portrait remains; earlier image-service request was rejected. Do not claim this replacement was delivered."
+          "done": true,
+          "text": "Nicki Minaj replacement succeeded on retry: pink blunt-bang hair, cream outfit and gemstone necklace from the supplied reference, rendered in the existing avatar style with transparent margins. Source backed up on F:."
         },
         {
           "done": true,
@@ -565,6 +565,10 @@
     {
       "title": "10. Shared presentation, audio, performance and menus",
       "tasks": [
+        {
+          "done": true,
+          "text": "Permanent project rule: keep NPC illustration/proportions, icon style/size, shared controls and effects consistent. Reference photos guide clothes/hair/appearance without replacing the established game art style."
+        },
         {
           "done": true,
           "text": "All launcher game icons use one illustrated badge style, consistent frames and normalized artwork bounds."
