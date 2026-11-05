@@ -1,0 +1,673 @@
+{
+  "updatedAt": "2026-11-05T21:50:19.209Z",
+  "hash": "019ba7a7cf1834ffb4c504d689165bfdd2708f0916c6e27d452cac8268f9c801",
+  "focus": "Finish the pool reference assets/sounds, turn cue, handedness, visible initial cue and live opponent aiming.",
+  "publishedVersion": "1.0.60",
+  "workingVersion": "1.0.61",
+  "sections": [
+    {
+      "title": "1. Solitaire",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Red circus table; responsive phone/tablet/desktop layout; use available table space."
+        },
+        {
+          "done": true,
+          "text": "Circus-themed illustrated deck rather than a standard plain deck."
+        },
+        {
+          "done": false,
+          "text": "Inspect the deck against the complete requested cast: clowns, lions, doves, elephant, rat/mouse and ringmaster. Add any missing subject while preserving the approved artwork."
+        },
+        {
+          "done": true,
+          "text": "Stock/draw deck at the bottom, nearer the player."
+        },
+        {
+          "done": true,
+          "text": "Draw three cards; only the top waste card can be moved."
+        },
+        {
+          "done": true,
+          "text": "Shuffle the remaining stock/waste without disturbing tableau or foundations."
+        },
+        {
+          "done": true,
+          "text": "Shuffle adds no moves or points. Checked locally and against the live server."
+        },
+        {
+          "done": true,
+          "text": "Proper unbiased shuffle; every deal and reshuffle preserves 52 unique cards. 10,000-deal check exists."
+        },
+        {
+          "done": true,
+          "text": "Four Ace foundations centered at the top."
+        },
+        {
+          "done": true,
+          "text": "Manual card/stack movement and manual foundation placement."
+        },
+        {
+          "done": false,
+          "text": "Verify dragging a foundation card back to a legal tableau destination; distinguish this from placing cards into a foundation."
+        },
+        {
+          "done": true,
+          "text": "Larger centered stock/waste area; much smaller shuffle button with a usable touch target."
+        },
+        {
+          "done": true,
+          "text": "Easier fast drag/drop and magnetic snapping only to legal destinations."
+        },
+        {
+          "done": true,
+          "text": "Opaque card faces and separated card layers prevent symbols leaking through."
+        },
+        {
+          "done": true,
+          "text": "New deal/new game and Undo remain usable at all difficulties."
+        },
+        {
+          "done": true,
+          "text": "Center the completed-game panel and New Game button."
+        },
+        {
+          "done": true,
+          "text": "Shuffle animation moves several cards apart and back together; cleans up afterwards."
+        },
+        {
+          "done": true,
+          "text": "Real recorded placement/slide/shuffle audio integrated into shared card sounds."
+        },
+        {
+          "done": false,
+          "text": "Replace the busy card backs with a plain, restful back."
+        },
+        {
+          "done": false,
+          "text": "Simplify excessive face decoration without removing the requested circus illustrations or approved layout."
+        },
+        {
+          "done": true,
+          "text": "Endgame auto-play triggers only when every remaining card is revealed and a complete legal foundation path is verified. Does not auto-play uncertain positions."
+        },
+        {
+          "done": false,
+          "text": "Final regression of long stacks, all five difficulties, landscape, larger accessibility text, live shared play and completion after the final visual changes."
+        }
+      ]
+    },
+    {
+      "title": "2. Pinball — Space Cadet reference",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Opened and visually inspected the supplied Space Cadet reference."
+        },
+        {
+          "done": true,
+          "text": "Larger responsive machine; left/right keyboard and touch flippers."
+        },
+        {
+          "done": true,
+          "text": "Open center drain and side drains; finite ball saver and proper game over."
+        },
+        {
+          "done": true,
+          "text": "Manual pull/release spring, including holding Space and releasing."
+        },
+        {
+          "done": true,
+          "text": "Longer visibly compressing spring and stronger launch, up to 150% power."
+        },
+        {
+          "done": true,
+          "text": "Multiple bumpers, slingshots, target banks, raised ramp, orbit, wormholes and kickout holes."
+        },
+        {
+          "done": true,
+          "text": "Missions, multipliers, fuel bonus, combination bonus and mission jackpots."
+        },
+        {
+          "done": true,
+          "text": "Chasing lamps, hit flashes, moving targets, rings, sparks and score popups; reduced-motion behavior and bounded effects."
+        },
+        {
+          "done": true,
+          "text": "Digital-style scoreboard and mission display."
+        },
+        {
+          "done": true,
+          "text": "Downloaded the user-supplied pack: all 50 original WAVs and ZIP backed up under `F:/infinity/Qurio/source-audio/pinball`."
+        },
+        {
+          "done": true,
+          "text": "Compressed and level-balanced MP3 effects; mapped flippers, impacts, bells, slots/bonuses, launches, drains and game-over cues."
+        },
+        {
+          "done": true,
+          "text": "Prepared a lightweight space-arcade music loop with saved volume/mute handling."
+        },
+        {
+          "done": false,
+          "text": "Reconcile both music requests: SFX always available; **music optional in Sound settings, off by default**, rather than forced background music."
+        },
+        {
+          "done": false,
+          "text": "Final play/visual/audio comparison to Space Cadet's responsiveness and busy table; do not claim an exact original engine."
+        },
+        {
+          "done": true,
+          "text": "Fixed-step physics, all-difficulty accelerated finite-run checks, pause/background handling and low-end CPU rendering checks."
+        }
+      ]
+    },
+    {
+      "title": "3. 8-Ball Pool — original Miniclip reference",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Downloaded and inspected the linked `0wwafa/8ball` repository on F:."
+        },
+        {
+          "done": true,
+          "text": "Established that the repository is a wrapper around Miniclip's hosted runtime, not a standalone open pool engine."
+        },
+        {
+          "done": true,
+          "text": "Found and downloaded original table texture atlases and original gameplay/turn/win/loss sound resources from the runtime URLs referenced by that wrapper. Backups on F:."
+        },
+        {
+          "done": false,
+          "text": "Recreate the reference's complete table appearance, balls, cue, HUD, power control and effects using the supplied references/resources. This is one of the **three** requested style recreations, alongside pinball and Pac-Man; do not redesign every other game."
+        },
+        {
+          "done": false,
+          "text": "Integrate the original table atlases cleanly, retaining correct pocket/cushion alignment and responsive portrait/landscape rendering."
+        },
+        {
+          "done": false,
+          "text": "Integrate original cue, ball collision, cushion, pocket, rack, foul, turn, win/loss and cheering recordings, with appropriate gain and mute behavior."
+        },
+        {
+          "done": true,
+          "text": "Portrait view now places the cue/player at the bottom and the rack above."
+        },
+        {
+          "done": true,
+          "text": "Stick can be pulled and released to shoot; fine aim and power controls remain available."
+        },
+        {
+          "done": false,
+          "text": "Further improve cue maneuvering and match the reference's control feel; verify fast swipes do not fire accidentally."
+        },
+        {
+          "done": false,
+          "text": "Show the cue immediately, including before the initial ball-in-hand placement is completed."
+        },
+        {
+          "done": false,
+          "text": "Add a pre-game left-handed/right-handed choice and position the power bar accordingly."
+        },
+        {
+          "done": false,
+          "text": "Verify the power bar stays fully visible on narrow phones without making balls too small."
+        },
+        {
+          "done": true,
+          "text": "New Round action exists."
+        },
+        {
+          "done": false,
+          "text": "Put New Round/New Game at the top, not underneath the table."
+        },
+        {
+          "done": true,
+          "text": "Wrong first contact is a foul; the opponent receives ball in hand at any clear legal position. Existing engine test covers this."
+        },
+        {
+          "done": true,
+          "text": "Standard called-ball/pocket, break decisions, group assignment, 8-ball and scratch rules exist; shared shot simulation is deterministic."
+        },
+        {
+          "done": false,
+          "text": "Audit those rules against the requested original-game experience; keep normal rules consistent between solo and hosted play."
+        },
+        {
+          "done": false,
+          "text": "Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic."
+        },
+        {
+          "done": false,
+          "text": "Clear turn notification **after balls stop**: original turn sound, lit active-player border and a short Your Turn/name announcement. No wrong-player alerts on reconnect."
+        },
+        {
+          "done": true,
+          "text": "Automatic background songs are suppressed for pool; sound settings remain in the menu."
+        },
+        {
+          "done": false,
+          "text": "Finish the requested original-style recreation and test on phone, landscape, desktop and two real room clients before marking complete."
+        }
+      ]
+    },
+    {
+      "title": "4. Snakes & Ladders",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Fair die result; strength affects animation, not odds."
+        },
+        {
+          "done": true,
+          "text": "Manual tap/drag of the character to the legal destination."
+        },
+        {
+          "done": true,
+          "text": "New patterned, tapered snakes with distinct heads, eyes and forked tongues, based on the physical-board reference."
+        },
+        {
+          "done": true,
+          "text": "Improved board colors; readable numbered tiles."
+        },
+        {
+          "done": true,
+          "text": "Tokens now animate through intermediate squares rather than teleporting after manual placement."
+        },
+        {
+          "done": true,
+          "text": "Recorded dice roll and board-hop effects; automatic music suppressed."
+        },
+        {
+          "done": false,
+          "text": "Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly."
+        },
+        {
+          "done": false,
+          "text": "Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes."
+        },
+        {
+          "done": false,
+          "text": "Final check of manual moves, ladders/snakes, exact-roll finish and all difficulties in solo/live play."
+        }
+      ]
+    },
+    {
+      "title": "5. Dice, shared by Snakes & Ladders and the opening Tic-Tac-Toe contest",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Replace flat die characters with proper animated 3D six-sided cubes and pips."
+        },
+        {
+          "done": true,
+          "text": "One d6 for Snakes & Ladders; two players' d6 in Tic-Tac-Toe."
+        },
+        {
+          "done": true,
+          "text": "Downloaded and inspected Sarah Rosanna Busch's MIT dice reference on F:; attribution/license retained."
+        },
+        {
+          "done": true,
+          "text": "Swipe velocity/distance interaction adapted from that reference; click/tap and keyboard activation also supported."
+        },
+        {
+          "done": true,
+          "text": "Rolling animation, bounce/tumble and authoritative final result."
+        },
+        {
+          "done": false,
+          "text": "Verify final TTT roll timing, result hold, dice hiding, best-of-three score and touch swipe behavior after all changes."
+        },
+        {
+          "done": false,
+          "text": "Confirm no early destination reveal in Snakes & Ladders and no accidental double roll."
+        }
+      ]
+    },
+    {
+      "title": "6. Checkers",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Recorded chip impacts available through shared SFX; automatic music suppressed."
+        },
+        {
+          "done": true,
+          "text": "Optional captures, backward captures by men and flying diagonal kings in current relaxed rules."
+        },
+        {
+          "done": true,
+          "text": "Blocking pieces still prevent impossible king moves; no jumping across occupied squares except a legal capture."
+        },
+        {
+          "done": true,
+          "text": "New Game action exists; universal menu can restart or exit."
+        },
+        {
+          "done": false,
+          "text": "Fix the pale orange to a richer clear orange and visually verify it on a phone."
+        },
+        {
+          "done": false,
+          "text": "Remove premature automatic repetition/quiet-move endings for the requested relaxed rules. Finish only for a real terminal position or explicit surrender; preserve legacy-room behavior where needed."
+        },
+        {
+          "done": false,
+          "text": "Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game."
+        },
+        {
+          "done": false,
+          "text": "Final live/touch/capture-chain regression."
+        }
+      ]
+    },
+    {
+      "title": "7. UNO — variants and optional house rules",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Mode picker with explanations on hover and touch."
+        },
+        {
+          "done": false,
+          "text": "Speed: five-second turns with a timer at the active character."
+        },
+        {
+          "done": false,
+          "text": "Roulette: a central animated mystery wheel selects a temporary rule each round."
+        },
+        {
+          "done": false,
+          "text": "Tournament: continuing rounds, accumulated points and an overall winner/crown."
+        },
+        {
+          "done": false,
+          "text": "Partners: one teammate card transfer per round."
+        },
+        {
+          "done": false,
+          "text": "Mystery: genuinely secret objectives with correct progress and end conditions."
+        },
+        {
+          "done": false,
+          "text": "No Mercy: penalty stacking, stronger action cards, 7–0 actions and elimination at 25 cards."
+        },
+        {
+          "done": false,
+          "text": "Flip: complete two-sided deck and light/dark side transition."
+        },
+        {
+          "done": false,
+          "text": "Teams: 2v2 or 3v3 with correct teammate rules and optional shared penalties."
+        },
+        {
+          "done": false,
+          "text": "Pre-game individual house-rule switches with clear explanations."
+        },
+        {
+          "done": false,
+          "text": "Stacking: match/equal-or-stronger draw penalties and pass the accumulated total correctly."
+        },
+        {
+          "done": false,
+          "text": "The requested 7 hand-pass rule and 0 hand rotation, following play direction."
+        },
+        {
+          "done": false,
+          "text": "Six Slap race, hand animations and configurable one/two-card last-player penalty."
+        },
+        {
+          "done": false,
+          "text": "Exact-card jump-in/out-of-turn play; correct skipped-player handling."
+        },
+        {
+          "done": false,
+          "text": "Double Trouble: two identical color/value cards together."
+        },
+        {
+          "done": false,
+          "text": "Optional 25-card elimination."
+        },
+        {
+          "done": false,
+          "text": "Sudden Death after the first reshuffle, with correct passing and no endless stalemate."
+        },
+        {
+          "done": false,
+          "text": "End-of-round reveal/count of remaining hands and identify the highest total/loser."
+        },
+        {
+          "done": false,
+          "text": "Continue with retained scores or explicitly start a new match."
+        },
+        {
+          "done": false,
+          "text": "Hide/show score board."
+        },
+        {
+          "done": false,
+          "text": "Visible special-rule reminders, rotation arrows, wheel/slap/swap tools and animations."
+        },
+        {
+          "done": false,
+          "text": "All above must work offline and in hosted rooms; reject stale moves and retain existing classic snapshots."
+        },
+        {
+          "done": true,
+          "text": "In published 1.0.60: draw/discard piles persist, active playable cards lift, action sounds and Catch UNO race/penalty work."
+        },
+        {
+          "done": false,
+          "text": "Preserve and recheck those 1.0.60 fixes when merging the variants."
+        }
+      ]
+    },
+    {
+      "title": "8. Wordle and previously requested 5 November maintenance",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Published 1.0.60: typing/deleting/submitting sounds, invalid/wrong-word buzz and shake."
+        },
+        {
+          "done": true,
+          "text": "Misses are counted in solo and online modes."
+        },
+        {
+          "done": true,
+          "text": "Purple 2× indicator for already confirmed repeated letters; do not reveal unearned answers."
+        },
+        {
+          "done": true,
+          "text": "Larger board and keyboard, raised keyboard, softer rounded tiles."
+        },
+        {
+          "done": true,
+          "text": "Published poker New Game fix and NPC rotation without duplicates/main-character opponents."
+        },
+        {
+          "done": true,
+          "text": "Published updated Zendaya (2015 Oscars reference), Paris Hilton, Lady Gaga and shirtless Terry Crews portraits."
+        },
+        {
+          "done": false,
+          "text": "Nicki Minaj replacement: existing portrait remains; earlier image-service request was rejected. Do not claim this replacement was delivered."
+        },
+        {
+          "done": true,
+          "text": "Published warm, rounded menu/result styling in Qurio colors, without fake levels/shops/items."
+        },
+        {
+          "done": true,
+          "text": "Published local avatar/medal rankings and performance-percentage half-star awards; Android backup mirror and merge-safe backup/restore."
+        },
+        {
+          "done": false,
+          "text": "Live permanent server ranking sync was explicitly deferred by the user in 1.0.60. Track separately, verify deployment/idempotency before enabling, and never delete existing results."
+        },
+        {
+          "done": true,
+          "text": "SoundCloud and YouTube removed; saved local sound/music settings retained."
+        }
+      ]
+    },
+    {
+      "title": "9. Pac-Man — new request today",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Downloaded and inspected the supplied Pac-Man reference, source and 15 audio files on F:."
+        },
+        {
+          "done": true,
+          "text": "Real maze/ghost/pellet/power-pellet/fruit/game-over engine integrated; source/license attribution retained."
+        },
+        {
+          "done": true,
+          "text": "High-DPI responsive rendering, swipe input, direction pad and keyboard controls."
+        },
+        {
+          "done": true,
+          "text": "Difficulty changes speed, starting challenge and lives."
+        },
+        {
+          "done": true,
+          "text": "Game is isolated in its own iframe program; host communicates through a data-only message protocol."
+        },
+        {
+          "done": false,
+          "text": "Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts."
+        },
+        {
+          "done": false,
+          "text": "Verify full offline play and compressed audio volume/mute/background behavior."
+        },
+        {
+          "done": false,
+          "text": "Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay."
+        },
+        {
+          "done": false,
+          "text": "Verify live server support for this new mode before publishing."
+        },
+        {
+          "done": false,
+          "text": "Publish corresponding standalone GPL game source with the release and keep its source link correct."
+        },
+        {
+          "done": false,
+          "text": "Final reference look/play/sound comparison; this is the third requested reference recreation."
+        }
+      ]
+    },
+    {
+      "title": "10. Shared presentation, audio, performance and menus",
+      "tasks": [
+        {
+          "done": true,
+          "text": "All launcher game icons use one illustrated badge style, consistent frames and normalized artwork bounds."
+        },
+        {
+          "done": true,
+          "text": "Equal icon size checked at 320, 390, 768 and 1280px; current game count includes Pac-Man."
+        },
+        {
+          "done": true,
+          "text": "All 109 NPC portraits normalized to equal optical extent; clear edges checked."
+        },
+        {
+          "done": true,
+          "text": "NPC portrait frame dimensions equalized within the card table, including the top seat."
+        },
+        {
+          "done": true,
+          "text": "Smaller speech bubbles above characters in poker/blackjack, UNO and roulette."
+        },
+        {
+          "done": false,
+          "text": "Final speech bubble/card/viewport overlap and readability check on phones and with many seats."
+        },
+        {
+          "done": true,
+          "text": "Prefer real downloaded sound libraries. Kenney CC0 card/chip/dice recordings and supplied pinball sounds integrated."
+        },
+        {
+          "done": true,
+          "text": "Keep original downloaded sources on F:. Compress copies for Android; preserve source/credit notices. Pinball effects plus prepared music are about 1.5 MB."
+        },
+        {
+          "done": false,
+          "text": "Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices."
+        },
+        {
+          "done": false,
+          "text": "Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man."
+        },
+        {
+          "done": false,
+          "text": "Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence."
+        },
+        {
+          "done": false,
+          "text": "Retain existing room identity, sessions, scores and active games through backend deployments and updates."
+        },
+        {
+          "done": false,
+          "text": "Triple-check requested layouts/controls on narrow/tall phones, landscape, tablet and desktop; retain approved Solitaire, Wordle and other game designs."
+        }
+      ]
+    },
+    {
+      "title": "11. Bartender question — not an implementation request yet",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing."
+        },
+        {
+          "done": false,
+          "text": "Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues."
+        }
+      ]
+    },
+    {
+      "title": "12. Final update delivery — pending",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check."
+        },
+        {
+          "done": false,
+          "text": "Preserve all prior fixes while merging unfinished UNO work."
+        },
+        {
+          "done": false,
+          "text": "Backend regression tests, room-restore tests and targeted live checks pass."
+        },
+        {
+          "done": false,
+          "text": "Required `check-launcher.cjs` gate passes on the final bundled assets, including Update with a deliberately broken launcher."
+        },
+        {
+          "done": false,
+          "text": "Build the signed APK with unchanged application ID/signing key and incremented version/code."
+        },
+        {
+          "done": false,
+          "text": "Package private source and the separate required Pac-Man source archive without signing secrets."
+        },
+        {
+          "done": false,
+          "text": "Publish APK, verify public updater manifest/hash/version/download, and copy the final APK to the usual delivery folder."
+        },
+        {
+          "done": false,
+          "text": "Provide the download link and PC location. Do not say the update is available before publication is verified."
+        }
+      ]
+    }
+  ]
+}
