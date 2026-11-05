@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 55,
-  "versionName": "1.0.54",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.54/Qurio.apk",
-  "sha256": "ae441c355615573f2ba4cdf55d678c4381357d714fc9813dcdf47dac3541d9dc",
-  "notes": "Adds animated pinball runway lights, rotating portal effects, reactor radar, impact flashes, sparks, floating points, moving targets and plunger, gentle hit feedback, rolling-ball foley and metallic rail sounds. Effects are bounded and respect reduced motion. Pool balls in new matches are 50% larger with clearer upright numbers, matching collision radius, rack spacing and aiming guides. Compact pool play hides the extra controls to enlarge the table; tap a target ball and pocket and pull the cue or power rail to shoot, or show controls for the original menus. Adds distinct original cue, ball, cushion and pocket sounds, a victory fanfare and five-second fireworks/confetti for arcade wins. Volume and mute settings are respected. Existing pool matches retain their previous ball size and rules; start a new match after updating every phone to use the larger balls. Saves, rooms, characters and rankings are retained."
+  "versionCode": 56,
+  "versionName": "1.0.55",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.55/Qurio.apk",
+  "sha256": "cb94b58f75afca818046401a7da87f1951a2bab07690d0f43ca85cc1b02cb074",
+  "notes": "Pinball audio fix: audible left and right flipper presses and returns on touch and keyboard, with balanced sounds for bumpers, rails, targets, ramps, portals, launches, saves, tilt and game over. All 24 pinball sound presets respect mute and effects volume. The private pinball mixer is isolated from other games; their bundled assets and non-pinball logic are unchanged. Saved games, rooms, scores and profiles are retained."
 }
