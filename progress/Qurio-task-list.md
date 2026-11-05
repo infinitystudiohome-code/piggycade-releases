@@ -15,7 +15,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 
 - [x] Red circus table; responsive phone/tablet/desktop layout; use available table space.
 - [x] Circus-themed illustrated deck rather than a standard plain deck.
-- [ ] Inspect the deck against the complete requested cast: clowns, lions, doves, elephant, rat/mouse and ringmaster. Add any missing subject while preserving the approved artwork.
+- [x] Inspect the deck against the complete requested cast: clowns, lions, doves, elephant, rat/mouse and ringmaster. Add any missing subject while preserving the approved artwork.
 - [x] Stock/draw deck at the bottom, nearer the player.
 - [x] Draw three cards; only the top waste card can be moved.
 - [x] Shuffle the remaining stock/waste without disturbing tableau or foundations.
@@ -32,7 +32,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Shuffle animation moves several cards apart and back together; cleans up afterwards.
 - [x] Real recorded placement/slide/shuffle audio integrated into shared card sounds.
 - [x] Replace the busy card backs with a plain, restful back.
-- [ ] Simplify excessive face decoration without removing the requested circus illustrations or approved layout.
+- [x] Simplify excessive face decoration without removing the requested circus illustrations or approved layout.
 - [x] Endgame auto-play triggers only when every remaining card is revealed and a complete legal foundation path is verified. Does not auto-play uncertain positions.
 - [ ] Final regression of long stacks, all five difficulties, landscape, larger accessibility text, live shared play and completion after the final visual changes.
 
@@ -161,9 +161,9 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] High-DPI responsive rendering, swipe input, direction pad and keyboard controls.
 - [x] Difficulty changes speed, starting challenge and lives.
 - [x] Game is isolated in its own iframe program; host communicates through a data-only message protocol.
-- [ ] Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts.
+- [x] Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts.
 - [ ] Verify full offline play and compressed audio volume/mute/background behavior.
-- [ ] Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay.
+- [x] Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay.
 - [ ] Verify live server support for this new mode before publishing.
 - [ ] Publish corresponding standalone GPL game source with the release and keep its source link correct.
 - [ ] Final reference look/play/sound comparison; this is the third requested reference recreation.
@@ -180,7 +180,7 @@ Merged into the pending update while retaining the published classic engine for 
 - [ ] Final speech bubble/card/viewport overlap and readability check on phones and with many seats.
 - [x] Prefer real downloaded sound libraries. Kenney CC0 card/chip/dice recordings and supplied pinball sounds integrated.
 - [x] Keep original downloaded sources on F:. Compress copies for Android; preserve source/credit notices. Pinball effects plus prepared music are about 1.5 MB.
-- [ ] Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices.
+- [x] Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices.
 - [ ] Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man.
 - [ ] Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence.
 - [ ] Retain existing room identity, sessions, scores and active games through backend deployments and updates.
@@ -189,7 +189,7 @@ Merged into the pending update while retaining the published classic engine for 
 ## 11. Bartender question — not an implementation request yet
 
 - [x] Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing.
-- [ ] Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues.
+- [x] Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues.
 
 ## 12. Live checklist and ongoing tracking
 

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T22:59:49.316Z",
-  "hash": "c8a193e41e4e960565140733c0624a75445de50471a9901f369342eb1075c9eb",
+  "updatedAt": "2026-11-05T23:02:46.586Z",
+  "hash": "93fcd9a3f4181adcd11766f863e1370b13aff77809564da657c80c9f3ecaad9a",
   "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -17,7 +17,7 @@
           "text": "Circus-themed illustrated deck rather than a standard plain deck."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Inspect the deck against the complete requested cast: clowns, lions, doves, elephant, rat/mouse and ringmaster. Add any missing subject while preserving the approved artwork."
         },
         {
@@ -85,7 +85,7 @@
           "text": "Replace the busy card backs with a plain, restful back."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Simplify excessive face decoration without removing the requested circus illustrations or approved layout."
         },
         {
@@ -537,7 +537,7 @@
           "text": "Game is isolated in its own iframe program; host communicates through a data-only message protocol."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts."
         },
         {
@@ -545,7 +545,7 @@
           "text": "Verify full offline play and compressed audio volume/mute/background behavior."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay."
         },
         {
@@ -602,7 +602,7 @@
           "text": "Keep original downloaded sources on F:. Compress copies for Android; preserve source/credit notices. Pinball effects plus prepared music are about 1.5 MB."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices."
         },
         {
@@ -631,7 +631,7 @@
           "text": "Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues."
         }
       ]
