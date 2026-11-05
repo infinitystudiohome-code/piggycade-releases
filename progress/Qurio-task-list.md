@@ -23,7 +23,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Proper unbiased shuffle; every deal and reshuffle preserves 52 unique cards. 10,000-deal check exists.
 - [x] Four Ace foundations centered at the top.
 - [x] Manual card/stack movement and manual foundation placement.
-- [ ] Verify dragging a foundation card back to a legal tableau destination; distinguish this from placing cards into a foundation.
+- [x] Verify dragging a foundation card back to a legal tableau destination; distinguish this from placing cards into a foundation.
 - [x] Larger centered stock/waste area; much smaller shuffle button with a usable touch target.
 - [x] Easier fast drag/drop and magnetic snapping only to legal destinations.
 - [x] Opaque card faces and separated card layers prevent symbols leaking through.
@@ -31,7 +31,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Center the completed-game panel and New Game button.
 - [x] Shuffle animation moves several cards apart and back together; cleans up afterwards.
 - [x] Real recorded placement/slide/shuffle audio integrated into shared card sounds.
-- [ ] Replace the busy card backs with a plain, restful back.
+- [x] Replace the busy card backs with a plain, restful back.
 - [ ] Simplify excessive face decoration without removing the requested circus illustrations or approved layout.
 - [x] Endgame auto-play triggers only when every remaining card is revealed and a complete legal foundation path is verified. Does not auto-play uncertain positions.
 - [ ] Final regression of long stacks, all five difficulties, landscape, larger accessibility text, live shared play and completion after the final visual changes.
@@ -50,7 +50,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Downloaded the user-supplied pack: all 50 original WAVs and ZIP backed up under `F:/infinity/Qurio/source-audio/pinball`.
 - [x] Compressed and level-balanced MP3 effects; mapped flippers, impacts, bells, slots/bonuses, launches, drains and game-over cues.
 - [x] Prepared a lightweight space-arcade music loop with saved volume/mute handling.
-- [ ] Reconcile both music requests: SFX always available; **music optional in Sound settings, off by default**, rather than forced background music.
+- [x] Reconcile both music requests: SFX always available; **music optional in Sound settings, off by default**, rather than forced background music.
 - [ ] Final play/visual/audio comparison to Space Cadet's responsiveness and busy table; do not claim an exact original engine.
 - [x] Fixed-step physics, all-difficulty accelerated finite-run checks, pause/background handling and low-end CPU rendering checks.
 
@@ -72,8 +72,8 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Put New Round/New Game at the top, not underneath the table.
 - [x] Wrong first contact is a foul; the opponent receives ball in hand at any clear legal position. Existing engine test covers this.
 - [x] Standard called-ball/pocket, break decisions, group assignment, 8-ball and scratch rules exist; shared shot simulation is deterministic.
-- [ ] Audit those rules against the requested original-game experience; keep normal rules consistent between solo and hosted play.
-- [ ] Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic.
+- [x] Audit those rules against the requested original-game experience; keep normal rules consistent between solo and hosted play.
+- [x] Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic.
 - [ ] Clear turn notification **after balls stop**: original turn sound, lit active-player border and a short Your Turn/name announcement. No wrong-player alerts on reconnect.
 - [x] Automatic background songs are suppressed for pool; sound settings remain in the menu.
 - [ ] Finish the requested original-style recreation and test on phone, landscape, desktop and two real room clients before marking complete.
@@ -87,7 +87,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Tokens now animate through intermediate squares rather than teleporting after manual placement.
 - [x] Recorded dice roll and board-hop effects; automatic music suppressed.
 - [ ] Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly.
-- [ ] Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes.
+- [x] Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes.
 - [ ] Final check of manual moves, ladders/snakes, exact-roll finish and all difficulties in solo/live play.
 
 ## 5. Dice, shared by Snakes & Ladders and the opening Tic-Tac-Toe contest
@@ -107,8 +107,8 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Blocking pieces still prevent impossible king moves; no jumping across occupied squares except a legal capture.
 - [x] New Game action exists; universal menu can restart or exit.
 - [ ] Fix the pale orange to a richer clear orange and visually verify it on a phone.
-- [ ] Remove premature automatic repetition/quiet-move endings for the requested relaxed rules. Finish only for a real terminal position or explicit surrender; preserve legacy-room behavior where needed.
-- [ ] Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game.
+- [x] Remove premature automatic repetition/quiet-move endings for the requested relaxed rules. Finish only for a real terminal position or explicit surrender; preserve legacy-room behavior where needed.
+- [x] Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game.
 - [ ] Final live/touch/capture-chain regression.
 
 ## 7. UNO — variants and optional house rules
@@ -210,7 +210,7 @@ These are **not** complete in the stable release source. An earlier working-tree
 
 ## Current next actions
 
-1. Pool: finish live opponent cue/aim/pull synchronization, verify turn alerts after balls stop, and audit original-style rules. Table resources, sounds, handedness, top New Round and initial cue have passed their presentation check.
+1. Pool shot-rule and two-client cue tests passed. Checkers surrender/continued-play tests, hidden Snakes destination, optional pinball music controls and Solitaire foundation return are now checked. Finish visual/turn-alert checks and remaining jungle graphics, then review UNO variants.
 2. Finish remaining Solitaire, Snakes & Ladders, Checkers and optional pinball-music details.
 3. Review/merge and test every UNO variant/house rule while preserving classic and 1.0.60 behavior.
 4. Complete Pac-Man isolation/live/source-package checks.

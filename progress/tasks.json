@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T21:58:13.031Z",
-  "hash": "510e227d79fff4334ab7879ede413d70a1189684ff15827025fcabf07e209be3",
-  "focus": "Pool: finish live opponent cue/aim/pull synchronization, verify turn alerts after balls stop, and audit original-style rules. Table resources, sounds, handedness, top New Round and initial cue have passed their presentation check.",
+  "updatedAt": "2026-11-05T22:43:07.880Z",
+  "hash": "7c25b36e133c761c396d84906e3620dc7ac49eb06f7f4f0391cbe5e96c62f616",
+  "focus": "Pool shot-rule and two-client cue tests passed. Checkers surrender/continued-play tests, hidden Snakes destination, optional pinball music controls and Solitaire foundation return are now checked. Finish visual/turn-alert checks and remaining jungle graphics, then review UNO variants.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -49,7 +49,7 @@
           "text": "Manual card/stack movement and manual foundation placement."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify dragging a foundation card back to a legal tableau destination; distinguish this from placing cards into a foundation."
         },
         {
@@ -81,7 +81,7 @@
           "text": "Real recorded placement/slide/shuffle audio integrated into shared card sounds."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Replace the busy card backs with a plain, restful back."
         },
         {
@@ -150,7 +150,7 @@
           "text": "Prepared a lightweight space-arcade music loop with saved volume/mute handling."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Reconcile both music requests: SFX always available; **music optional in Sound settings, off by default**, rather than forced background music."
         },
         {
@@ -231,11 +231,11 @@
           "text": "Standard called-ball/pocket, break decisions, group assignment, 8-ball and scratch rules exist; shared shot simulation is deterministic."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit those rules against the requested original-game experience; keep normal rules consistent between solo and hosted play."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic."
         },
         {
@@ -284,7 +284,7 @@
           "text": "Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes."
         },
         {
@@ -350,11 +350,11 @@
           "text": "Fix the pale orange to a richer clear orange and visually verify it on a phone."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Remove premature automatic repetition/quiet-move endings for the requested relaxed rules. Finish only for a real terminal position or explicit surrender; preserve legacy-room behavior where needed."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game."
         },
         {
