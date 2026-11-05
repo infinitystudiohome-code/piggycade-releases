@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T21:50:19.209Z",
-  "hash": "019ba7a7cf1834ffb4c504d689165bfdd2708f0916c6e27d452cac8268f9c801",
+  "updatedAt": "2026-11-05T21:52:42.011Z",
+  "hash": "f9926a03e2648b6cfac840b73aa4eb0fa52cd9afb19aad3488fd5100b49002e1",
   "focus": "Finish the pool reference assets/sounds, turn cue, handedness, visible initial cue and live opponent aiming.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -633,7 +633,24 @@
       ]
     },
     {
-      "title": "12. Final update delivery — pending",
+      "title": "12. Live checklist and ongoing tracking",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Created this master Markdown checklist and recorded additions from the day."
+        },
+        {
+          "done": true,
+          "text": "Published a phone-friendly live HTML view: https://infinitystudiohome-code.github.io/piggycade-releases/progress/ . It refreshes every 15 seconds."
+        },
+        {
+          "done": true,
+          "text": "Public page and checked/open filters verified at 320px and 390px. Publish task progress after each verified item; continue to the next task automatically."
+        }
+      ]
+    },
+    {
+      "title": "13. Final update delivery — pending",
       "tasks": [
         {
           "done": false,

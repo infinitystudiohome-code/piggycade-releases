@@ -189,7 +189,13 @@ These are **not** complete in the stable release source. An earlier working-tree
 - [x] Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing.
 - [ ] Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues.
 
-## 12. Final update delivery — pending
+## 12. Live checklist and ongoing tracking
+
+- [x] Created this master Markdown checklist and recorded additions from the day.
+- [x] Published a phone-friendly live HTML view: https://infinitystudiohome-code.github.io/piggycade-releases/progress/ . It refreshes every 15 seconds.
+- [x] Public page and checked/open filters verified at 320px and 390px. Publish task progress after each verified item; continue to the next task automatically.
+
+## 13. Final update delivery — pending
 
 - [ ] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
 - [ ] Preserve all prior fixes while merging unfinished UNO work.
