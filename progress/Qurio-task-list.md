@@ -190,6 +190,14 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## 11. Bartender — now authorized during final work
 
+- [x] Downloaded the supplied Apache-licensed source to F: and isolated the game from existing modes.
+- [x] Bundled Tone and compiled Tailwind locally, compressed seven audio tracks, and disabled external weather/location/music endpoints and camera/photo UI.
+- [x] New painted bar background and 47 guest portraits rendered using the existing Qurio NPC renderer; icon matches the same badge/size rules.
+- [x] Reviewed and applied 39 English UI translations drafted by the local AI.
+- [x] Added Shake/Stir/Build controls to match the actual recipes; difficulty sets the shift duration.
+- [ ] Finish real-drink scoring, pause, sound settings, all viewport and completed-shift checks.
+- [ ] Verify two-player high-score contests, replay and live worker support, preserving existing rooms.
+
 - [x] Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing.
 - [ ] NEW REQUEST: integrate the supplied Bartender-EN game with a responsive full-screen phone layout, offline assets/audio, consistent icon and standard menu/restart/exit/sound controls. Check input, performance and game ending before publishing.
 

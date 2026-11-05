@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T23:35:46.643Z",
-  "hash": "9bfd641e12e354d0bc211329387d97c5d0361b87d34182307269c15c11472669",
+  "updatedAt": "2026-11-05T23:44:07.779Z",
+  "hash": "6b53d5a553ae99beada16f91e499e41bcaa65ba446b9a310746e462af453041e",
   "focus": "ACTIVE: integrating the newly authorized Bartender game. Local AI completed 109 NPC drafts and 39 UI translation candidates; Codex reviewed/corrected them. Bartender is being tested by mixing actual drinks, checking mobile layouts, sound, pause and completed-shift rankings. New painted background is being prepared for art consistency.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -630,6 +630,34 @@
     {
       "title": "11. Bartender — now authorized during final work",
       "tasks": [
+        {
+          "done": true,
+          "text": "Downloaded the supplied Apache-licensed source to F: and isolated the game from existing modes."
+        },
+        {
+          "done": true,
+          "text": "Bundled Tone and compiled Tailwind locally, compressed seven audio tracks, and disabled external weather/location/music endpoints and camera/photo UI."
+        },
+        {
+          "done": true,
+          "text": "New painted bar background and 47 guest portraits rendered using the existing Qurio NPC renderer; icon matches the same badge/size rules."
+        },
+        {
+          "done": true,
+          "text": "Reviewed and applied 39 English UI translations drafted by the local AI."
+        },
+        {
+          "done": true,
+          "text": "Added Shake/Stir/Build controls to match the actual recipes; difficulty sets the shift duration."
+        },
+        {
+          "done": false,
+          "text": "Finish real-drink scoring, pause, sound settings, all viewport and completed-shift checks."
+        },
+        {
+          "done": false,
+          "text": "Verify two-player high-score contests, replay and live worker support, preserving existing rooms."
+        },
         {
           "done": true,
           "text": "Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing."
