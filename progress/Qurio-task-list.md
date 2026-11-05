@@ -34,7 +34,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Replace the busy card backs with a plain, restful back.
 - [x] Simplify excessive face decoration without removing the requested circus illustrations or approved layout.
 - [x] Endgame auto-play triggers only when every remaining card is revealed and a complete legal foundation path is verified. Does not auto-play uncertain positions.
-- [ ] Final regression of long stacks, all five difficulties, landscape, larger accessibility text, live shared play and completion after the final visual changes.
+- [x] Final regression of long stacks, all five difficulties, landscape, larger accessibility text, live shared play and completion after the final visual changes.
 
 ## 2. Pinball — Space Cadet reference
 
@@ -51,7 +51,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Compressed and level-balanced MP3 effects; mapped flippers, impacts, bells, slots/bonuses, launches, drains and game-over cues.
 - [x] Prepared a lightweight space-arcade music loop with saved volume/mute handling.
 - [x] Reconcile both music requests: SFX always available; **music optional in Sound settings, off by default**, rather than forced background music.
-- [ ] Final play/visual/audio comparison to Space Cadet's responsiveness and busy table; do not claim an exact original engine.
+- [x] Final play/visual/audio comparison to Space Cadet's responsiveness and busy table; do not claim an exact original engine.
 - [x] Fixed-step physics, all-difficulty accelerated finite-run checks, pause/background handling and low-end CPU rendering checks.
 
 ## 3. 8-Ball Pool — original Miniclip reference
@@ -97,7 +97,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Downloaded and inspected Sarah Rosanna Busch's MIT dice reference on F:; attribution/license retained.
 - [x] Swipe velocity/distance interaction adapted from that reference; click/tap and keyboard activation also supported.
 - [x] Rolling animation, bounce/tumble and authoritative final result.
-- [ ] Verify final TTT roll timing, result hold, dice hiding, best-of-three score and touch swipe behavior after all changes.
+- [x] Verify final TTT roll timing, result hold, dice hiding, best-of-three score and touch swipe behavior after all changes.
 - [x] Confirm no early destination reveal in Snakes & Ladders and no accidental double roll.
 
 ## 6. Checkers
@@ -136,7 +136,7 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Continue with retained scores or explicitly start a new match.
 - [x] Hide/show score board.
 - [x] Visible special-rule reminders, rotation arrows, wheel/slap/swap tools and animations.
-- [ ] Final two-client hosted variant check and deployed-worker verification; local room deadlines, privacy, snapshot restoration and score continuity tests pass.
+- [x] Final two-client hosted variant check and deployed-worker verification; local room deadlines, privacy, snapshot restoration and score continuity tests pass.
 - [x] In published 1.0.60: draw/discard piles persist, active playable cards lift, action sounds and Catch UNO race/penalty work.
 - [x] Preserve and recheck those 1.0.60 fixes when merging the variants.
 
@@ -164,7 +164,7 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts.
 - [ ] Verify full offline play and compressed audio volume/mute/background behavior.
 - [x] Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay.
-- [ ] Verify live server support for this new mode before publishing.
+- [x] Verify live server support for this new mode before publishing.
 - [ ] Publish corresponding standalone GPL game source with the release and keep its source link correct.
 - [ ] Final reference look/play/sound comparison; this is the third requested reference recreation.
 
@@ -181,9 +181,9 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Prefer real downloaded sound libraries. Kenney CC0 card/chip/dice recordings and supplied pinball sounds integrated.
 - [x] Keep original downloaded sources on F:. Compress copies for Android; preserve source/credit notices. Pinball effects plus prepared music are about 1.5 MB.
 - [x] Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices.
-- [ ] Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man.
+- [x] Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man.
 - [ ] Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence.
-- [ ] Retain existing room identity, sessions, scores and active games through backend deployments and updates.
+- [x] Retain existing room identity, sessions, scores and active games through backend deployments and updates.
 - [ ] Triple-check requested layouts/controls on narrow/tall phones, landscape, tablet and desktop; retain approved Solitaire, Wordle and other game designs.
 
 ## 11. Bartender question — not an implementation request yet

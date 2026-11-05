@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T23:02:46.586Z",
-  "hash": "93fcd9a3f4181adcd11766f863e1370b13aff77809564da657c80c9f3ecaad9a",
+  "updatedAt": "2026-11-05T23:09:42.271Z",
+  "hash": "5e0fee24299777db48c60ec780bc45835202dce76237f59936f1a8697f50cb83",
   "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -93,7 +93,7 @@
           "text": "Endgame auto-play triggers only when every remaining card is revealed and a complete legal foundation path is verified. Does not auto-play uncertain positions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final regression of long stacks, all five difficulties, landscape, larger accessibility text, live shared play and completion after the final visual changes."
         }
       ]
@@ -154,7 +154,7 @@
           "text": "Reconcile both music requests: SFX always available; **music optional in Sound settings, off by default**, rather than forced background music."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final play/visual/audio comparison to Space Cadet's responsiveness and busy table; do not claim an exact original engine."
         },
         {
@@ -317,7 +317,7 @@
           "text": "Rolling animation, bounce/tumble and authoritative final result."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify final TTT roll timing, result hold, dice hiding, best-of-three score and touch swipe behavior after all changes."
         },
         {
@@ -451,7 +451,7 @@
           "text": "Visible special-rule reminders, rotation arrows, wheel/slap/swap tools and animations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final two-client hosted variant check and deployed-worker verification; local room deadlines, privacy, snapshot restoration and score continuity tests pass."
         },
         {
@@ -549,7 +549,7 @@
           "text": "Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify live server support for this new mode before publishing."
         },
         {
@@ -606,7 +606,7 @@
           "text": "Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man."
         },
         {
@@ -614,7 +614,7 @@
           "text": "Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Retain existing room identity, sessions, scores and active games through backend deployments and updates."
         },
         {
