@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T23:11:33.303Z",
-  "hash": "4646878963dda77c8a87f72ec4e7784e3d688fd233c95cbaa9aebf473c541cb7",
-  "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
+  "updatedAt": "2026-11-05T23:12:47.474Z",
+  "hash": "d7d368932f14e0ddfd0015a1d5ad179591dd2beca4ac906d74cf083800952d32",
+  "focus": "ACTIVE: adding NPC catchphrases/personality bubbles requested during final checks. Existing rule/voice timing is preserved. Local AI is reviewing a separate UNO Sudden Death edge case; Codex verifies its findings.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [

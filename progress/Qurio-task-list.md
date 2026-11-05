@@ -214,8 +214,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.
-2. Finish remaining Solitaire, Snakes & Ladders, Checkers and optional pinball-music details.
-3. Review/merge and test every UNO variant/house rule while preserving classic and 1.0.60 behavior.
-4. Complete Pac-Man isolation/live/source-package checks.
-5. Complete the checklist audit and final release checks; build and publish only the concrete finished update.
+1. ACTIVE: adding NPC catchphrases/personality bubbles requested during final checks. Existing rule/voice timing is preserved. Local AI is reviewing a separate UNO Sudden Death edge case; Codex verifies its findings.
+2. Live worker checks passed for UNO Speed/private hands, Pool v5 shared cue and Pac-Man progress. Final browser checks caught outdated expectations; fixes are being verified.
+3. Finish remaining visual/gameplay checks, package corresponding Pac-Man source and private source, then run the release gate and build/publish the signed APK.
+4. Current public APK remains 1.0.60. This working update is not yet available in the app updater. Permanent server ranking sync remains explicitly deferred.
