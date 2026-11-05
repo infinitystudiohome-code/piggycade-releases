@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 59,
-  "versionName": "1.0.58",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.58/Qurio.apk",
-  "sha256": "6ff880763e8d5a9301b1d62e29eee140dd6cd7952e2be64b699ba5b729d87030",
-  "notes": "Player-led Arcade update. Solitaire: larger red circus table, full illustrated deck, centered foundations, lower draw tray showing three cards with only the top playable, manual card moves, stock shuffling, Undo and New Deal. Pinball: larger machine, draggable spring with real launch strength, two extra bumpers and effects-only audio. Pool: easier cue pickup, fine aiming, sound effects, New Round and correct ball-in-hand after fouls. Snakes and Ladders: roll-strength control, animated fair dice and manual legal token placement. Relaxed Checkers: optional captures, backward captures, flying kings, optional capture continuation, brighter orange pieces, effects-only audio and New Game. Every game menu offers renewal and Exit to Main Menu; guests can request a renewal and the host approves. Update every phone and start a new match for the new rules. Existing room codes, saved games and matches are retained; older matches keep their old rules."
+  "versionCode": 60,
+  "versionName": "1.0.59",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.59/Qurio.apk",
+  "sha256": "83024391a0d641b12820fce675b42ec597818cf8a9ccd635540ac88393cfc44b",
+  "notes": "Responsive Arcade corrections with the approved circus design retained. Solitaire now uses available screen height for its stacks, adapts to landscape with a separate draw tray, keeps primary buttons reachable, wraps larger labels and supports internally scrolling long stacks. Corrected all 52 circus card crops to remove neighbouring-card fragments and clipped indices. Pinball fits its controls to the remaining screen height, and wide pool tables stay inside their container. Manual snake-token placement no longer replays automatic movement; the pool fine-aim control follows the cue angle. Checked 50 screen/game combinations, larger text, long stacks, shuffle/undo, two real live clients, room preservation, speech bubbles, audio and updater recovery. Existing artwork, rules, voices, room codes and saved games are retained."
 }
