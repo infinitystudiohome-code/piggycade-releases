@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T22:43:07.880Z",
-  "hash": "7c25b36e133c761c396d84906e3620dc7ac49eb06f7f4f0391cbe5e96c62f616",
-  "focus": "Pool shot-rule and two-client cue tests passed. Checkers surrender/continued-play tests, hidden Snakes destination, optional pinball music controls and Solitaire foundation return are now checked. Finish visual/turn-alert checks and remaining jungle graphics, then review UNO variants.",
+  "updatedAt": "2026-11-05T22:49:10.470Z",
+  "hash": "d3fece982edd1756af5c63f918d146bce43ba7868d438b8caea5405a9dd90406",
+  "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -367,99 +367,99 @@
       "title": "7. UNO — variants and optional house rules",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Mode picker with explanations on hover and touch."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Speed: five-second turns with a timer at the active character."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Roulette: a central animated mystery wheel selects a temporary rule each round."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Tournament: continuing rounds, accumulated points and an overall winner/crown."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Partners: one teammate card transfer per round."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Mystery: genuinely secret objectives with correct progress and end conditions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "No Mercy: penalty stacking, stronger action cards, 7–0 actions and elimination at 25 cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Flip: complete two-sided deck and light/dark side transition."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Teams: 2v2 or 3v3 with correct teammate rules and optional shared penalties."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Pre-game individual house-rule switches with clear explanations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Stacking: match/equal-or-stronger draw penalties and pass the accumulated total correctly."
         },
         {
-          "done": false,
+          "done": true,
           "text": "The requested 7 hand-pass rule and 0 hand rotation, following play direction."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Six Slap race, hand animations and configurable one/two-card last-player penalty."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Exact-card jump-in/out-of-turn play; correct skipped-player handling."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Double Trouble: two identical color/value cards together."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Optional 25-card elimination."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Sudden Death after the first reshuffle, with correct passing and no endless stalemate."
         },
         {
-          "done": false,
+          "done": true,
           "text": "End-of-round reveal/count of remaining hands and identify the highest total/loser."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Continue with retained scores or explicitly start a new match."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Hide/show score board."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Visible special-rule reminders, rotation arrows, wheel/slap/swap tools and animations."
         },
         {
           "done": false,
-          "text": "All above must work offline and in hosted rooms; reject stale moves and retain existing classic snapshots."
+          "text": "Final two-client hosted variant check and deployed-worker verification; local room deadlines, privacy, snapshot restoration and score continuity tests pass."
         },
         {
           "done": true,
           "text": "In published 1.0.60: draw/discard piles persist, active playable cards lift, action sounds and Catch UNO race/penalty work."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve and recheck those 1.0.60 fixes when merging the variants."
         }
       ]

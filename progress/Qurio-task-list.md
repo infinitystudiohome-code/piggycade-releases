@@ -113,32 +113,32 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 
 ## 7. UNO — variants and optional house rules
 
-These are **not** complete in the stable release source. An earlier working-tree implementation exists and should be reviewed/merged rather than rewritten blindly.
+Merged into the pending update while retaining the published classic engine for older snapshots. Engine rules, 108 accelerated rounds, hosted pause/restore/score continuity and responsive variant UI checks passed. Final release/live-worker verification is still pending.
 
-- [ ] Mode picker with explanations on hover and touch.
-- [ ] Speed: five-second turns with a timer at the active character.
-- [ ] Roulette: a central animated mystery wheel selects a temporary rule each round.
-- [ ] Tournament: continuing rounds, accumulated points and an overall winner/crown.
-- [ ] Partners: one teammate card transfer per round.
-- [ ] Mystery: genuinely secret objectives with correct progress and end conditions.
-- [ ] No Mercy: penalty stacking, stronger action cards, 7–0 actions and elimination at 25 cards.
-- [ ] Flip: complete two-sided deck and light/dark side transition.
-- [ ] Teams: 2v2 or 3v3 with correct teammate rules and optional shared penalties.
-- [ ] Pre-game individual house-rule switches with clear explanations.
-- [ ] Stacking: match/equal-or-stronger draw penalties and pass the accumulated total correctly.
-- [ ] The requested 7 hand-pass rule and 0 hand rotation, following play direction.
-- [ ] Six Slap race, hand animations and configurable one/two-card last-player penalty.
-- [ ] Exact-card jump-in/out-of-turn play; correct skipped-player handling.
-- [ ] Double Trouble: two identical color/value cards together.
-- [ ] Optional 25-card elimination.
-- [ ] Sudden Death after the first reshuffle, with correct passing and no endless stalemate.
-- [ ] End-of-round reveal/count of remaining hands and identify the highest total/loser.
-- [ ] Continue with retained scores or explicitly start a new match.
-- [ ] Hide/show score board.
-- [ ] Visible special-rule reminders, rotation arrows, wheel/slap/swap tools and animations.
-- [ ] All above must work offline and in hosted rooms; reject stale moves and retain existing classic snapshots.
+- [x] Mode picker with explanations on hover and touch.
+- [x] Speed: five-second turns with a timer at the active character.
+- [x] Roulette: a central animated mystery wheel selects a temporary rule each round.
+- [x] Tournament: continuing rounds, accumulated points and an overall winner/crown.
+- [x] Partners: one teammate card transfer per round.
+- [x] Mystery: genuinely secret objectives with correct progress and end conditions.
+- [x] No Mercy: penalty stacking, stronger action cards, 7–0 actions and elimination at 25 cards.
+- [x] Flip: complete two-sided deck and light/dark side transition.
+- [x] Teams: 2v2 or 3v3 with correct teammate rules and optional shared penalties.
+- [x] Pre-game individual house-rule switches with clear explanations.
+- [x] Stacking: match/equal-or-stronger draw penalties and pass the accumulated total correctly.
+- [x] The requested 7 hand-pass rule and 0 hand rotation, following play direction.
+- [x] Six Slap race, hand animations and configurable one/two-card last-player penalty.
+- [x] Exact-card jump-in/out-of-turn play; correct skipped-player handling.
+- [x] Double Trouble: two identical color/value cards together.
+- [x] Optional 25-card elimination.
+- [x] Sudden Death after the first reshuffle, with correct passing and no endless stalemate.
+- [x] End-of-round reveal/count of remaining hands and identify the highest total/loser.
+- [x] Continue with retained scores or explicitly start a new match.
+- [x] Hide/show score board.
+- [x] Visible special-rule reminders, rotation arrows, wheel/slap/swap tools and animations.
+- [ ] Final two-client hosted variant check and deployed-worker verification; local room deadlines, privacy, snapshot restoration and score continuity tests pass.
 - [x] In published 1.0.60: draw/discard piles persist, active playable cards lift, action sounds and Catch UNO race/penalty work.
-- [ ] Preserve and recheck those 1.0.60 fixes when merging the variants.
+- [x] Preserve and recheck those 1.0.60 fixes when merging the variants.
 
 ## 8. Wordle and previously requested 5 November maintenance
 
@@ -210,7 +210,7 @@ These are **not** complete in the stable release source. An earlier working-tree
 
 ## Current next actions
 
-1. Pool shot-rule and two-client cue tests passed. Checkers surrender/continued-play tests, hidden Snakes destination, optional pinball music controls and Solitaire foundation return are now checked. Finish visual/turn-alert checks and remaining jungle graphics, then review UNO variants.
+1. UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.
 2. Finish remaining Solitaire, Snakes & Ladders, Checkers and optional pinball-music details.
 3. Review/merge and test every UNO variant/house rule while preserving classic and 1.0.60 behavior.
 4. Complete Pac-Man isolation/live/source-package checks.
