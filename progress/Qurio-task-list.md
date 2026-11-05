@@ -60,16 +60,16 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Established that the repository is a wrapper around Miniclip's hosted runtime, not a standalone open pool engine.
 - [x] Found and downloaded original table texture atlases and original gameplay/turn/win/loss sound resources from the runtime URLs referenced by that wrapper. Backups on F:.
 - [ ] Recreate the reference's complete table appearance, balls, cue, HUD, power control and effects using the supplied references/resources. This is one of the **three** requested style recreations, alongside pinball and Pac-Man; do not redesign every other game.
-- [ ] Integrate the original table atlases cleanly, retaining correct pocket/cushion alignment and responsive portrait/landscape rendering.
-- [ ] Integrate original cue, ball collision, cushion, pocket, rack, foul, turn, win/loss and cheering recordings, with appropriate gain and mute behavior.
+- [x] Integrate the original table atlases cleanly, retaining correct pocket/cushion alignment and responsive portrait/landscape rendering.
+- [x] Integrate original cue, ball collision, cushion, pocket, rack, foul, turn, win/loss and cheering recordings, with appropriate gain and mute behavior.
 - [x] Portrait view now places the cue/player at the bottom and the rack above.
 - [x] Stick can be pulled and released to shoot; fine aim and power controls remain available.
 - [ ] Further improve cue maneuvering and match the reference's control feel; verify fast swipes do not fire accidentally.
-- [ ] Show the cue immediately, including before the initial ball-in-hand placement is completed.
-- [ ] Add a pre-game left-handed/right-handed choice and position the power bar accordingly.
-- [ ] Verify the power bar stays fully visible on narrow phones without making balls too small.
+- [x] Show the cue immediately, including before the initial ball-in-hand placement is completed.
+- [x] Add a pre-game left-handed/right-handed choice and position the power bar accordingly.
+- [x] Verify the power bar stays fully visible on narrow phones without making balls too small.
 - [x] New Round action exists.
-- [ ] Put New Round/New Game at the top, not underneath the table.
+- [x] Put New Round/New Game at the top, not underneath the table.
 - [x] Wrong first contact is a foul; the opponent receives ball in hand at any clear legal position. Existing engine test covers this.
 - [x] Standard called-ball/pocket, break decisions, group assignment, 8-ball and scratch rules exist; shared shot simulation is deterministic.
 - [ ] Audit those rules against the requested original-game experience; keep normal rules consistent between solo and hosted play.
@@ -195,6 +195,8 @@ These are **not** complete in the stable release source. An earlier working-tree
 - [x] Published a phone-friendly live HTML view: https://infinitystudiohome-code.github.io/piggycade-releases/progress/ . It refreshes every 15 seconds.
 - [x] Public page and checked/open filters verified at 320px and 390px. Publish task progress after each verified item; continue to the next task automatically.
 
+- [x] Refresh button verified against the public site: makes a fresh request, updates Last checked, retains tasks during a network failure, and recovers. Tasks last changed is shown separately.
+
 ## 13. Final update delivery — pending
 
 - [ ] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
@@ -208,7 +210,7 @@ These are **not** complete in the stable release source. An earlier working-tree
 
 ## Current next actions
 
-1. Finish the pool reference assets/sounds, turn cue, handedness, visible initial cue and live opponent aiming.
+1. Pool: finish live opponent cue/aim/pull synchronization, verify turn alerts after balls stop, and audit original-style rules. Table resources, sounds, handedness, top New Round and initial cue have passed their presentation check.
 2. Finish remaining Solitaire, Snakes & Ladders, Checkers and optional pinball-music details.
 3. Review/merge and test every UNO variant/house rule while preserving classic and 1.0.60 behavior.
 4. Complete Pac-Man isolation/live/source-package checks.

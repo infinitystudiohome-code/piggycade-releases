@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T21:52:42.011Z",
-  "hash": "f9926a03e2648b6cfac840b73aa4eb0fa52cd9afb19aad3488fd5100b49002e1",
-  "focus": "Finish the pool reference assets/sounds, turn cue, handedness, visible initial cue and live opponent aiming.",
+  "updatedAt": "2026-11-05T21:58:13.031Z",
+  "hash": "510e227d79fff4334ab7879ede413d70a1189684ff15827025fcabf07e209be3",
+  "focus": "Pool: finish live opponent cue/aim/pull synchronization, verify turn alerts after balls stop, and audit original-style rules. Table resources, sounds, handedness, top New Round and initial cue have passed their presentation check.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -183,11 +183,11 @@
           "text": "Recreate the reference's complete table appearance, balls, cue, HUD, power control and effects using the supplied references/resources. This is one of the **three** requested style recreations, alongside pinball and Pac-Man; do not redesign every other game."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Integrate the original table atlases cleanly, retaining correct pocket/cushion alignment and responsive portrait/landscape rendering."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Integrate original cue, ball collision, cushion, pocket, rack, foul, turn, win/loss and cheering recordings, with appropriate gain and mute behavior."
         },
         {
@@ -203,15 +203,15 @@
           "text": "Further improve cue maneuvering and match the reference's control feel; verify fast swipes do not fire accidentally."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Show the cue immediately, including before the initial ball-in-hand placement is completed."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add a pre-game left-handed/right-handed choice and position the power bar accordingly."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify the power bar stays fully visible on narrow phones without making balls too small."
         },
         {
@@ -219,7 +219,7 @@
           "text": "New Round action exists."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Put New Round/New Game at the top, not underneath the table."
         },
         {
@@ -646,6 +646,10 @@
         {
           "done": true,
           "text": "Public page and checked/open filters verified at 320px and 390px. Publish task progress after each verified item; continue to the next task automatically."
+        },
+        {
+          "done": true,
+          "text": "Refresh button verified against the public site: makes a fresh request, updates Last checked, retains tasks during a network failure, and recovers. Tasks last changed is shown separately."
         }
       ]
     },
