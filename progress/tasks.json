@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T23:09:42.271Z",
-  "hash": "5e0fee24299777db48c60ec780bc45835202dce76237f59936f1a8697f50cb83",
+  "updatedAt": "2026-11-05T23:11:33.303Z",
+  "hash": "4646878963dda77c8a87f72ec4e7784e3d688fd233c95cbaa9aebf473c541cb7",
   "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -565,6 +565,10 @@
     {
       "title": "10. Shared presentation, audio, performance and menus",
       "tasks": [
+        {
+          "done": false,
+          "text": "Review the complete existing NPC roster and add a couple of recognizable, correctly attributed catchphrases/personality lines per speaking character. Preserve silent-character gestures, keep main-character voice rules, and verify bubble mapping/timing without adding lag or affecting rules."
+        },
         {
           "done": true,
           "text": "Permanent project rule: keep NPC illustration/proportions, icon style/size, shared controls and effects consistent. Reference photos guide clothes/hair/appearance without replacing the established game art style."

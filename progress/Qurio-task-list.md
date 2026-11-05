@@ -170,6 +170,8 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## 10. Shared presentation, audio, performance and menus
 
+- [ ] Review the complete existing NPC roster and add a couple of recognizable, correctly attributed catchphrases/personality lines per speaking character. Preserve silent-character gestures, keep main-character voice rules, and verify bubble mapping/timing without adding lag or affecting rules.
+
 - [x] Permanent project rule: keep NPC illustration/proportions, icon style/size, shared controls and effects consistent. Reference photos guide clothes/hair/appearance without replacing the established game art style.
 
 - [x] All launcher game icons use one illustrated badge style, consistent frames and normalized artwork bounds.
