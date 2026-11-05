@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 54,
-  "versionName": "1.0.53",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.53/Qurio.apk",
-  "sha256": "4e7fce04e2cac1bb27ff6d95a32fd20712f9b53cb419aad039cc51d909808eb4",
-  "notes": "Rebuilds Space Pinball into Space Expedition with original illustrated artwork, seven bumpers, open centre and side drains, moving flippers, a launch ramp, orbital lane, drop-target banks, fuel, gravity well, hyperspace kicker, linked wormholes and six timed missions. Corrects ball-saver relaunches and retains legacy saves. Pool gains detailed materials, three felts, shaded balls, aiming/impact guides, a cue that can be pulled back and released, a separate pull-to-shoot rail and a landscape layout. New matches use break/8-on-break decision choices; ongoing matches retain their previous rules. Checkers, Solitaire and Snakes & Ladders receive upgraded materials, illustrated cards, piece/card movement effects, patterned snakes and avatar pawns. Replaces the existing five games without duplicate entries. Adds Miles Morales, Rex, Doc Ock, Jesus and Grim Reaper with scythe to the shared selectable avatar roster, each with six contextual text lines. Existing recordings, rooms, chips, saves and rankings are retained. Update every phone for the new art and controls."
+  "versionCode": 55,
+  "versionName": "1.0.54",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.54/Qurio.apk",
+  "sha256": "ae441c355615573f2ba4cdf55d678c4381357d714fc9813dcdf47dac3541d9dc",
+  "notes": "Adds animated pinball runway lights, rotating portal effects, reactor radar, impact flashes, sparks, floating points, moving targets and plunger, gentle hit feedback, rolling-ball foley and metallic rail sounds. Effects are bounded and respect reduced motion. Pool balls in new matches are 50% larger with clearer upright numbers, matching collision radius, rack spacing and aiming guides. Compact pool play hides the extra controls to enlarge the table; tap a target ball and pocket and pull the cue or power rail to shoot, or show controls for the original menus. Adds distinct original cue, ball, cushion and pocket sounds, a victory fanfare and five-second fireworks/confetti for arcade wins. Volume and mute settings are respected. Existing pool matches retain their previous ball size and rules; start a new match after updating every phone to use the larger balls. Saves, rooms, characters and rankings are retained."
 }
