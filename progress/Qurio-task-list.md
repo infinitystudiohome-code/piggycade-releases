@@ -74,7 +74,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Standard called-ball/pocket, break decisions, group assignment, 8-ball and scratch rules exist; shared shot simulation is deterministic.
 - [x] Audit those rules against the requested original-game experience; keep normal rules consistent between solo and hosted play.
 - [x] Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic.
-- [ ] Clear turn notification **after balls stop**: original turn sound, lit active-player border and a short Your Turn/name announcement. No wrong-player alerts on reconnect.
+- [x] Clear turn notification **after balls stop**: original turn sound, lit active-player border and a short Your Turn/name announcement. No wrong-player alerts on reconnect.
 - [x] Automatic background songs are suppressed for pool; sound settings remain in the menu.
 - [ ] Finish the requested original-style recreation and test on phone, landscape, desktop and two real room clients before marking complete.
 
@@ -86,7 +86,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Improved board colors; readable numbered tiles.
 - [x] Tokens now animate through intermediate squares rather than teleporting after manual placement.
 - [x] Recorded dice roll and board-hop effects; automatic music suppressed.
-- [ ] Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly.
+- [x] Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly.
 - [x] Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes.
 - [ ] Final check of manual moves, ladders/snakes, exact-roll finish and all difficulties in solo/live play.
 
@@ -98,7 +98,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Swipe velocity/distance interaction adapted from that reference; click/tap and keyboard activation also supported.
 - [x] Rolling animation, bounce/tumble and authoritative final result.
 - [ ] Verify final TTT roll timing, result hold, dice hiding, best-of-three score and touch swipe behavior after all changes.
-- [ ] Confirm no early destination reveal in Snakes & Ladders and no accidental double roll.
+- [x] Confirm no early destination reveal in Snakes & Ladders and no accidental double roll.
 
 ## 6. Checkers
 
@@ -200,7 +200,7 @@ Merged into the pending update while retaining the published classic engine for 
 ## 13. Final update delivery — pending
 
 - [ ] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
-- [ ] Preserve all prior fixes while merging unfinished UNO work.
+- [x] Preserve all prior fixes while merging unfinished UNO work.
 - [ ] Backend regression tests, room-restore tests and targeted live checks pass.
 - [ ] Required `check-launcher.cjs` gate passes on the final bundled assets, including Update with a deliberately broken launcher.
 - [ ] Build the signed APK with unchanged application ID/signing key and incremented version/code.

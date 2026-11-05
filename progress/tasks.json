@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T22:49:10.470Z",
-  "hash": "d3fece982edd1756af5c63f918d146bce43ba7868d438b8caea5405a9dd90406",
+  "updatedAt": "2026-11-05T22:54:20.675Z",
+  "hash": "e7bfd09a976ea64ed410daf23d192ddf9eb9dde13252fdd5b3168ef869455c6b",
   "focus": "UNO variants merged and engine/browser checks passed; final two-client/deployed-room check remains. Finish remaining jungle graphics and visual checks, then Pac-Man live/source packaging and release gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -239,7 +239,7 @@
           "text": "Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Clear turn notification **after balls stop**: original turn sound, lit active-player border and a short Your Turn/name announcement. No wrong-player alerts on reconnect."
         },
         {
@@ -280,7 +280,7 @@
           "text": "Recorded dice roll and board-hop effects; automatic music suppressed."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly."
         },
         {
@@ -321,7 +321,7 @@
           "text": "Verify final TTT roll timing, result hold, dice hiding, best-of-three score and touch swipe behavior after all changes."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Confirm no early destination reveal in Snakes & Ladders and no accidental double roll."
         }
       ]
@@ -661,7 +661,7 @@
           "text": "Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve all prior fixes while merging unfinished UNO work."
         },
         {
