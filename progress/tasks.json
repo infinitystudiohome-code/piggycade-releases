@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T23:14:37.815Z",
-  "hash": "4c5e7b9a896389fc6144c78083f5123a846f98c4aeaedc49a4bfa2417d89e1fe",
-  "focus": "ACTIVE: adding NPC catchphrases/personality bubbles requested during final checks. Existing rule/voice timing is preserved. Local AI is reviewing a separate UNO Sudden Death edge case; Codex verifies its findings.",
+  "updatedAt": "2026-11-05T23:35:46.643Z",
+  "hash": "9bfd641e12e354d0bc211329387d97c5d0361b87d34182307269c15c11472669",
+  "focus": "ACTIVE: integrating the newly authorized Bartender game. Local AI completed 109 NPC drafts and 39 UI translation candidates; Codex reviewed/corrected them. Bartender is being tested by mixing actual drinks, checking mobile layouts, sound, pause and completed-shift rankings. New painted background is being prepared for art consistency.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -566,8 +566,8 @@
       "title": "10. Shared presentation, audio, performance and menus",
       "tasks": [
         {
-          "done": false,
-          "text": "Review the complete existing NPC roster and add a couple of recognizable, correctly attributed catchphrases/personality lines per speaking character. Preserve silent-character gestures, keep main-character voice rules, and verify bubble mapping/timing without adding lag or affecting rules."
+          "done": true,
+          "text": "Reviewed all 109 existing NPCs and added two short signature/personality lines each. Corrected local-AI mismatches, preserved silent gestures and main-character voice rules, and checked IDs, line lengths and correct live bubbles. Added deterministic selection in shared bubbles without extra speech events."
         },
         {
           "done": true,

@@ -170,7 +170,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## 10. Shared presentation, audio, performance and menus
 
-- [ ] Review the complete existing NPC roster and add a couple of recognizable, correctly attributed catchphrases/personality lines per speaking character. Preserve silent-character gestures, keep main-character voice rules, and verify bubble mapping/timing without adding lag or affecting rules.
+- [x] Reviewed all 109 existing NPCs and added two short signature/personality lines each. Corrected local-AI mismatches, preserved silent gestures and main-character voice rules, and checked IDs, line lengths and correct live bubbles. Added deterministic selection in shared bubbles without extra speech events.
 
 - [x] Permanent project rule: keep NPC illustration/proportions, icon style/size, shared controls and effects consistent. Reference photos guide clothes/hair/appearance without replacing the established game art style.
 
@@ -214,7 +214,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE: adding NPC catchphrases/personality bubbles requested during final checks. Existing rule/voice timing is preserved. Local AI is reviewing a separate UNO Sudden Death edge case; Codex verifies its findings.
-2. Live worker checks passed for UNO Speed/private hands, Pool v5 shared cue and Pac-Man progress. Final browser checks caught outdated expectations; fixes are being verified.
+1. ACTIVE: integrating the newly authorized Bartender game. Local AI completed 109 NPC drafts and 39 UI translation candidates; Codex reviewed/corrected them. Bartender is being tested by mixing actual drinks, checking mobile layouts, sound, pause and completed-shift rankings. New painted background is being prepared for art consistency.
+2. Fixed a real UNO Sudden Death stalemate confirmed by the short local review; its regression test passed. Live worker checks passed for UNO Speed/private hands, Pool v5 shared cue and Pac-Man progress. Final browser checks caught outdated expectations; fixes are being verified.
 3. Finish remaining visual/gameplay checks, package corresponding Pac-Man source and private source, then run the release gate and build/publish the signed APK.
 4. Current public APK remains 1.0.60. This working update is not yet available in the app updater. Permanent server ranking sync remains explicitly deferred.
