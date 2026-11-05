@@ -188,10 +188,10 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Retain existing room identity, sessions, scores and active games through backend deployments and updates.
 - [ ] Triple-check requested layouts/controls on narrow/tall phones, landscape, tablet and desktop; retain approved Solitaire, Wordle and other game designs.
 
-## 11. Bartender question — not an implementation request yet
+## 11. Bartender — now authorized during final work
 
 - [x] Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing.
-- [x] Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues.
+- [ ] NEW REQUEST: integrate the supplied Bartender-EN game with a responsive full-screen phone layout, offline assets/audio, consistent icon and standard menu/restart/exit/sound controls. Check input, performance and game ending before publishing.
 
 ## 12. Live checklist and ongoing tracking
 

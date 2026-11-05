@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T23:12:47.474Z",
-  "hash": "d7d368932f14e0ddfd0015a1d5ad179591dd2beca4ac906d74cf083800952d32",
+  "updatedAt": "2026-11-05T23:14:37.815Z",
+  "hash": "4c5e7b9a896389fc6144c78083f5123a846f98c4aeaedc49a4bfa2417d89e1fe",
   "focus": "ACTIVE: adding NPC catchphrases/personality bubbles requested during final checks. Existing rule/voice timing is preserved. Local AI is reviewing a separate UNO Sudden Death edge case; Codex verifies its findings.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
@@ -628,15 +628,15 @@
       ]
     },
     {
-      "title": "11. Bartender question — not an implementation request yet",
+      "title": "11. Bartender — now authorized during final work",
       "tasks": [
         {
           "done": true,
           "text": "Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing."
         },
         {
-          "done": true,
-          "text": "Do **not** add Bartender without a further request: user explicitly asked for an answer only while current work continues."
+          "done": false,
+          "text": "NEW REQUEST: integrate the supplied Bartender-EN game with a responsive full-screen phone layout, offline assets/audio, consistent icon and standard menu/restart/exit/sound controls. Check input, performance and game ending before publishing."
         }
       ]
     },
