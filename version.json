@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 56,
-  "versionName": "1.0.55",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.55/Qurio.apk",
-  "sha256": "cb94b58f75afca818046401a7da87f1951a2bab07690d0f43ca85cc1b02cb074",
-  "notes": "Pinball audio fix: audible left and right flipper presses and returns on touch and keyboard, with balanced sounds for bumpers, rails, targets, ramps, portals, launches, saves, tilt and game over. All 24 pinball sound presets respect mute and effects volume. The private pinball mixer is isolated from other games; their bundled assets and non-pinball logic are unchanged. Saved games, rooms, scores and profiles are retained."
+  "versionCode": 57,
+  "versionName": "1.0.56",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.56/Qurio.apk",
+  "sha256": "f354e8555ec2e03cfbcdfb627cfc64b4a528bd1aa6e205df35b36d90ce6ec09d",
+  "notes": "Circus Solitaire: a modern plum-and-gold table with circus court artwork, illustrated card backs and clear ranks and suits. Tap or drag cards, highlight legal destinations, use engine-checked hints, and enjoy deal entrances, flips and foundation rewards. Compact controls, progress, accurate on-table score and all five difficulty settings remain available. Reduced-motion preferences are respected. Tested on phone and tablet layouts and shared live games. Solitaire presentation only: other game assets, game rules, active rooms, profiles and saves are retained."
 }
