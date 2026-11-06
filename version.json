@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 69,
-  "versionName": "1.0.68",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.68/Qurio.apk",
-  "sha256": "47c2394340c158c587f3700919dbe436c5f5b4cf546500ded7f736f89f7fffbb",
-  "notes": "Qurio Back now returns the hosting group to the lobby to choose another game, preserving the room code, players, host and connection. Main-menu/back navigation no longer leaves the room. Only the explicit Exit room button leaves. Guests remain connected and ask the host to return the group. Hidden game activity stops in the lobby and the next game resumes correctly. Existing scores, profiles, room sessions and game designs are retained."
+  "versionCode": 70,
+  "versionName": "1.0.69",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.69/Qurio.apk",
+  "sha256": "14ab7e5a642bad00448539e340188030cbe0c12a9ceef9a01cab7a6d3fa1385a",
+  "notes": "Disables accidental text selection and native long-press copy/paste menus on game buttons, cards, boards and controls throughout all game screens, including nested players. Name, room-code and other editable fields still support typing, selection and paste; explicit Share/Copy report buttons remain available. Preserves taps, held Pinball controls, card dragging, dice swipes and sliders. Includes the room-preserving Qurio Back/lobby fix from1.0.68. Existing rooms, game rules, designs, scores and profiles are unchanged."
 }
