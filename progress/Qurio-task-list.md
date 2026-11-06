@@ -194,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. COMPLETE: 1.0.67 is published and verified. All current software changes are shipped. Remaining: real-phone Bluetooth/Camon validation and the previously deferred ranking sync.
+1. ACTIVE: Quick 1.0.68 fix: Qurio Back returns the whole hosted group to the lobby; only Exit room leaves. Preserve connections, players and room code, then test switching games and publish.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -244,3 +244,10 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Seven changed-game gates and mandatory Host/Update/broken-launcher recovery pass. Twenty lifecycle cases, 600 tile checks, six viewports and real touch/restart flows pass. All backend/native/other-game source remains unchanged from 1.0.66.
 - Public redownload, both updater feeds, public GPL source and private complete-source checksum verified. Defender found no threats in the APK or source package; flagged Bartender reference payloads are excluded and blocked from future packaging.
 - No backend deployment for this version. Existing rooms, rules, profiles, scores and saved game state are retained.
+
+## 24. Urgent room-preserving back button — 1.0.68
+- [x] Qurio Back / menu navigation returns the host and whole group to the lobby without leaving or disbanding. Same room code, players and host.
+- [x] Only explicit Exit room leaves. Guests stay connected; preserve authority, scores and active rooms until the host explicitly returns to lobby.
+- [ ] Stop hidden game activity in the lobby, successfully start another game, test actual two-client buttons, sign/publish/verify the update.
+
+- 1.0.68 evidence: 248 backend tests and actual two-root-client Pool/Poker header/Menu/Android Back flows pass. Same room/host/players/tokens; no leave or false win on Back. Cached Pool→Snakes startup and explicit Exit room pass.

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T12:20:15.244Z",
-  "hash": "d2f5f0d75645f64d6e695cf36d5a6a291e2cc78ccd787ddaf6a162dcc9c8e59e",
-  "focus": "COMPLETE: 1.0.67 is published and verified. All current software changes are shipped. Remaining: real-phone Bluetooth/Camon validation and the previously deferred ranking sync.",
+  "updatedAt": "2026-11-06T14:18:29.766Z",
+  "hash": "e8addf4bf4c7cd1ffc27fe3bb76032432ee983c8c229212c95d4999a4e677226",
+  "focus": "ACTIVE: Quick 1.0.68 fix: Qurio Back returns the whole hosted group to the lobby; only Exit room leaves. Preserve connections, players and room code, then test switching games and publish.",
   "publishedVersion": "1.0.67",
-  "workingVersion": "None (software shipped)",
+  "workingVersion": "1.0.68",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -669,6 +669,23 @@
         {
           "done": true,
           "text": "Pass the final bundled release gate, preserve all other game source/room rules, sign and scan the APK, publish the update and verify the public download and both updater feeds."
+        }
+      ]
+    },
+    {
+      "title": "24. Urgent room-preserving back button — 1.0.68",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Qurio Back / menu navigation returns the host and whole group to the lobby without leaving or disbanding. Same room code, players and host."
+        },
+        {
+          "done": true,
+          "text": "Only explicit Exit room leaves. Guests stay connected; preserve authority, scores and active rooms until the host explicitly returns to lobby."
+        },
+        {
+          "done": false,
+          "text": "Stop hidden game activity in the lobby, successfully start another game, test actual two-client buttons, sign/publish/verify the update."
         }
       ]
     }
