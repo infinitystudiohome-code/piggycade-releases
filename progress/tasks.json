@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T08:47:24.592Z",
-  "hash": "b7496eb2390540d1547da7cdf1983b3322a3e70d8bc3d448bdea1c989f121df4",
+  "updatedAt": "2026-11-06T08:52:41.634Z",
+  "hash": "185a24c0f1dda9374b041849277348761c9774e2b0459a37cdd4258c04e989bc",
   "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -370,7 +370,44 @@
       ]
     },
     {
-      "title": "13. Shared sound sourcing, checks and release",
+      "title": "13. Hangman, Sudoku and app foreground — latest additions",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Hangman correct word: grand recorded victory cue, confetti/fireworks/sparkles, then advance only after celebration; live players stay synchronized."
+        },
+        {
+          "done": false,
+          "text": "Hangman wrong letter: wrong/buzz effect plus supported-phone haptic vibration, honoring mute/haptic settings and no repeats for an already-tried letter."
+        },
+        {
+          "done": false,
+          "text": "Sudoku: larger board/tiles responsively, controls/notes still reachable."
+        },
+        {
+          "done": false,
+          "text": "Sudoku: small sun/moon Light/Dark switch with white/dark board, per-player saved preference, no puzzle reset."
+        },
+        {
+          "done": false,
+          "text": "Sudoku: unique completed row/column sound and bounded flicker/highlight once per newly completed line."
+        },
+        {
+          "done": false,
+          "text": "Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers."
+        },
+        {
+          "done": false,
+          "text": "All games: brief app-background/return resumes state and buttons smoothly; test solo/live and respect explicit pause/finished state without lag or screen freeze."
+        },
+        {
+          "done": false,
+          "text": "Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders."
+        }
+      ]
+    },
+    {
+      "title": "14. Shared sound sourcing, checks and release",
       "tasks": [
         {
           "done": false,

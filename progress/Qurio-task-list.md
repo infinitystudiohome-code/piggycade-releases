@@ -104,7 +104,17 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Make board longer/larger with larger tiles/snakes/ladders and larger character pieces, responsive on phones.
 - [ ] Verify roll completes before movement, manual/live synchronization and exact-roll finish.
 
-## 13. Shared sound sourcing, checks and release
+## 13. Hangman, Sudoku and app foreground — latest additions
+- [ ] Hangman correct word: grand recorded victory cue, confetti/fireworks/sparkles, then advance only after celebration; live players stay synchronized.
+- [ ] Hangman wrong letter: wrong/buzz effect plus supported-phone haptic vibration, honoring mute/haptic settings and no repeats for an already-tried letter.
+- [ ] Sudoku: larger board/tiles responsively, controls/notes still reachable.
+- [ ] Sudoku: small sun/moon Light/Dark switch with white/dark board, per-player saved preference, no puzzle reset.
+- [ ] Sudoku: unique completed row/column sound and bounded flicker/highlight once per newly completed line.
+- [ ] Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers.
+- [ ] All games: brief app-background/return resumes state and buttons smoothly; test solo/live and respect explicit pause/finished state without lag or screen freeze.
+- [ ] Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders.
+
+## 14. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
 - [ ] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
 - [ ] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
