@@ -88,7 +88,7 @@ Last updated: 6 November 2026 (continuing the 5 November task list). This is the
 - [x] Recorded dice roll and board-hop effects; automatic music suppressed.
 - [x] Add the missing jungle graphics/foliage and verify the board/tile size uses available room sensibly.
 - [x] Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes.
-- [ ] Final check of manual moves, ladders/snakes, exact-roll finish and all difficulties in solo/live play.
+- [x] Final check of manual moves, ladders/snakes, exact-roll finish and all difficulties in solo/live play.
 
 ## 5. Dice, shared by Snakes & Ladders and the opening Tic-Tac-Toe contest
 
@@ -109,7 +109,7 @@ Last updated: 6 November 2026 (continuing the 5 November task list). This is the
 - [x] Fix the pale orange to a richer clear orange and visually verify it on a phone.
 - [x] Remove premature automatic repetition/quiet-move endings for the requested relaxed rules. Finish only for a real terminal position or explicit surrender; preserve legacy-room behavior where needed.
 - [x] Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game.
-- [ ] Final live/touch/capture-chain regression.
+- [x] Final live/touch/capture-chain regression.
 
 ## 7. UNO — variants and optional house rules
 
@@ -213,7 +213,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## 13. Final update delivery — pending
 
-- [ ] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
+- [x] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
 - [x] Preserve all prior fixes while merging unfinished UNO work.
 - [x] Backend regression tests, room-restore tests and targeted live checks pass.
 - [ ] Required `check-launcher.cjs` gate passes on the final bundled assets, including Update with a deliberately broken launcher.
@@ -223,6 +223,8 @@ Merged into the pending update while retaining the published classic engine for 
 - [ ] Provide the download link and PC location. Do not say the update is available before publication is verified.
 
 ## Latest verification evidence
+
+- Additional 10 live two-client cases pass: all five difficulties, Snakes overshoot/exact finish/manual drag/token tap, Checkers backward captures for both colors and optional chain ending. A cell-locator interception was checked against real token input and correctly rejected as a false bug; no unnecessary runtime handler added.
 
 - 169/169 backend tests pass, including active room restoration and legacy snapshots.
 - Full browser gate passed before the last screenshot corrections. Final build reruns that mandatory gate on the final bundle; no bypass.
@@ -236,6 +238,6 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE: final signed APK build, including mandatory full bundled-browser gate. Final all-difficulty Snakes and touch/live Checkers checks are running independently.
+1. ACTIVE: final signed APK build, including mandatory full bundled-browser gate. All-difficulty Snakes and touch/live Checkers checks passed independently.
 2. Package source without secrets, verify signing identity and APK contents, publish release and validate updater hash/download.
 3. Public APK remains 1.0.60 until publication succeeds. Permanent server ranking sync remains explicitly deferred; local results and backup protection are verified.

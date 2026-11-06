@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T00:16:28.502Z",
-  "hash": "5cc809a8e28527d66c9720e01750ad7d88e00c6c2eea233a41684b68068d516f",
-  "focus": "ACTIVE: final signed APK build, including mandatory full bundled-browser gate. Final all-difficulty Snakes and touch/live Checkers checks are running independently.",
+  "updatedAt": "2026-11-06T00:17:58.911Z",
+  "hash": "9e8eeaf8f9e26010a7f56d0036f0058689edddcca3d108e79cf75f1702c2bf9a",
+  "focus": "ACTIVE: final signed APK build, including mandatory full bundled-browser gate. All-difficulty Snakes and touch/live Checkers checks passed independently.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -288,7 +288,7 @@
           "text": "Do not reveal the destination, highlight or rolled result in the visible notice/journal until rolling finishes."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final check of manual moves, ladders/snakes, exact-roll finish and all difficulties in solo/live play."
         }
       ]
@@ -358,7 +358,7 @@
           "text": "Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final live/touch/capture-chain regression."
         }
       ]
@@ -697,7 +697,7 @@
       "title": "13. Final update delivery — pending",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check."
         },
         {
