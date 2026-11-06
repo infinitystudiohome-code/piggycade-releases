@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T21:51:19.836Z",
-  "hash": "ddc969bcaa731ae7ab43482d6842f68d677d11535dfbf42838497b084e769c4a",
-  "focus": "ACTIVE: Game2, remove Cockroach Poker. Game1 implemented and verified in staged bundle; not published yet.",
+  "updatedAt": "2026-11-06T21:54:46.696Z",
+  "hash": "b1272bcc6ffe333a5109ad8908da8a8cb98f81008e963b0c0bb91c92bd9420ec",
+  "focus": "ACTIVE: Game3, Old Maid manual pairing/offer/shuffle and bigger cards. Games1–2 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -71,7 +71,7 @@
       "title": "2. Cockroach Poker",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Completely remove this game from the platform."
         }
       ]

@@ -22,7 +22,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Apply these exact fixes and changes to both Cards Against Humanity and What Do You Meme.
 
 ### 2. Cockroach Poker
-- [ ] Completely remove this game from the platform.
+- [x] Completely remove this game from the platform.
 
 ### 3. Old Maid
 - [ ] Allow players to look at their hand first and shuffle manually before the other person picks, then allow card removal.
@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [ ] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game2, remove Cockroach Poker. Game1 implemented and verified in staged bundle; not published yet.
+1. ACTIVE: Game3, Old Maid manual pairing/offer/shuffle and bigger cards. Games1–2 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -116,3 +116,5 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - No physical phones attached: desktop/mobile viewport evidence is separate from actual phone acceptance.
 
 - Game1: 24 focused backend tests including200 restored sessions, both actual touch judging flows, 12 responsive views, one-word10-seat deals,80 anonymous-entry shuffles, music decode/30%/mute/background checks and11 root navigation paths pass. See .qurio-release-1.0.71/FamilyQuest/delivery and tools/screenshots/suite171-*.png.
+
+- Game2: new backend starts rejected atomically; solo/menu/host registrations and bundled presentation assets absent. Private compatibility for already-running old rooms retained; no room reset.
