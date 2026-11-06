@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T11:32:19.711Z",
-  "hash": "700f5de13c9b4043238cfabab4b0bee7d045baf0d8d19615f648c87747cc8ece",
-  "focus": "ACTIVE:1.0.65 is published and verified. Signed1.0.66 Pool/fresh-room music-recovery update passed244backendchecks andactualtwo-clientroot/livequietroom tests; publication underway. ContinueSnakesreferencegraphicsstaging and remaining lifecycle verification; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
-  "publishedVersion": "1.0.65",
-  "workingVersion": "1.0.66",
+  "updatedAt": "2026-11-06T11:35:33.185Z",
+  "hash": "59de08111e44d6118604cfd5488de14934cb1dd32aa4e600be045a5ff1dfaab5",
+  "focus": "ACTIVE:1.0.65 is published and verified. 1.0.66 Pool/fresh-room music-recovery update ispublishedandverified;244backendchecksandactualtwo-clientroot/livequietroomtestspass. ContinueSnakesreferencegraphicsstaging and remaining lifecycle verification; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "publishedVersion": "1.0.66",
+  "workingVersion": "1.0.67",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -608,7 +608,7 @@
           "text": "Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect."
         },
         {
-          "done": false,
+          "done": true,
           "text": "ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate."
         },
         {
