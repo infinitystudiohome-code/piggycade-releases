@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 70,
-  "versionName": "1.0.69",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.69/Qurio.apk",
-  "sha256": "14ab7e5a642bad00448539e340188030cbe0c12a9ceef9a01cab7a6d3fa1385a",
-  "notes": "Disables accidental text selection and native long-press copy/paste menus on game buttons, cards, boards and controls throughout all game screens, including nested players. Name, room-code and other editable fields still support typing, selection and paste; explicit Share/Copy report buttons remain available. Preserves taps, held Pinball controls, card dragging, dice swipes and sliders. Includes the room-preserving Qurio Back/lobby fix from1.0.68. Existing rooms, game rules, designs, scores and profiles are unchanged."
+  "versionCode": 71,
+  "versionName": "1.0.70",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.70/Qurio.apk",
+  "sha256": "aa675abde486db383d12bbc0fcf3d59df9c8eb1f20c0ad62883fefac021ce856",
+  "notes": "Adds a clear Play again button to the final recap and generic scoreboard, separate from Return to lobby. Hosts replay the same game in the same room with the same players and rules; guests can request another round. UNO next-round replay preserves cumulative scores. Starting the next round closes stale end screens for every player. UNO View scoreboard reaches its existing round controls instead of a lobby-only overlay, and recap performance data is retained. Existing Back-to-lobby, Exit room, touch controls, saved scores and game designs are preserved."
 }
