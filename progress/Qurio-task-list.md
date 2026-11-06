@@ -69,25 +69,25 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Fix the exact winning tile rule: rolls exceeding tile100 bounce backward, e.g.99+3 lands98. Win only on100 with an exact count.
 
 ### 11. Solitaire
-- [ ] Reduce card size slightly (they don't need to be overly massive).
-- [ ] Upscale all card graphics to fix low-quality/blurry rendering.
-- [ ] Add sound effects when shuffling cards.
-- [ ] Add sound effects when placing cards down.
-- [ ] Add sound effects for win/loss states.
-- [ ] Add a buzzer/error sound effect when placing a card on the wrong pile.
+- [x] Reduce card size slightly (they don't need to be overly massive).
+- [x] Upscale all card graphics to fix low-quality/blurry rendering.
+- [x] Add sound effects when shuffling cards.
+- [x] Add sound effects when placing cards down.
+- [x] Add sound effects for win/loss states.
+- [x] Add a buzzer/error sound effect when placing a card on the wrong pile.
 
 ### 12. Roulette
-- [ ] Eliminate the need to scroll to look at the wheel.
-- [ ] Move the dealer directly beside the wheel.
-- [ ] Position players surrounding the wheel in multiplayer, or side-by-side in 2-player mode.
-- [ ] Add spinning wheel sound effects.
-- [ ] Add celebratory confetti and sound effects when someone wins.
-- [ ] Add sound effects when someone loses.
-- [ ] Add rolling ball sound effects.
-- [ ] Add coin/chip placement sound effects.
+- [x] Eliminate the need to scroll to look at the wheel.
+- [x] Move the dealer directly beside the wheel.
+- [x] Position players surrounding the wheel in multiplayer, or side-by-side in 2-player mode.
+- [x] Add spinning wheel sound effects.
+- [x] Add celebratory confetti and sound effects when someone wins.
+- [x] Add sound effects when someone loses.
+- [x] Add rolling ball sound effects.
+- [x] Add coin/chip placement sound effects.
 
 ### 13. Uno
-- [ ] In "Uno Flip" game mode, all players must be able to see both the top and back of the cards like in real life (seeing the flip side, and seeing the normal side when flipped).
+- [x] In "Uno Flip" game mode, all players must be able to see both the top and back of the cards like in real life (seeing the flip side, and seeing the normal side when flipped).
 
 ### 14. Blackjack
 - [ ] Make the table slightly longer to provide each player proper spacing, but optimize layout to prevent vertical scrolling.
@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [ ] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game11, Solitaire smaller cards, sharper card artwork and complete SFX feedback. Games1–10 staged and verified; not published yet.
+1. ACTIVE: Game14, Blackjack spacing and viewport fit. Games1–13 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -134,3 +134,9 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Game9: each client sees its own army at the bottom; actual taps from opposite orientations submit correct world-coordinate moves for both turns. Existing relaxed checkers ending/surrender tests retained.
 
 - Game10: all36 near-finish from94–99 / die1–6 combinations, exact manual finish,100-crossing not a win, bounce then snake and JSON snapshot paths pass. Ten actual two-client cases cover all difficulties and retained Checkers touch rules. Old active snapshots retain their previous finish rule.
+
+- Game11: complete52-card1846x852 restored atlas (142x213px/card), same circus design; slightly smaller cards. Actual shuffle/placement/abandoned-deal/win sample starts and invalid local/remote buzzer pass. Rules, top-waste/manual drag, shuffle/no-move cost, Undo, optional Finish and5responsive layouts pass. Landscape sidebar overflow found and corrected.
+
+- Game12:10layouts cover2/4players, pinned wheel under betting scroll, beside dealer, side-by-side2P and ring4P, full avatars/controls. Actual wheel/ball clip pause/resume and winning confetti pass; authority payout/ready/lock/persistence/two-client replay pass.
+
+- Game13: all outward Flip faces visible while current playable hands stay private; pending manual-turn exposure and light/dark restore pass. Three actual client flips, clockwise drag exchanges, reduced motion and2–10seat opening deals pass.

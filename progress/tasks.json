@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T22:28:22.525Z",
-  "hash": "7cdea7c2834a769a63d18949343722e03a992222c2abbd76c4991a090a78e7e5",
-  "focus": "ACTIVE: Game11, Solitaire smaller cards, sharper card artwork and complete SFX feedback. Games1–10 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T22:43:21.013Z",
+  "hash": "896e42d01f33945cf905f0d82556fb8e6f03fad605aac81da51b8e9e780db5c1",
+  "focus": "ACTIVE: Game14, Blackjack spacing and viewport fit. Games1–13 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -232,27 +232,27 @@
       "title": "11. Solitaire",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Reduce card size slightly (they don't need to be overly massive)."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Upscale all card graphics to fix low-quality/blurry rendering."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add sound effects when shuffling cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add sound effects when placing cards down."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add sound effects for win/loss states."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add a buzzer/error sound effect when placing a card on the wrong pile."
         }
       ]
@@ -261,35 +261,35 @@
       "title": "12. Roulette",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Eliminate the need to scroll to look at the wheel."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Move the dealer directly beside the wheel."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Position players surrounding the wheel in multiplayer, or side-by-side in 2-player mode."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add spinning wheel sound effects."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add celebratory confetti and sound effects when someone wins."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add sound effects when someone loses."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add rolling ball sound effects."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add coin/chip placement sound effects."
         }
       ]
@@ -298,7 +298,7 @@
       "title": "13. Uno",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "In \"Uno Flip\" game mode, all players must be able to see both the top and back of the cards like in real life (seeing the flip side, and seeing the normal side when flipped)."
         }
       ]
