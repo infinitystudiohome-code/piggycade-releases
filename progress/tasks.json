@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T09:47:56.025Z",
-  "hash": "9d31fe84627d2609856832a9fe41db792f274cd5fbf154ae782a9d98f5997875",
-  "focus": "ACTIVE:1.0.64 full50-step release gate, then signedAPK/source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "updatedAt": "2026-11-06T10:23:53.949Z",
+  "hash": "2cecfec59768db0630997c6af85cd2425e0fc2fff406413d5197fbcc79800fe2",
+  "focus": "ACTIVE:1.0.64 full50-step release gate PASSED; signedAPKbuild is nowrunning (buildscript repeats mandatorychecks), then source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
   "sections": [
@@ -543,19 +543,19 @@
           "text": "Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Test and screenshot changed layouts and real input paths, narrow/tall/landscape/tablet/desktop; no unnecessary unrelated redesign."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve existing rooms/saves/chips/profiles/rankings and old snapshot compatibility. Version any new multiplayer rule state; no room resets."
         },
         {

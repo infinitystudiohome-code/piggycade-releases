@@ -154,10 +154,10 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 
 ## 19. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
-- [ ] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
-- [ ] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
-- [ ] Test and screenshot changed layouts and real input paths, narrow/tall/landscape/tablet/desktop; no unnecessary unrelated redesign.
-- [ ] Preserve existing rooms/saves/chips/profiles/rankings and old snapshot compatibility. Version any new multiplayer rule state; no room resets.
+- [x] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
+- [x] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
+- [x] Test and screenshot changed layouts and real input paths, narrow/tall/landscape/tablet/desktop; no unnecessary unrelated redesign.
+- [x] Preserve existing rooms/saves/chips/profiles/rankings and old snapshot compatibility. Version any new multiplayer rule state; no room resets.
 - [ ] Pass mandatory launcher/update-recovery gate, sign with existing appID/key, publish and verify the in-app updater/download hash.
 - [ ] Publish final source backup and deliver APK link/PC path; mark published only after verification.
 
@@ -172,7 +172,12 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Solitaire manualfinish/rightDraw/centredstock/usefulhints and500shuffles/52cards/no addedpoints tests pass.
 - Hangman/Sudoku realinput/theme/feedback/resume/snapshot tests pass; no physicalCamon test claimed.
 
+- Final mandatory gate:50/50 checks +197backendtests +actualHost/Update/broken-launcher recovery PASS. Report delivery/newbatch-164-gate-report.json.
+- Backend deployed adb982a2-d057-4acd-8c47-cfb8f66f6599; actualpre/postdeployment Sudoku board/notes/start/player-sessions retained. No room reset.
+- Bluetooth no-internet two-client Host/Search/Pair/Join/ready/UTTT/foreground UI and33authoritycases/nativecompile/framing pass. Realphonepairing stillrequiresdevicevalidation.
+- Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
+
 ## Current next actions
-1. ACTIVE:1.0.64 full50-step release gate, then signedAPK/source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
+1. ACTIVE:1.0.64 full50-step release gate PASSED; signedAPKbuild is nowrunning (buildscript repeats mandatorychecks), then source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is still1.0.63 until this batch is checked and published.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
