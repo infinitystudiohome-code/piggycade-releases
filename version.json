@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 67,
-  "versionName": "1.0.66",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.66/Qurio.apk",
-  "sha256": "eaf2754b47f97783f18625eef87edde6baa6af634163597e58c539222080c6f9",
-  "notes": "Fixes an incomplete music-off state that could stop fresh Pool, Pinball, Checkers, Snakes or Pac-Man room screens from loading. Older saved room music settings recover safely without changing the board or progress. Fixes fresh hosted 8-Ball Pool selecting older rules: new rooms now consistently use the current break choices and larger-ball rules, regardless of which game was opened before. The cue is visible before initial cue-ball placement; legal placement and shot locks remain enforced. Existing rooms keep their original rules. Includes the six new card and party games from1.0.65. Existing game designs, saves, profiles and scores are retained."
+  "versionCode": 68,
+  "versionName": "1.0.67",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.67/Qurio.apk",
+  "sha256": "2de9bd72bef4b8ab1983f88052bc16a4bbc90fc1972bed16e6e47dd6ea25237f",
+  "notes": "Snakes and Ladders now has a winding stone path with lush jungle gaps, larger open-mouth snakes and a separate dice dock that keeps all100live squares visible. Existing board positions, dice rules, saves and turns are preserved. Fixes games loading while the app is backgrounded: late startup now inherits background state, timers and decorative animations pause, and returning restores the same game while respecting explicit pauses. Includes the six new card and party games plus the fresh-room and Pool fixes from1.0.66. Existing game designs, rankings, profiles and saved scores are retained."
 }
