@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 66,
-  "versionName": "1.0.65",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.65/Qurio.apk",
-  "sha256": "0326d7b2708b7d880bf74fc83ad76ffebfa052b051938716045880ceee83a959",
-  "notes": "Six new card and party tables: Bullsh*t!, Basic Rummy, Old Maid, Cockroach Poker, original Cards Against Humanity-style prompts, and original meme captions/pictures. Manual bluff calls, melds, hidden draws and human judging; original illustrated critters/scenes, familiar avatars, animated cards and recorded sound effects. Play solo against public-information bots where appropriate, or together in online/Bluetooth rooms. Two-player judged games offer a cooperative House duo or unscored freeplay; computers never judge humor. Includes private hands, explicit rules, save/resume, replay and measured performance records. Existing approved game designs, rooms, profiles and saved scores are retained."
+  "versionCode": 67,
+  "versionName": "1.0.66",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.66/Qurio.apk",
+  "sha256": "eaf2754b47f97783f18625eef87edde6baa6af634163597e58c539222080c6f9",
+  "notes": "Fixes an incomplete music-off state that could stop fresh Pool, Pinball, Checkers, Snakes or Pac-Man room screens from loading. Older saved room music settings recover safely without changing the board or progress. Fixes fresh hosted 8-Ball Pool selecting older rules: new rooms now consistently use the current break choices and larger-ball rules, regardless of which game was opened before. The cue is visible before initial cue-ball placement; legal placement and shot locks remain enforced. Existing rooms keep their original rules. Includes the six new card and party games from1.0.65. Existing game designs, saves, profiles and scores are retained."
 }
