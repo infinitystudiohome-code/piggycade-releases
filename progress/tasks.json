@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T11:35:33.185Z",
-  "hash": "59de08111e44d6118604cfd5488de14934cb1dd32aa4e600be045a5ff1dfaab5",
-  "focus": "ACTIVE:1.0.65 is published and verified. 1.0.66 Pool/fresh-room music-recovery update ispublishedandverified;244backendchecksandactualtwo-clientroot/livequietroomtestspass. ContinueSnakesreferencegraphicsstaging and remaining lifecycle verification; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "updatedAt": "2026-11-06T12:06:32.065Z",
+  "hash": "88135030eb9060ad14a135313d8e5650df3dc526820871dd00560f8ee114b130",
+  "focus": "ACTIVE: 1.0.66 is published and verified. The new Snakes board and background/resume fixes are staged in 1.0.67. Running final bundled checks before signing and publishing.",
   "publishedVersion": "1.0.66",
   "workingVersion": "1.0.67",
   "sections": [
@@ -306,11 +306,11 @@
           "text": "Make table/cue/balls bigger responsively while retaining visible required controls."
         },
         {
-          "done": false,
-          "text": "Verify freezes, required decisions, touch, background/return and two-client shot/aim behavior."
+          "done": true,
+          "text": "Software verification: freezes/required decisions/touch/background-return/two-client shot and aim pass against exact1.0.66 bundle; realCamonphone feedback remains separate."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Review supplied MiniclipGIF https://support.miniclip.com/hc/article_attachments/41975201180817 for smooth placement/ball motion; improve ball rendering/motion without changing legal physics."
         }
       ]
@@ -397,11 +397,11 @@
           "text": "Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers."
         },
         {
-          "done": false,
-          "text": "All games: brief app-background/return resumes state and buttons smoothly; test solo/live and respect explicit pause/finished state without lag or screen freeze."
+          "done": true,
+          "text": "Software checks across every game loader: background/return preserves state and working inputs, including delayed startup, active timers/canvas and explicit pauses. Physical phone validation remains listed below."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders."
         }
       ]
@@ -497,8 +497,16 @@
           "text": "Automatic upload of Bluetooth/solo results after internet returns remains part of the previously deferred live-rankings release; queued local records are preserved."
         },
         {
+          "done": true,
+          "text": "Validate Bluetooth protocol, host authorization and version compatibility with native compilation, framing and simulated two-client tests."
+        },
+        {
           "done": false,
-          "text": "Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation."
+          "text": "Validate actual Android two-phone Bluetooth pairing, play and reconnect; simulated links do not establish radio compatibility."
+        },
+        {
+          "done": false,
+          "text": "Confirm gameplay and background/resume on the partner’s Camon 30 Pro after installing the update."
         }
       ]
     },
@@ -567,8 +575,8 @@
       "title": "19. Shared sound sourcing, checks and release",
       "tasks": [
         {
-          "done": false,
-          "text": "Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance."
+          "done": true,
+          "text": "Add bounded idle/arrival/pour/bubble/card effects; preserve aiming and dragging, pause hidden motion and respect reduced-motion. Browser/phone-layout checks pass; real-phone performance validation remains below."
         },
         {
           "done": true,
@@ -597,19 +605,19 @@
       ]
     },
     {
-      "title": "20. TargetedPoolfollowup1.0.66",
+      "title": "20. Pool and room recovery — published 1.0.66",
       "tasks": [
         {
           "done": true,
-          "text": "FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules."
+          "text": "Fresh hosted Pool uses the current rules, regardless of the previously opened game. Existing rooms keep their original rules."
         },
         {
           "done": true,
-          "text": "Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect."
+          "text": "Show the cue before initial placement; preserve the lifting hand, legal placement and shot locks."
         },
         {
           "done": true,
-          "text": "ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate."
+          "text": "Test fresh hosting, two-player inputs, Pool rules, placement, aim and resume. Verify unchanged games, sign, publish and verify the update."
         },
         {
           "done": true,
@@ -622,19 +630,45 @@
       ]
     },
     {
-      "title": "21. RemainingSnakesreferencegraphics — stagednext",
+      "title": "21. Snakes reference graphics — staged 1.0.67",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Draw a winding stone path with jungle gaps, keeping all 100 interactive squares and existing rules aligned."
+        },
+        {
+          "done": true,
+          "text": "Add larger patterned snakes with open mouths, fangs and tongues. Keep the approved illustrated jungle frame."
+        },
+        {
+          "done": true,
+          "text": "Fit the complete board and separate dice dock without covering bottom squares or wasting space. Test phone, tall and landscape layouts, touches, throws and hops."
+        }
+      ]
+    },
+    {
+      "title": "22. Background and resume — staged 1.0.67",
+      "tasks": [
+        {
+          "done": true,
+          "text": "If a game finishes loading while the app is hidden, keep its timer and animations suspended until the app returns."
+        },
+        {
+          "done": true,
+          "text": "Pause decorative animations in the background. Preserve explicit game pauses, saved state, rules and visible layouts."
+        },
+        {
+          "done": true,
+          "text": "Test each game loader, delayed solo/host loading, active canvas and timers, sound cleanup, real inputs after return and unchanged progress."
+        }
+      ]
+    },
+    {
+      "title": "23. Final 1.0.67 delivery",
       "tasks": [
         {
           "done": false,
-          "text": "Replaceplainrectangulargridappearancewithwindingstone-ribbonpathandjunglegaps, retainingall100correctinteractivecentersandrules."
-        },
-        {
-          "done": false,
-          "text": "Biggerpatternedsnakeswithopenmouths/fangs/tongues; keepapprovedillustratedjungleframe."
-        },
-        {
-          "done": false,
-          "text": "Fitwholeplayableboardwithoutdicepanelcoveringbottomrowsorlargeemptybottomspace; phone/tall/landscapeactualhit/throw/hoptests."
+          "text": "Pass the final bundled release gate, preserve all other game source/room rules, sign and scan the APK, publish the update and verify the public download and both updater feeds."
         }
       ]
     }

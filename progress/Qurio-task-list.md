@@ -85,9 +85,9 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Ask handedness before starting; place power rail accordingly and remember choice.
 - [x] Verify wrong first contact gives opponent ball-in-hand anywhere legal; both groups and actual hosted play.
 - [x] Make table/cue/balls bigger responsively while retaining visible required controls.
-- [ ] Verify freezes, required decisions, touch, background/return and two-client shot/aim behavior.
+- [x] Software verification: freezes/required decisions/touch/background-return/two-client shot and aim pass against exact1.0.66 bundle; realCamonphone feedback remains separate.
 
-- [ ] Review supplied MiniclipGIF https://support.miniclip.com/hc/article_attachments/41975201180817 for smooth placement/ball motion; improve ball rendering/motion without changing legal physics.
+- [x] Review supplied MiniclipGIF https://support.miniclip.com/hc/article_attachments/41975201180817 for smooth placement/ball motion; improve ball rendering/motion without changing legal physics.
 
 ## 11. Checkers audio/immersion
 - [x] Distinct move swoosh and landing sound.
@@ -111,8 +111,8 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Sudoku: small sun/moon Light/Dark switch with white/dark board, per-player saved preference, no puzzle reset.
 - [x] Sudoku: unique completed row/column sound and bounded flicker/highlight once per newly completed line.
 - [x] Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers.
-- [ ] All games: brief app-background/return resumes state and buttons smoothly; test solo/live and respect explicit pause/finished state without lag or screen freeze.
-- [ ] Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders.
+- [x] Software checks across every game loader: background/return preserves state and working inputs, including delayed startup, active timers/canvas and explicit pauses. Physical phone validation remains listed below.
+- [x] Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders.
 
 ## 14. Ultimate Tic-Tac-Toe — latest addition
 - [x] Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit.
@@ -140,7 +140,9 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Handle permission denial, Bluetooth disabled, cancellation, disconnected/reconnecting peer and host departure without stuck screens or resetting unrelated games.
 - [x] Preserve Bluetooth match records, local rankings/profiles and existing cloud-room session separately across updates; no lost/duplicate local results.
 - [ ] Automatic upload of Bluetooth/solo results after internet returns remains part of the previously deferred live-rankings release; queued local records are preserved.
-- [ ] Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation.
+- [x] Validate Bluetooth protocol, host authorization and version compatibility with native compilation, framing and simulated two-client tests.
+- [ ] Validate actual Android two-phone Bluetooth pairing, play and reconnect; simulated links do not establish radio compatibility.
+- [ ] Confirm gameplay and background/resume on the partner’s Camon 30 Pro after installing the update.
 
 ## 18. Six new card/party games — PUBLISHED1.0.65
 These new additions arrived during1.0.64 final release checks. Keep that verified update moving; implement these one by one in the following isolated game batch, preserving the current work.
@@ -162,7 +164,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - [x] Pass1.0.65 release gate, verify live-room continuity, sign/publish and verify updater/APK.
 
 ## 19. Shared sound sourcing, checks and release
-- [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
+- [x] Add bounded idle/arrival/pour/bubble/card effects; preserve aiming and dragging, pause hidden motion and respect reduced-motion. Browser/phone-layout checks pass; real-phone performance validation remains below.
 - [x] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
 - [x] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
 - [x] Test and screenshot changed layouts and real input paths, narrow/tall/landscape/tablet/desktop; no unnecessary unrelated redesign.
@@ -192,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE:1.0.65 is published and verified. 1.0.66 Pool/fresh-room music-recovery update ispublishedandverified;244backendchecksandactualtwo-clientroot/livequietroomtestspass. ContinueSnakesreferencegraphicsstaging and remaining lifecycle verification; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
+1. ACTIVE: 1.0.66 is published and verified. The new Snakes board and background/resume fixes are staged in 1.0.67. Running final bundled checks before signing and publishing.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.66/code67; sixnewgamesandPool/roomrecoveryfixesareshipped. RemainingSnakesreferencegraphicsareseparate1.0.67staging.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -205,18 +207,18 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - ActualHTTP sixmode actions/privacy/pause/rejoin/freeplaynorankPASS. Bothbackenddeployments retainedactiveQA Sudoku board/notes/start/sessions.
 - Poolremainingaudit: handedness/reload, bothsolids/stripeswrongfirstcontact, repeatlegalplacement/responsiveballradius15 and two-clientaim pass. Found freshhostpack usesrules4insteadof5; fix tracked below.
 
-## 20. TargetedPoolfollowup1.0.66
-- [x] FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules.
-- [x] Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect.
-- [x] ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate.
+## 20. Pool and room recovery — published 1.0.66
+- [x] Fresh hosted Pool uses the current rules, regardless of the previously opened game. Existing rooms keep their original rules.
+- [x] Show the cue before initial placement; preserve the lifting hand, legal placement and shot locks.
+- [x] Test fresh hosting, two-player inputs, Pool rules, placement, aim and resume. Verify unchanged games, sign, publish and verify the update.
 
 - [x] FixfreshFXonlyroomswithmalformedmusic-offmetadata; normalizeolderpartialroommusicwithoutchangingboards/notes/chips/turns.244backendchecksandactualHTTPfivegamesPASS; deployed43efb1b4-e043-4185-8edb-50b42bf35a3cwithactiveSudokuroomcontinuityPASS.
 - [x] Root/two-clientfreshPoolrules5/radius15/cuevisible/touchplacement/oneshot/requiredchoices; malformedlegacymusicwirestatedoesnotfreezeUI.
 
-## 21. RemainingSnakesreferencegraphics — stagednext
-- [ ] Replaceplainrectangulargridappearancewithwindingstone-ribbonpathandjunglegaps, retainingall100correctinteractivecentersandrules.
-- [ ] Biggerpatternedsnakeswithopenmouths/fangs/tongues; keepapprovedillustratedjungleframe.
-- [ ] Fitwholeplayableboardwithoutdicepanelcoveringbottomrowsorlargeemptybottomspace; phone/tall/landscapeactualhit/throw/hoptests.
+## 21. Snakes reference graphics — staged 1.0.67
+- [x] Draw a winding stone path with jungle gaps, keeping all 100 interactive squares and existing rules aligned.
+- [x] Add larger patterned snakes with open mouths, fangs and tongues. Keep the approved illustrated jungle frame.
+- [x] Fit the complete board and separate dice dock without covering bottom squares or wasting space. Test phone, tall and landscape layouts, touches, throws and hops.
 
 - Snakesfunctional12casesPASSon1.0.65(all5levels,touchstrength,manualplacement,exactfinish,legacy/snapshot/rejoin/reducedmotion/background). Referencevisualgapremainsunchecked; lushframealreadyhasvines/temple/chest/waterfall/parrot/monkey.
 
@@ -224,3 +226,13 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Download https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.66/Qurio.apk
 - SHA256:eaf2754b47f97783f18625eef87edde6baa6af634163597e58c539222080c6f9;60540907bytes;bothupdaterfeeds/publicredownload/privatesourcebackupverified.
 - Existingroomprogressretained;noreset. Newcanonicalquietmusicstatefixesfreshroomloadingforfivearcadegames. TargetedPoolrules/cue/placement/shotchecksPASS;allothergameart/rulesretained.
+
+## 22. Background and resume — staged 1.0.67
+- [x] If a game finishes loading while the app is hidden, keep its timer and animations suspended until the app returns.
+- [x] Pause decorative animations in the background. Preserve explicit game pauses, saved state, rules and visible layouts.
+- [x] Test each game loader, delayed solo/host loading, active canvas and timers, sound cleanup, real inputs after return and unchanged progress.
+
+## 23. Final 1.0.67 delivery
+- [ ] Pass the final bundled release gate, preserve all other game source/room rules, sign and scan the APK, publish the update and verify the public download and both updater feeds.
+
+- 1.0.67 staged evidence: 20 late-load/background/return cases across all game loaders; same game/board/seat IDs retained; explicit pauses and decorative CSS pauses preserved. Snakes: 600 tile checks across six viewports, all heads inside the frame, real roll/manual drag/ladder, four-player narrow layout and seven game-mode switches/restarts pass.
