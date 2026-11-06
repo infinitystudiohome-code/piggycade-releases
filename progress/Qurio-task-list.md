@@ -194,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. COMPLETE: 1.0.69 is published and verified. Accidental long-press selection is disabled across all games; editable fields and gameplay gestures remain usable. All current software requests shipped; physical phone checks and deferred ranking sync remain.
+1. ACTIVE: 1.0.70 restores Play again on end screens, separate from Return to lobby. Same room, players and game; UNO scores preserved. Focused tests pass; building and publishing.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -272,3 +272,9 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - SHA256:14ab7e5a642bad00448539e340188030cbe0c12a9ceef9a01cab7a6d3fa1385a;60,546,003bytes. AppID/signingcertificate retained.
 - All13 game documents and long-press/tap/editable/clipboard/hold/drag/swipe/key tests pass. Five focused gates plus mandatory Host/Update/broken-launcher,665source/bundle comparisons,591APKassetchecks,publicredownload/bothupdaters/private-sourcechecksum and clean APK/source Defender scans verified.
 - The temporary raw updater CDN cache delay resolved; actual native request pattern now returns1.0.69. No backend deployment or room reset.
+
+## 26. Play again on end screens — 1.0.70
+- [x] Add Play again to the shared final recap and generic scoreboard; keep Return to lobby as a separate choice.
+- [x] Replay the same game in the same room with the same players/rules. UNO keeps cumulative scores; guests request and the host approves; both end screens close.
+- [x] Preserve UNO scoreboard controls and collected performance metrics; prevent stale/double replay commands; keep mobile buttons visible and offline replay working.
+- [ ] Pass focused replay/Back/touch/isolation/launcher checks, sign and scan, publish and verify updater and download.

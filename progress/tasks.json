@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T14:54:35.214Z",
-  "hash": "a2b5c6272a5fb98afe290d1c196f767a6191bbe5476739c60400d703b1d35b8e",
-  "focus": "COMPLETE: 1.0.69 is published and verified. Accidental long-press selection is disabled across all games; editable fields and gameplay gestures remain usable. All current software requests shipped; physical phone checks and deferred ranking sync remain.",
+  "updatedAt": "2026-11-06T16:11:38.752Z",
+  "hash": "e6d4b266ef88e12da2b434ee0e1e3d41b002aa299266c5471ec1a7f8dc7357dd",
+  "focus": "ACTIVE: 1.0.70 restores Play again on end screens, separate from Return to lobby. Same room, players and game; UNO scores preserved. Focused tests pass; building and publishing.",
   "publishedVersion": "1.0.69",
-  "workingVersion": "None (software shipped)",
+  "workingVersion": "1.0.70",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -703,6 +703,27 @@
         {
           "done": true,
           "text": "Verify real long holds, normal taps, Pinball hold/release, Solitaire dragging, dice swipes, Wordle keys and sliders; preserve lobby/group navigation, then sign/publish/verify the update."
+        }
+      ]
+    },
+    {
+      "title": "26. Play again on end screens — 1.0.70",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Add Play again to the shared final recap and generic scoreboard; keep Return to lobby as a separate choice."
+        },
+        {
+          "done": true,
+          "text": "Replay the same game in the same room with the same players/rules. UNO keeps cumulative scores; guests request and the host approves; both end screens close."
+        },
+        {
+          "done": true,
+          "text": "Preserve UNO scoreboard controls and collected performance metrics; prevent stale/double replay commands; keep mobile buttons visible and offline replay working."
+        },
+        {
+          "done": false,
+          "text": "Pass focused replay/Back/touch/isolation/launcher checks, sign and scan, publish and verify updater and download."
         }
       ]
     }
