@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T09:21:14.020Z",
-  "hash": "fa2964162430c5ba34fbfbdd37c1850b8e91c983708709b09274a1744c645cca",
+  "updatedAt": "2026-11-06T09:24:26.519Z",
+  "hash": "ce347ed8305d9412a133ea2977bbfbf9e7b8a194c995a9e365b5741694cab137",
   "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -453,7 +453,53 @@
       ]
     },
     {
-      "title": "16. Shared sound sourcing, checks and release",
+      "title": "16. Performance stars — latest request",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Stars measure performance independently of winning; a strong losing player can earn half/full stars, especially UTTT."
+        },
+        {
+          "done": false,
+          "text": "Record game-appropriate performance metrics for both players; explain the percentage, keep actual win/loss and points separate, preserve previous records."
+        },
+        {
+          "done": false,
+          "text": "Verify good losing performance earns stars, poor play differs, draws/empty data handled honestly, no fabricated mistakes or speed targets."
+        }
+      ]
+    },
+    {
+      "title": "17. Bluetooth-only nearby hosting — latest request",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Add an optional Bluetooth-only checkbox to Host; no internet, Wi-Fi router or Wi-Fi transport required. Preserve existing online Host/Join."
+        },
+        {
+          "done": false,
+          "text": "Search nearby devices, show paired devices, pair/select/join with clear connection status and permission guidance."
+        },
+        {
+          "done": false,
+          "text": "Host phone runs authoritative room/game rules locally; synchronize actions/private views over Bluetooth, retain all existing game modes and game privacy."
+        },
+        {
+          "done": false,
+          "text": "Handle permission denial, Bluetooth disabled, cancellation, disconnected/reconnecting peer and host departure without stuck screens or resetting unrelated games."
+        },
+        {
+          "done": false,
+          "text": "Preserve saves/rankings and defer server sync until internet returns; no lost/duplicate results."
+        },
+        {
+          "done": false,
+          "text": "Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation."
+        }
+      ]
+    },
+    {
+      "title": "18. Shared sound sourcing, checks and release",
       "tasks": [
         {
           "done": false,

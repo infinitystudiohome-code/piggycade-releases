@@ -128,7 +128,20 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] UTTT conquered small box has a distinct satisfying cue; separate from placement and whole-match victory.
 - [ ] Audit requested games for meaningful action/interaction/finish audio; avoid generic repetitive placeholder sounds. Respect effects volume/mute, background, reduced effects and phone performance.
 
-## 16. Shared sound sourcing, checks and release
+## 16. Performance stars — latest request
+- [ ] Stars measure performance independently of winning; a strong losing player can earn half/full stars, especially UTTT.
+- [ ] Record game-appropriate performance metrics for both players; explain the percentage, keep actual win/loss and points separate, preserve previous records.
+- [ ] Verify good losing performance earns stars, poor play differs, draws/empty data handled honestly, no fabricated mistakes or speed targets.
+
+## 17. Bluetooth-only nearby hosting — latest request
+- [ ] Add an optional Bluetooth-only checkbox to Host; no internet, Wi-Fi router or Wi-Fi transport required. Preserve existing online Host/Join.
+- [ ] Search nearby devices, show paired devices, pair/select/join with clear connection status and permission guidance.
+- [ ] Host phone runs authoritative room/game rules locally; synchronize actions/private views over Bluetooth, retain all existing game modes and game privacy.
+- [ ] Handle permission denial, Bluetooth disabled, cancellation, disconnected/reconnecting peer and host departure without stuck screens or resetting unrelated games.
+- [ ] Preserve saves/rankings and defer server sync until internet returns; no lost/duplicate results.
+- [ ] Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation.
+
+## 18. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
 - [ ] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
 - [ ] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
