@@ -152,3 +152,5 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Global replay: actual two-root UNO/Wordle/Checkers final recaps, guest requests/host approvals, same group, UNO scores/rules, both scoreboard routes, separate lobby and offline replay pass. Phoebe replaced with bohemian singer portrait and refined head scale after gallery comparison.
 
 - Globals: main-menu saved two-human pass-phone profiles and selected computer seats verified in real new games; separate-phone humans retain Host/Join. All113 portraits rendered at148±2 optical extent with full alpha margins; reviewed all4 gallery sheets, Phoebe proportion correction accepted. Downloaded casino/board/outcome samples and new per-game audio checks pass, credits and compressed sources retained.
+
+- Final integrated gate:40/40 checks pass plus mandatory actual Host/Update/broken-launcher recovery;265 backend tests;695 source/bundle comparisons and616 unchanged runtime/backend/native files. Backend1dbef243-9318-451e-b242-60916e46c2a7 deployed with a live Sudoku room preserving board, notes, start time, scores and player IDs; partner move accepted afterwards. APK build in progress.
