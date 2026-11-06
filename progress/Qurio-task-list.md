@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Final integrated regression, room restoration, Android build and release checks. Games1–17 staged and verified; not published yet.
+1. ACTIVE: Signed APK built and scanned; publishing and verifying public updater/download. Games1–17 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -153,4 +153,4 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 
 - Globals: main-menu saved two-human pass-phone profiles and selected computer seats verified in real new games; separate-phone humans retain Host/Join. All113 portraits rendered at148±2 optical extent with full alpha margins; reviewed all4 gallery sheets, Phoebe proportion correction accepted. Downloaded casino/board/outcome samples and new per-game audio checks pass, credits and compressed sources retained.
 
-- Final integrated gate:40/40 checks pass plus mandatory actual Host/Update/broken-launcher recovery;265 backend tests;695 source/bundle comparisons and616 unchanged runtime/backend/native files. Backend1dbef243-9318-451e-b242-60916e46c2a7 deployed with a live Sudoku room preserving board, notes, start time, scores and player IDs; partner move accepted afterwards. APK build in progress.
+- Final integrated gate:40/40 checks pass plus mandatory actual Host/Update/broken-launcher recovery;265 backend tests;695 source/bundle comparisons and616 unchanged runtime/backend/native files. Backend1dbef243-9318-451e-b242-60916e46c2a7 deployed with a live Sudoku room preserving board, notes, start time, scores and player IDs; partner move accepted afterwards. Signed APK1.0.71/code72 built:70,300,667bytes,613 bundled files verified, stable appID/certificate retained. APK and full private source Defender scans found no threats. Publication and public-download verification in progress.

@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T23:07:07.475Z",
-  "hash": "1975a693a9adf781e751e3f31074613d4a58803faff234fe02d498b1020e5ea0",
-  "focus": "ACTIVE: Final integrated regression, room restoration, Android build and release checks. Games1–17 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T23:12:20.045Z",
+  "hash": "e46da04c1772ff8a808f21c3e399435438b844c36de8a32aaef9bc3d6ea3dd54",
+  "focus": "ACTIVE: Signed APK built and scanned; publishing and verifying public updater/download. Games1–17 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (final release checks)",
   "sections": [
