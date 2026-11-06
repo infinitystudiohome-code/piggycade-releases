@@ -238,7 +238,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE: corrective update1.0.62/code63. Finishing quick round-robin UNO shuffle/deal opening, then run affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.
+1. ACTIVE: corrective update1.0.62/code63. Quick round-robin UNO opening is checked. Now running affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.
 2. Checked: actual main-menu Bartender/Pac-Man entry; pinball narrowcorridor/flipper seams/upper-left bumperrim/missing dividers; new58.433s music loop468KB withmute; Solitaire shuffle auto-reveal3 and fananimation; repeatedWordlekeyflash; topnavpress + single exitwarning/Cancel; springpullloop andcleanup.
 3. Tests:177backend tests,14pinball physics tests across5levels,4Solitaire offline/live cases, actual launchedgames +navigation Cancel tests. Live worker accepted newSolitaire shuffle for bothplayers with0moves andunchangedtableau. Only explicit Shuffle changes hand; no room reset.
 4. Local Infinity AI reviewed stuck recovery; drain exclusion checked. Codex and parallel reviewers are testing actual input paths and screenshots. Remaining fromprevious release: permanentserver rankings explicitlydeferred; savedlocal results retained.
@@ -255,4 +255,4 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Wordle on-screen keys must show consistent press/flash animation on every touch, including repeated taps; preserve key clue colors.
 - [x] Pinball launcher spring needs audible mechanical pull/tension while dragging, matching supplied Space Cadet pack where available, plus release sound; volume/mute respected.
 - [x] Top navigation/Menu/Qurio/Back buttons need reliable press feedback; leaving a game must confirm first and explain unfinished progress may be lost while saved scores/profiles remain. Cancel must leave game playable.
-- [ ] UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts.
+- [x] UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts.

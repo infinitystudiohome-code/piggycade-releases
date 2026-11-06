@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T07:20:36.538Z",
-  "hash": "17845d4b711ca95651c064323f8e52f94ff6c3d9bcc0d81dae81a981acf4d2e0",
-  "focus": "ACTIVE: corrective update1.0.62/code63. Finishing quick round-robin UNO shuffle/deal opening, then run affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.",
+  "updatedAt": "2026-11-06T07:22:53.241Z",
+  "hash": "24886723c932f0de87b2ea9633174605ea1f9e66848ba22b5478b71321fd18b1",
+  "focus": "ACTIVE: corrective update1.0.62/code63. Quick round-robin UNO opening is checked. Now running affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.",
   "publishedVersion": "1.0.61",
   "workingVersion": "1.0.62",
   "sections": [
@@ -774,7 +774,7 @@
           "text": "Top navigation/Menu/Qurio/Back buttons need reliable press feedback; leaving a game must confirm first and explain unfinished progress may be lost while saved scores/profiles remain. Cancel must leave game playable."
         },
         {
-          "done": false,
+          "done": true,
           "text": "UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts."
         }
       ]
