@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T09:24:26.519Z",
-  "hash": "ce347ed8305d9412a133ea2977bbfbf9e7b8a194c995a9e365b5741694cab137",
-  "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
+  "updatedAt": "2026-11-06T09:47:56.025Z",
+  "hash": "9d31fe84627d2609856832a9fe41db792f274cd5fbf154ae782a9d98f5997875",
+  "focus": "ACTIVE:1.0.64 full50-step release gate, then signedAPK/source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
   "sections": [
@@ -253,27 +253,27 @@
       "title": "9. Pinball",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Use stronger appropriate bell/ding/metal contact samples, with volume/mute and no clipping."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add bounded central-machine effects/flickering lights and ramp-hit lights."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make cabinet bigger while controls remain reachable on all screens."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add coherent bounce/slide obstacles; every visible solid element matches collision geometry and no new traps."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify digital-style scoreboard readability and score/ball state."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Recheck freezing/recovery, spring pull/release sound, open drains, all difficulties, explicit pause/background and saved relaunch."
         }
       ]
@@ -319,23 +319,23 @@
       "title": "11. Checkers audio/immersion",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Distinct move swoosh and landing sound."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Capture sound for a regular piece."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Promotion-to-King sound."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Distinct King capture and multi-capture cues."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify optional/backward captures, flying kings and chains remain unchanged; no duplicate/shared sound spam."
         }
       ]
@@ -344,27 +344,27 @@
       "title": "12. Snakes & Ladders",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Physical swipe/throw dice gesture across board with strong/weak visual throw while outcome remains fair."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Enlarge settled dice result so everyone sees the number."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Tile-by-tile hopping sounds and transient tile glow."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Manual placement ends with the character correctly on the destination tile."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make board longer/larger with larger tiles/snakes/ladders and larger character pieces, responsive on phones."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify roll completes before movement, manual/live synchronization and exact-roll finish."
         }
       ]
@@ -435,19 +435,19 @@
       "title": "15. Sound effects priority — latest request",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Source engaging recorded effects from free online libraries; keep license/source records, compress carefully and balance volume without clipping."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Distinct victory and defeat cues for each player according to their result; appropriate draw/shared-win behavior, no wrong winner cue or reconnect replay."
         },
         {
-          "done": false,
+          "done": true,
           "text": "UTTT conquered small box has a distinct satisfying cue; separate from placement and whole-match victory."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit requested games for meaningful action/interaction/finish audio; avoid generic repetitive placeholder sounds. Respect effects volume/mute, background, reduced effects and phone performance."
         }
       ]
@@ -456,15 +456,15 @@
       "title": "16. Performance stars — latest request",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Stars measure performance independently of winning; a strong losing player can earn half/full stars, especially UTTT."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Record game-appropriate performance metrics for both players; explain the percentage, keep actual win/loss and points separate, preserve previous records."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify good losing performance earns stars, poor play differs, draws/empty data handled honestly, no fabricated mistakes or speed targets."
         }
       ]
@@ -473,23 +473,23 @@
       "title": "17. Bluetooth-only nearby hosting — latest request",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Add an optional Bluetooth-only checkbox to Host; no internet, Wi-Fi router or Wi-Fi transport required. Preserve existing online Host/Join."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Search nearby devices, show paired devices, pair/select/join with clear connection status and permission guidance."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Host phone runs authoritative room/game rules locally; synchronize actions/private views over Bluetooth, retain all existing game modes and game privacy."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Handle permission denial, Bluetooth disabled, cancellation, disconnected/reconnecting peer and host departure without stuck screens or resetting unrelated games."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve saves/rankings and defer server sync until internet returns; no lost/duplicate results."
         },
         {
@@ -499,7 +499,44 @@
       ]
     },
     {
-      "title": "18. Shared sound sourcing, checks and release",
+      "title": "18. Six new card/party games — NEW queued batch",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Bullsh*t!: research mobile examples/official rules; face-down claims, bluff challenge, liar/false-accuser pile pickup, legal round completion, avatars/live/Bluetooth/solo where appropriate, recorded sounds and animated cards."
+        },
+        {
+          "done": false,
+          "text": "Rummy: research mobile examples/rules and clearly document chosen variant; valid sets/runs, draw/discard/meld, round scoring/end, avatars/live/Bluetooth, recorded sounds and animated cards."
+        },
+        {
+          "done": false,
+          "text": "Old Maid: research mobile examples/rules; matching pairs, manual draw from next player, single unmatched card/last-player loss, avatars/live/Bluetooth/solo, recorded sounds and animated cards."
+        },
+        {
+          "done": false,
+          "text": "Cockroach Poker: research mobile examples/official rules; animal claims, pass/reveal/accept/challenge, correct failed-claim pile assignment and defeat rule, themed artwork, avatars/live/Bluetooth, recorded sounds and animations."
+        },
+        {
+          "done": false,
+          "text": "Cards Against Humanity-style party game: research mobile examples/rules; original prompt/answer decks, anonymous submissions, rotating human judge, points/rounds, avatars/live/Bluetooth, animated reveals and recorded sounds."
+        },
+        {
+          "done": false,
+          "text": "What Do You Meme?-style caption game: research mobile examples/rules; original image/caption content, hidden submissions/rotating human judge/points, avatars/live/Bluetooth, image/caption reveal effects and recorded sounds."
+        },
+        {
+          "done": false,
+          "text": "Search existing free licensed downloadable audio/asset libraries first for all six; retain sources/licenses, balanced/compressed recordings and sound menu/mute."
+        },
+        {
+          "done": false,
+          "text": "Apply shared responsive controls, no duplicated NPCs, profile/ranking/save persistence, clear turn guidance, celebrations and background/rejoin protections; real rule/input/multiplayer tests and screenshots per game."
+        }
+      ]
+    },
+    {
+      "title": "19. Shared sound sourcing, checks and release",
       "tasks": [
         {
           "done": false,
