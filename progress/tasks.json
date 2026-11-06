@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T09:05:15.297Z",
-  "hash": "30916c61f000b109ffe9ad65c64c4dd66a19964da675a2209b564ac95fd061f4",
+  "updatedAt": "2026-11-06T09:09:03.084Z",
+  "hash": "e2851aa1db9c37c733f6deaac38e4a7a463fcd84707d1750b2834485492cf9b1",
   "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -30,71 +30,71 @@
       "title": "2. NPC art consistency — entire roster",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Audit all NPC portraits together against the approved chibi roster: proportions, shading, outline, optical size and transparent edges."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Lady Gaga: approved chibi style, supplied blonde bow/sunglasses/outfit reference."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Miles Morales: approved chibi style, unmasked in Spider-Man suit."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Paris Hilton: approved chibi style, pink outfit/sunglasses/dog reference."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Zendaya: approved chibi style,2015AcademyAwards white dress/dreadlocks reference."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Zara Larsson: approved chibi style, preserve intended outfit/look."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Terry Crews: approved chibi style, shirtless/muscular."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Eren Yeager: approved chibi style, recognizable look and appropriate expression."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Bono: SouthPark-inspired look adapted to shared chibi style, sunglasses/cowboyhat/black-red leather/openchest."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Correct any other inconsistent NPC, compare beside approved roster, ensure no clipped bodies/neighbours and equal optical scale."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: PewDiePie chibi consistency."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: Michael Jordan chibi consistency."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: Nicki Minaj chibi proportions, retain pinkhair/referenceoutfit."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: Tobey Maguire chibi consistency."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: Willy Wonka chibi consistency."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: Oompa Loompa chibi consistency."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Audit correction: Jesus chibi consistency."
         }
       ]
@@ -173,11 +173,11 @@
       "title": "5. Texas Hold’em",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "After losing/new game, place New opponents and Deal again controls at the bottom; keep table, profile/chips and multiplayer room behavior."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify both choices work and preserve appropriate chips/history; no overlay blocking table."
         }
       ]
@@ -186,19 +186,19 @@
       "title": "6. Blackjack",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Put Deal and New opponent buttons at the bottom."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make table and cards bigger responsively."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep Hit/Stand/Double at the bottom but lifted above the phone edge; all split/double/stand controls remain reachable."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify solo and hosted actions, payouts and persistent-table behavior at narrow/tall/landscape sizes."
         }
       ]
@@ -207,15 +207,15 @@
       "title": "7. Roulette",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make wheel bigger responsively."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make player/NPC characters bigger in hosted and computer games while preserving shared avatar scale/style."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify betting buttons, wheel, announcements and bubbles do not overlap or clip."
         }
       ]
@@ -282,15 +282,15 @@
       "title": "10. 8-Ball Pool controls/rules/layout",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make cue manipulation directly on the stick easier, without accidental shots during aiming."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make cue-ball pickup/placement easier."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup."
         },
         {
@@ -410,21 +410,42 @@
       "title": "14. Ultimate Tic-Tac-Toe — latest addition",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add recorded free-library placement/action/won-box sounds, respect mute and avoid replay sounds on reconnect."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots."
         }
       ]
     },
     {
-      "title": "15. Shared sound sourcing, checks and release",
+      "title": "15. Sound effects priority — latest request",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Source engaging recorded effects from free online libraries; keep license/source records, compress carefully and balance volume without clipping."
+        },
+        {
+          "done": false,
+          "text": "Distinct victory and defeat cues for each player according to their result; appropriate draw/shared-win behavior, no wrong winner cue or reconnect replay."
+        },
+        {
+          "done": false,
+          "text": "UTTT conquered small box has a distinct satisfying cue; separate from placement and whole-match victory."
+        },
+        {
+          "done": false,
+          "text": "Audit requested games for meaningful action/interaction/finish audio; avoid generic repetitive placeholder sounds. Respect effects volume/mute, background, reduced effects and phone performance."
+        }
+      ]
+    },
+    {
+      "title": "16. Shared sound sourcing, checks and release",
       "tasks": [
         {
           "done": false,

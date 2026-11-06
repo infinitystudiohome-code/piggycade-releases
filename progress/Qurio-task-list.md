@@ -9,23 +9,23 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Expand diagnostics to distinguish mandatory decision, cue-ball placement, turn and graphics wait from a freeze.
 
 ## 2. NPC art consistency — entire roster
-- [ ] Audit all NPC portraits together against the approved chibi roster: proportions, shading, outline, optical size and transparent edges.
-- [ ] Lady Gaga: approved chibi style, supplied blonde bow/sunglasses/outfit reference.
-- [ ] Miles Morales: approved chibi style, unmasked in Spider-Man suit.
-- [ ] Paris Hilton: approved chibi style, pink outfit/sunglasses/dog reference.
-- [ ] Zendaya: approved chibi style,2015AcademyAwards white dress/dreadlocks reference.
-- [ ] Zara Larsson: approved chibi style, preserve intended outfit/look.
-- [ ] Terry Crews: approved chibi style, shirtless/muscular.
-- [ ] Eren Yeager: approved chibi style, recognizable look and appropriate expression.
-- [ ] Bono: SouthPark-inspired look adapted to shared chibi style, sunglasses/cowboyhat/black-red leather/openchest.
-- [ ] Correct any other inconsistent NPC, compare beside approved roster, ensure no clipped bodies/neighbours and equal optical scale.
-- [ ] Audit correction: PewDiePie chibi consistency.
-- [ ] Audit correction: Michael Jordan chibi consistency.
-- [ ] Audit correction: Nicki Minaj chibi proportions, retain pinkhair/referenceoutfit.
-- [ ] Audit correction: Tobey Maguire chibi consistency.
-- [ ] Audit correction: Willy Wonka chibi consistency.
-- [ ] Audit correction: Oompa Loompa chibi consistency.
-- [ ] Audit correction: Jesus chibi consistency.
+- [x] Audit all NPC portraits together against the approved chibi roster: proportions, shading, outline, optical size and transparent edges.
+- [x] Lady Gaga: approved chibi style, supplied blonde bow/sunglasses/outfit reference.
+- [x] Miles Morales: approved chibi style, unmasked in Spider-Man suit.
+- [x] Paris Hilton: approved chibi style, pink outfit/sunglasses/dog reference.
+- [x] Zendaya: approved chibi style,2015AcademyAwards white dress/dreadlocks reference.
+- [x] Zara Larsson: approved chibi style, preserve intended outfit/look.
+- [x] Terry Crews: approved chibi style, shirtless/muscular.
+- [x] Eren Yeager: approved chibi style, recognizable look and appropriate expression.
+- [x] Bono: SouthPark-inspired look adapted to shared chibi style, sunglasses/cowboyhat/black-red leather/openchest.
+- [x] Correct any other inconsistent NPC, compare beside approved roster, ensure no clipped bodies/neighbours and equal optical scale.
+- [x] Audit correction: PewDiePie chibi consistency.
+- [x] Audit correction: Michael Jordan chibi consistency.
+- [x] Audit correction: Nicki Minaj chibi proportions, retain pinkhair/referenceoutfit.
+- [x] Audit correction: Tobey Maguire chibi consistency.
+- [x] Audit correction: Willy Wonka chibi consistency.
+- [x] Audit correction: Oompa Loompa chibi consistency.
+- [x] Audit correction: Jesus chibi consistency.
 
 ## 3. UNO presentation and interactive house rules
 - [ ] Make hand cards bigger, touchable and readable on narrow phones/landscape without hiding actions.
@@ -47,19 +47,19 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Verify drag/drop/top-waste/undo/manualfinish and all five difficulties; buttons fit phones/landscape.
 
 ## 5. Texas Hold’em
-- [ ] After losing/new game, place New opponents and Deal again controls at the bottom; keep table, profile/chips and multiplayer room behavior.
-- [ ] Verify both choices work and preserve appropriate chips/history; no overlay blocking table.
+- [x] After losing/new game, place New opponents and Deal again controls at the bottom; keep table, profile/chips and multiplayer room behavior.
+- [x] Verify both choices work and preserve appropriate chips/history; no overlay blocking table.
 
 ## 6. Blackjack
-- [ ] Put Deal and New opponent buttons at the bottom.
-- [ ] Make table and cards bigger responsively.
-- [ ] Keep Hit/Stand/Double at the bottom but lifted above the phone edge; all split/double/stand controls remain reachable.
-- [ ] Verify solo and hosted actions, payouts and persistent-table behavior at narrow/tall/landscape sizes.
+- [x] Put Deal and New opponent buttons at the bottom.
+- [x] Make table and cards bigger responsively.
+- [x] Keep Hit/Stand/Double at the bottom but lifted above the phone edge; all split/double/stand controls remain reachable.
+- [x] Verify solo and hosted actions, payouts and persistent-table behavior at narrow/tall/landscape sizes.
 
 ## 7. Roulette
-- [ ] Make wheel bigger responsively.
-- [ ] Make player/NPC characters bigger in hosted and computer games while preserving shared avatar scale/style.
-- [ ] Verify betting buttons, wheel, announcements and bubbles do not overlap or clip.
+- [x] Make wheel bigger responsively.
+- [x] Make player/NPC characters bigger in hosted and computer games while preserving shared avatar scale/style.
+- [x] Verify betting buttons, wheel, announcements and bubbles do not overlap or clip.
 
 ## 8. Bartender
 - [ ] Reproduce/recheck real launcher→bar load on bundled assets; handle any loading error with a useful message/retry instead of indefinite loading.
@@ -79,9 +79,9 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Recheck freezing/recovery, spring pull/release sound, open drains, all difficulties, explicit pause/background and saved relaunch.
 
 ## 10. 8-Ball Pool controls/rules/layout
-- [ ] Make cue manipulation directly on the stick easier, without accidental shots during aiming.
-- [ ] Make cue-ball pickup/placement easier.
-- [ ] Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup.
+- [x] Make cue manipulation directly on the stick easier, without accidental shots during aiming.
+- [x] Make cue-ball pickup/placement easier.
+- [x] Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup.
 - [ ] Ask handedness before starting; place power rail accordingly and remember choice.
 - [ ] Verify wrong first contact gives opponent ball-in-hand anywhere legal; both groups and actual hosted play.
 - [ ] Make table/cue/balls bigger responsively while retaining visible required controls.
@@ -115,11 +115,17 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders.
 
 ## 14. Ultimate Tic-Tac-Toe — latest addition
-- [ ] Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit.
-- [ ] Add recorded free-library placement/action/won-box sounds, respect mute and avoid replay sounds on reconnect.
-- [ ] Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots.
+- [x] Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit.
+- [x] Add recorded free-library placement/action/won-box sounds, respect mute and avoid replay sounds on reconnect.
+- [x] Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots.
 
-## 15. Shared sound sourcing, checks and release
+## 15. Sound effects priority — latest request
+- [ ] Source engaging recorded effects from free online libraries; keep license/source records, compress carefully and balance volume without clipping.
+- [ ] Distinct victory and defeat cues for each player according to their result; appropriate draw/shared-win behavior, no wrong winner cue or reconnect replay.
+- [ ] UTTT conquered small box has a distinct satisfying cue; separate from placement and whole-match victory.
+- [ ] Audit requested games for meaningful action/interaction/finish audio; avoid generic repetitive placeholder sounds. Respect effects volume/mute, background, reduced effects and phone performance.
+
+## 16. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
 - [ ] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
 - [ ] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
@@ -127,6 +133,12 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Preserve existing rooms/saves/chips/profiles/rankings and old snapshot compatibility. Version any new multiplayer rule state; no room resets.
 - [ ] Pass mandatory launcher/update-recovery gate, sign with existing appID/key, publish and verify the in-app updater/download hash.
 - [ ] Publish final source backup and deliver APK link/PC path; mark published only after verification.
+
+## Verification evidence
+- Avatar audit:113 rendered portraits,148±2 optical size/clear alpha; all15 replacements installed, mainfour retained.
+- Casino: bundled fiveviewport layouts plus two-client Hit/Stand/Fold/replay/next/newopponents/roulettebets; persistent rooms/tokens/chips; all pass.
+- UTTT: fiveviewport fit/81targets, real local/live placements and recorded sounds/dedup/mute; existing colors/rules/saves retained.
+- Pool placement: backend legality/snapshot/repeatedplacement/cancelledinvalidshot/validshotlock; actual touch and drag glove preview/commit/cancel, foreground, no scriptfaults pass.
 
 ## Current next actions
 1. ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.
