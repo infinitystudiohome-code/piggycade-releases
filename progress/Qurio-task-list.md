@@ -194,8 +194,8 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE: 1.0.66 is published and verified. The new Snakes board and background/resume fixes are staged in 1.0.67. Running final bundled checks before signing and publishing.
-2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.66/code67; sixnewgamesandPool/roomrecoveryfixesareshipped. RemainingSnakesreferencegraphicsareseparate1.0.67staging.
+1. COMPLETE: 1.0.67 is published and verified. All current software changes are shipped. Remaining: real-phone Bluetooth/Camon validation and the previously deferred ranking sync.
+2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
 - 1.0.65 staging evidence: six-mode private authoritative room wrappers, versioned actions/deadlines/replays;237backendtests pass. Simulated-native Bluetooth sixmode adapters pass. Bundledfirstthree actualtouch inputs,18viewport layouts,15difficulty setups, privateclients/replay/winloss/saves pass. 1.0.65 published and verified.
@@ -215,7 +215,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - [x] FixfreshFXonlyroomswithmalformedmusic-offmetadata; normalizeolderpartialroommusicwithoutchangingboards/notes/chips/turns.244backendchecksandactualHTTPfivegamesPASS; deployed43efb1b4-e043-4185-8edb-50b42bf35a3cwithactiveSudokuroomcontinuityPASS.
 - [x] Root/two-clientfreshPoolrules5/radius15/cuevisible/touchplacement/oneshot/requiredchoices; malformedlegacymusicwirestatedoesnotfreezeUI.
 
-## 21. Snakes reference graphics — staged 1.0.67
+## 21. Snakes reference graphics — published 1.0.67
 - [x] Draw a winding stone path with jungle gaps, keeping all 100 interactive squares and existing rules aligned.
 - [x] Add larger patterned snakes with open mouths, fangs and tongues. Keep the approved illustrated jungle frame.
 - [x] Fit the complete board and separate dice dock without covering bottom squares or wasting space. Test phone, tall and landscape layouts, touches, throws and hops.
@@ -227,12 +227,20 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - SHA256:eaf2754b47f97783f18625eef87edde6baa6af634163597e58c539222080c6f9;60540907bytes;bothupdaterfeeds/publicredownload/privatesourcebackupverified.
 - Existingroomprogressretained;noreset. Newcanonicalquietmusicstatefixesfreshroomloadingforfivearcadegames. TargetedPoolrules/cue/placement/shotchecksPASS;allothergameart/rulesretained.
 
-## 22. Background and resume — staged 1.0.67
+## 22. Background and resume — published 1.0.67
 - [x] If a game finishes loading while the app is hidden, keep its timer and animations suspended until the app returns.
 - [x] Pause decorative animations in the background. Preserve explicit game pauses, saved state, rules and visible layouts.
 - [x] Test each game loader, delayed solo/host loading, active canvas and timers, sound cleanup, real inputs after return and unchanged progress.
 
 ## 23. Final 1.0.67 delivery
-- [ ] Pass the final bundled release gate, preserve all other game source/room rules, sign and scan the APK, publish the update and verify the public download and both updater feeds.
+- [x] Pass the final bundled release gate, preserve all other game source/room rules, sign and scan the APK, publish the update and verify the public download and both updater feeds.
 
 - 1.0.67 staged evidence: 20 late-load/background/return cases across all game loaders; same game/board/seat IDs retained; explicit pauses and decorative CSS pauses preserved. Snakes: 600 tile checks across six viewports, all heads inside the frame, real roll/manual drag/ladder, four-player narrow layout and seven game-mode switches/restarts pass.
+
+## Published 1.0.67
+- Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.67/Qurio.apk
+- F: copy: F:/infinity/Qurio/releases/Qurio-1.0.67.apk
+- SHA256: 2de9bd72bef4b8ab1983f88052bc16a4bbc90fc1972bed16e6e47dd6ea25237f; 60,545,023 bytes. Stable appID and signing certificate verified.
+- Seven changed-game gates and mandatory Host/Update/broken-launcher recovery pass. Twenty lifecycle cases, 600 tile checks, six viewports and real touch/restart flows pass. All backend/native/other-game source remains unchanged from 1.0.66.
+- Public redownload, both updater feeds, public GPL source and private complete-source checksum verified. Defender found no threats in the APK or source package; flagged Bartender reference payloads are excluded and blocked from future packaging.
+- No backend deployment for this version. Existing rooms, rules, profiles, scores and saved game state are retained.

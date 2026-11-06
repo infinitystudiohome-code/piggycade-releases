@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T12:06:32.065Z",
-  "hash": "88135030eb9060ad14a135313d8e5650df3dc526820871dd00560f8ee114b130",
-  "focus": "ACTIVE: 1.0.66 is published and verified. The new Snakes board and background/resume fixes are staged in 1.0.67. Running final bundled checks before signing and publishing.",
-  "publishedVersion": "1.0.66",
-  "workingVersion": "1.0.67",
+  "updatedAt": "2026-11-06T12:20:15.244Z",
+  "hash": "d2f5f0d75645f64d6e695cf36d5a6a291e2cc78ccd787ddaf6a162dcc9c8e59e",
+  "focus": "COMPLETE: 1.0.67 is published and verified. All current software changes are shipped. Remaining: real-phone Bluetooth/Camon validation and the previously deferred ranking sync.",
+  "publishedVersion": "1.0.67",
+  "workingVersion": "None (software shipped)",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -630,7 +630,7 @@
       ]
     },
     {
-      "title": "21. Snakes reference graphics — staged 1.0.67",
+      "title": "21. Snakes reference graphics — published 1.0.67",
       "tasks": [
         {
           "done": true,
@@ -647,7 +647,7 @@
       ]
     },
     {
-      "title": "22. Background and resume — staged 1.0.67",
+      "title": "22. Background and resume — published 1.0.67",
       "tasks": [
         {
           "done": true,
@@ -667,7 +667,7 @@
       "title": "23. Final 1.0.67 delivery",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Pass the final bundled release gate, preserve all other game source/room rules, sign and scan the APK, publish the update and verify the public download and both updater feeds."
         }
       ]
