@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-06T00:20:40.920Z",
-  "hash": "b8e2f2075f4b304dadf73e1cbeecc7f8a0efe45eab2bceab8191c6e6adf1aadc",
-  "focus": "ACTIVE: publishing signed APK 1.0.61/code 62 after all build gates passed. All 493 bundled files match tested assets, signing certificate/app ID match 1.0.60, and final APK Defender scan is clean. Publication repeats the mandatory gate.",
-  "publishedVersion": "1.0.60",
+  "updatedAt": "2026-11-06T00:27:01.388Z",
+  "hash": "1a6e95377b702b3919c1343efb4d1ce24be6138543ea8149aa9d1274fa027f57",
+  "focus": "COMPLETE: Qurio 1.0.61/code 62 is published. In-app Update primary and fallback endpoints both return the verified release. The public APK download matches SHA256 `3434ce8ea067e2c9b90a080eb834cdb689c1748e42027f44d5c1f6ec1b991d7e`.",
+  "publishedVersion": "1.0.61",
   "workingVersion": "1.0.61",
   "sections": [
     {
@@ -553,7 +553,7 @@
           "text": "Verify live server support for this new mode before publishing."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Publish corresponding standalone GPL game source with the release and keep its source link correct."
         },
         {
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "title": "13. Final update delivery — pending",
+      "title": "13. Final update delivery — published and verified",
       "tasks": [
         {
           "done": true,
@@ -721,11 +721,11 @@
           "text": "Package private source and the separate required Pac-Man source archive without signing secrets."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Publish APK, verify public updater manifest/hash/version/download, and copy the final APK to the usual delivery folder."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Provide the download link and PC location. Do not say the update is available before publication is verified."
         }
       ]

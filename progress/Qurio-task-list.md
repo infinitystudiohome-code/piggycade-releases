@@ -4,10 +4,10 @@ Last updated: 6 November 2026 (continuing the 5 November task list). This is the
 
 ## Status and release discipline
 
-- `[x]` means implemented and checked, or confirmed in published 1.0.60. It does **not** mean the new APK has been published.
+- `[x]` means implemented and checked. This release is now published and its download/updater hash verified.
 - `[ ]` means outstanding, partially implemented, or awaiting the stated verification.
-- Published APK: **1.0.60 / versionCode 61**.
-- Update in progress: **1.0.61 / versionCode 62**, source in `.qurio-release-1.0.61/FamilyQuest`.
+- Published APK: **1.0.61 / versionCode 62** — https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.61/Qurio.apk
+- Published source: `.qurio-release-1.0.61/FamilyQuest`. Previous 1.0.60 baseline retained.
 - Keep the original `FamilyQuest` directory's unfinished feature work. Do not accidentally ship that whole tree; merge the requested features deliberately.
 - Do not reset active rooms, scores, player sessions or saved games. Do not sleep or shut down this PC.
 
@@ -165,7 +165,7 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Verify full offline play and compressed audio volume/mute/background behavior.
 - [x] Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay.
 - [x] Verify live server support for this new mode before publishing.
-- [ ] Publish corresponding standalone GPL game source with the release and keep its source link correct.
+- [x] Publish corresponding standalone GPL game source with the release and keep its source link correct.
 - [x] Final reference look/play/sound comparison; this is the third requested reference recreation.
 
 ## 10. Shared presentation, audio, performance and menus
@@ -211,7 +211,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 - [x] Refresh button verified against the public site: makes a fresh request, updates Last checked, retains tasks during a network failure, and recovers. Tasks last changed is shown separately.
 
-## 13. Final update delivery — pending
+## 13. Final update delivery — published and verified
 
 - [x] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
 - [x] Preserve all prior fixes while merging unfinished UNO work.
@@ -219,8 +219,8 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Required `check-launcher.cjs` gate passes on the final bundled assets, including Update with a deliberately broken launcher.
 - [x] Build the signed APK with unchanged application ID/signing key and incremented version/code.
 - [x] Package private source and the separate required Pac-Man source archive without signing secrets.
-- [ ] Publish APK, verify public updater manifest/hash/version/download, and copy the final APK to the usual delivery folder.
-- [ ] Provide the download link and PC location. Do not say the update is available before publication is verified.
+- [x] Publish APK, verify public updater manifest/hash/version/download, and copy the final APK to the usual delivery folder.
+- [x] Provide the download link and PC location. Do not say the update is available before publication is verified.
 
 ## Latest verification evidence
 
@@ -238,6 +238,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE: publishing signed APK 1.0.61/code 62 after all build gates passed. All 493 bundled files match tested assets, signing certificate/app ID match 1.0.60, and final APK Defender scan is clean. Publication repeats the mandatory gate.
-2. Package source without secrets, verify signing identity and APK contents, publish release and validate updater hash/download.
-3. Public APK remains 1.0.60 until publication succeeds. Permanent server ranking sync remains explicitly deferred; local results and backup protection are verified.
+1. COMPLETE: Qurio 1.0.61/code 62 is published. In-app Update primary and fallback endpoints both return the verified release. The public APK download matches SHA256 `3434ce8ea067e2c9b90a080eb834cdb689c1748e42027f44d5c1f6ec1b991d7e`.
+2. Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.61/Qurio.apk . PC copy: C:/Users/Administrator/Documents/ChatGPT/win/FamilyQuest/delivery/Qurio.apk . Screenshots: .qurio-release-1.0.61/FamilyQuest/delivery/visual-qa.html . Private full source backup and public corresponding Pac-Man source are published.
+3. All requested checklist work for this release is checked. The sole open item is permanent server ranking sync, previously explicitly deferred. Local results and backup recovery remain verified. No physical Android device was attached; gameplay tests used browser phone emulation.
+4. Existing rooms were preserved. No PC sleep/shutdown was performed. Upstream Bartender Windows payload was quarantined, never executed and excluded; isolated web runtime and final APK scans were clean.
