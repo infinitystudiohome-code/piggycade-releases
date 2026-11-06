@@ -194,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE: 1.0.70 restores Play again on end screens, separate from Return to lobby. Same room, players and game; UNO scores preserved. Focused tests pass; building and publishing.
+1. COMPLETE: 1.0.70 published. Play again keeps the same game/room/players/rules and UNO scores; Return to lobby is separate. Public download and fallback updater verified.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -277,4 +277,10 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - [x] Add Play again to the shared final recap and generic scoreboard; keep Return to lobby as a separate choice.
 - [x] Replay the same game in the same room with the same players/rules. UNO keeps cumulative scores; guests request and the host approves; both end screens close.
 - [x] Preserve UNO scoreboard controls and collected performance metrics; prevent stale/double replay commands; keep mobile buttons visible and offline replay working.
-- [ ] Pass focused replay/Back/touch/isolation/launcher checks, sign and scan, publish and verify updater and download.
+- [x] Pass focused replay/Back/touch/isolation/launcher checks, sign and scan, publish and verify updater and download.
+
+## Published 1.0.70
+- Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.70/Qurio.apk
+- Play again and Return to lobby are separate; same room/players/rules and UNO cumulative scores retained. Both players dismiss old results on replay. Guest requests are approved by host.
+- Eight legal replay flows, mobile/offline, six focused gates, mandatory launcher checks, 591 APK assets and clean APK/source scans pass. Public APK redownload SHA256 aa675abde486db383d12bbc0fcf3d59df9c8eb1f20c0ad62883fefac021ce856;60,546,955bytes. Private source checksum verified. No backend deployment/room reset.
+- GitHub current revision and fallback updater show1.0.70; native raw-main URL temporarily serves cached1.0.69. Direct APK works now.

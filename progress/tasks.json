@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T16:11:38.752Z",
-  "hash": "e6d4b266ef88e12da2b434ee0e1e3d41b002aa299266c5471ec1a7f8dc7357dd",
-  "focus": "ACTIVE: 1.0.70 restores Play again on end screens, separate from Return to lobby. Same room, players and game; UNO scores preserved. Focused tests pass; building and publishing.",
-  "publishedVersion": "1.0.69",
-  "workingVersion": "1.0.70",
+  "updatedAt": "2026-11-06T16:17:54.017Z",
+  "hash": "c21da330bcd86b3de3ee3ff3b38cd2f7c71197c086ab328e3f13d9c202cdcbfa",
+  "focus": "COMPLETE: 1.0.70 published. Play again keeps the same game/room/players/rules and UNO scores; Return to lobby is separate. Public download and fallback updater verified.",
+  "publishedVersion": "1.0.70",
+  "workingVersion": "None (software shipped)",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -722,7 +722,7 @@
           "text": "Preserve UNO scoreboard controls and collected performance metrics; prevent stale/double replay commands; keep mobile buttons visible and offline replay working."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Pass focused replay/Back/touch/isolation/launcher checks, sign and scan, publish and verify updater and download."
         }
       ]
