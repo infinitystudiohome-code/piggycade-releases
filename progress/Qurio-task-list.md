@@ -40,33 +40,33 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Allow players to add cards onto the melded pile.
 
 ### 5. Bartender
-- [ ] Add sound effects.
-- [ ] Improve text readability/rendering (make words appear better).
-- [ ] Add tropical bar background music.
-- [ ] For multiplayer, implement a split-screen view so players can see each other, with both serving at the same time at the beginning.
-- [ ] Add gibberish chatting background sounds.
+- [x] Add sound effects.
+- [x] Improve text readability/rendering (make words appear better).
+- [x] Add tropical bar background music.
+- [x] For multiplayer, implement a split-screen view so players can see each other, with both serving at the same time at the beginning.
+- [x] Add gibberish chatting background sounds.
 
 ### 6. Pacman
-- [ ] Make the on-screen control buttons bigger and fit them neatly to the left and right sides.
-- [ ] Make the arcade cabinet screen viewport bigger.
+- [x] Make the on-screen control buttons bigger and fit them neatly to the left and right sides.
+- [x] Make the arcade cabinet screen viewport bigger.
 
 ### 7. Pinball
-- [ ] Remove any placeholder/copy-paste text.
-- [ ] Add more obstacles to bounce and slide on.
-- [ ] Add more flickering lights in the middle of the board (currently too concentrated on the sides).
-- [ ] Properly position the buttons for the left and right thumbs, and place the nudge and "pull/launch" controls at the bottom.
-- [ ] Make the arcade view bigger.
+- [x] Remove any placeholder/copy-paste text.
+- [x] Add more obstacles to bounce and slide on.
+- [x] Add more flickering lights in the middle of the board (currently too concentrated on the sides).
+- [x] Properly position the buttons for the left and right thumbs, and place the nudge and "pull/launch" controls at the bottom.
+- [x] Make the arcade view bigger.
 
 ### 8. 8-Ball Pool
-- [ ] Add an option for left-handed or right-handed players before the game starts, moving the cue/lever accordingly.
-- [ ] Stretch the aiming guideline much further out.
-- [ ] Announce who won after the game with clear "YOU WIN" and "YOU LOSE" screens.
+- [x] Add an option for left-handed or right-handed players before the game starts, moving the cue/lever accordingly.
+- [x] Stretch the aiming guideline much further out.
+- [x] Announce who won after the game with clear "YOU WIN" and "YOU LOSE" screens.
 
 ### 9. Checkers
-- [ ] Add a mirrored board/camera version for the second player so it is fair and nobody has to play upside down.
+- [x] Add a mirrored board/camera version for the second player so it is fair and nobody has to play upside down.
 
 ### 10. Snakes and Ladders
-- [ ] Fix the exact winning tile rule: rolls exceeding tile100 bounce backward, e.g.99+3 lands98. Win only on100 with an exact count.
+- [x] Fix the exact winning tile rule: rolls exceeding tile100 bounce backward, e.g.99+3 lands98. Win only on100 with an exact count.
 
 ### 11. Solitaire
 - [ ] Reduce card size slightly (they don't need to be overly massive).
@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [ ] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game5, Bartender live station split view, readable text, tropical music/chatter and SFX. Games1–4 staged and verified; not published yet.
+1. ACTIVE: Game11, Solitaire smaller cards, sharper card artwork and complete SFX feedback. Games1–10 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -122,3 +122,15 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Game3: manual51-card deals, explicit pairing/ready/owner offer/private picked-card reveal; complete2–10seat simulations with JSON restore and conservation; actual two-client touches and5responsive screenshots pass. Owner shuffle animates on the opponent phone; speech bubble moved above controls. Legacy snapshots retain their original rules.
 
 - Game4: real CDP finger lift/reinsert, persistent private hand arrangement, drag onto an opponent run, exact physical-card conservation and5responsive views/screenshots pass. Existing Rummy meld/layoff/rules tests pass.
+
+- Game5: live bounded station snapshots show real opponent ingredients/orders, both simultaneous shifts, decoded tropical/pour/chatter audio, score/finish/pause/replay and actual375px full service loop pass. Inputs validated before authority mutation. New media compressed; credits included.
+
+- Game6: larger58–66px actual thumb targets split left/right, no maze/control overlap across5viewports. Real maze movement,15audio tracks, scoring/results/pause/room replay and persisted records pass.
+
+- Game7:18physics tests pass including new spinner/guide contact, old saves, drains and stuck spots. Five actual layouts,150% spring pull/recorded spring cleanup, bumper/ramp scoring, pause/resume pass. Centre lamps animate with reduced-motion support; thumb controls separated; decorative centre copy removed.
+
+- Game8: two-phone first-time hand choices, persistent opposite power sides, rendered guideline pixels beyond old360px limit and YOU WIN/YOU LOSE pass. Existing pool presentation/audio/required decisions/live opponent aim/real shot/turn notification checks pass.
+
+- Game9: each client sees its own army at the bottom; actual taps from opposite orientations submit correct world-coordinate moves for both turns. Existing relaxed checkers ending/surrender tests retained.
+
+- Game10: all36 near-finish from94–99 / die1–6 combinations, exact manual finish,100-crossing not a win, bounce then snake and JSON snapshot paths pass. Ten actual two-client cases cover all difficulties and retained Checkers touch rules. Old active snapshots retain their previous finish rule.

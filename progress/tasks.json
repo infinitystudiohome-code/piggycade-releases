@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T22:05:58.367Z",
-  "hash": "51ecef6fe5067769177822a4bb24d0595ce4ff411e0a312ae72c8ea820a9e765",
-  "focus": "ACTIVE: Game5, Bartender live station split view, readable text, tropical music/chatter and SFX. Games1–4 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T22:28:22.525Z",
+  "hash": "7cdea7c2834a769a63d18949343722e03a992222c2abbd76c4991a090a78e7e5",
+  "focus": "ACTIVE: Game11, Solitaire smaller cards, sharper card artwork and complete SFX feedback. Games1–10 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -134,23 +134,23 @@
       "title": "5. Bartender",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Add sound effects."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Improve text readability/rendering (make words appear better)."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add tropical bar background music."
         },
         {
-          "done": false,
+          "done": true,
           "text": "For multiplayer, implement a split-screen view so players can see each other, with both serving at the same time at the beginning."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add gibberish chatting background sounds."
         }
       ]
@@ -159,11 +159,11 @@
       "title": "6. Pacman",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make the on-screen control buttons bigger and fit them neatly to the left and right sides."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make the arcade cabinet screen viewport bigger."
         }
       ]
@@ -172,23 +172,23 @@
       "title": "7. Pinball",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Remove any placeholder/copy-paste text."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add more obstacles to bounce and slide on."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add more flickering lights in the middle of the board (currently too concentrated on the sides)."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Properly position the buttons for the left and right thumbs, and place the nudge and \"pull/launch\" controls at the bottom."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make the arcade view bigger."
         }
       ]
@@ -197,15 +197,15 @@
       "title": "8. 8-Ball Pool",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Add an option for left-handed or right-handed players before the game starts, moving the cue/lever accordingly."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Stretch the aiming guideline much further out."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Announce who won after the game with clear \"YOU WIN\" and \"YOU LOSE\" screens."
         }
       ]
@@ -214,7 +214,7 @@
       "title": "9. Checkers",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Add a mirrored board/camera version for the second player so it is fair and nobody has to play upside down."
         }
       ]
@@ -223,7 +223,7 @@
       "title": "10. Snakes and Ladders",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Fix the exact winning tile rule: rolls exceeding tile100 bounce backward, e.g.99+3 lands98. Win only on100 with an exact count."
         }
       ]
