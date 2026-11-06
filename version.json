@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 64,
-  "versionName": "1.0.63",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.63/Qurio.apk",
-  "sha256": "8417b6549b2b172e33c4c18081b1210483948a8d1ea86e75305a80d7b1bf90b8",
-  "notes": "Fix delayed saved-room restoration taking over a Solo game; choosing Solo keeps the saved room available for explicit rejoin. Fix unfinished offline Sudoku remaining unresponsive after backgrounding. Recover Pinball and Pool animation/canvas failures without resetting score, balls or shots. Add local device/WebView diagnostics under Menu so intermittent phone freezes can be identified. Menu Resume safely restarts stopped game presentation. Existing rooms, boards, profiles, scores and audio settings are retained. No room backend deployment or reset."
+  "versionCode": 65,
+  "versionName": "1.0.64",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.64/Qurio.apk",
+  "sha256": "9fe3d0b0168e786cc70fa4c2ac4841a506ff5f84ff82429c50237abc5e6c515d",
+  "notes": "Nearby Bluetooth-only Host/Join for phones without internet or Wi-Fi (pairing permissions required; radio compatibility depends on the phones). Larger game controls and boards; clearer Pool break decisions and repeatable cue-ball placement. Larger UNO cards with manual Flip/clockwise exchange and fair Slap timing. Better Solitaire hints, Draw controls and shuffle/manual finish. New illustrated Bartender orders and loading/save fixes. Jungle Snakes & Ladders, livelier Pinball with recorded metal effects, updated consistent chibi avatars, and distinct recorded victory/defeat/heart/X sounds. Performance stars reward recorded progress even on a loss. Existing online rooms, profiles, saved scores and settings are retained."
 }
