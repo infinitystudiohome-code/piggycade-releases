@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T07:38:05.975Z",
-  "hash": "13c09c5ecd9f3d1645058945629fbf48c8b4dc2e594b52ca06f3921cc8fefe90",
-  "focus": "COMPLETE: Qurio1.0.62/code63 is published and verified. In-app Update primary and fallback both return it. Public APK download SHA256 matches `0df2e8ba2f5ac9d4a5f83c433ee9778a41b354c9b041d8367cf6a87ec18fe0eb`.",
+  "updatedAt": "2026-11-06T07:56:46.353Z",
+  "hash": "187808c03202cd9242dc9b66dc910c749722359773b78cecd0828fb8a369d2d4",
+  "focus": "ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Investigating local input/render failures rather than blamingPhilippines connection.",
   "publishedVersion": "1.0.62",
-  "workingVersion": "1.0.62",
+  "workingVersion": "1.0.63",
   "sections": [
     {
       "title": "1. Solitaire",
@@ -776,6 +776,31 @@
         {
           "done": true,
           "text": "UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts."
+        }
+      ]
+    },
+    {
+      "title": "15. Camon30Pro freezing report",
+      "tasks": [
+        {
+          "done": true,
+          "text": "User confirmed Solo also freezes and Menu remains responsive. Network/location is not the primary explanation."
+        },
+        {
+          "done": true,
+          "text": "Investigated connection/lifecycle: Pinball passed nine native/visibility resume cycles; shared network delays cannot explain Solo freeze. No server change for this update."
+        },
+        {
+          "done": false,
+          "text": "Check AndroidWebView renderer lifecycle and device-density/animation load. Apply only evidence-backed fixes, preserve games/saves and verify affected paths."
+        },
+        {
+          "done": false,
+          "text": "Fix reproduced offline Sudoku input deadlock after background/resume without resetting timer/board/notes."
+        },
+        {
+          "done": false,
+          "text": "Recover Pinball/Pool from transient canvas or media frame failure/context loss without resetting score/ball/shot; add copyable diagnostics for actual device error."
         }
       ]
     }

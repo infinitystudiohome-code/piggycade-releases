@@ -238,10 +238,11 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. COMPLETE: Qurio1.0.62/code63 is published and verified. In-app Update primary and fallback both return it. Public APK download SHA256 matches `0df2e8ba2f5ac9d4a5f83c433ee9778a41b354c9b041d8367cf6a87ec18fe0eb`.
-2. Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.62/Qurio.apk . PC: C:/Users/Administrator/Documents/ChatGPT/win/FamilyQuest/delivery/Qurio.apk . Screenshots: .qurio-release-1.0.62/FamilyQuest/delivery/visual-qa.html . All additions below are included.
-3. Checked177backend tests,14pinball physics cases/groups across5levels, actual main-menu nestedgame entry, UNO2–10seat individualdeal/reconnect/reducedmotion/openingpenalty, Solitaire4solo/live shufflecases +fananimation, Wordlekeypress, sharedtopnavCancel, springpullloop and468KBmusic. Mandatory affected-game launcher/update recovery passed for build andpublication.476unrelated assets byte-identical to1.0.61; all494bundledfiles matchedAPK. Signing/appID unchanged; Defender scan clean. Physicalphone notattached.
-4. Existing rooms/boards/saves retained. Live Solitaire only changes when player explicitly presses Shuffle. Local AI review helped check drain exclusion andUNOintro tests. The sole deferred item remains permanentserver ranking sync; localresults retained. PC not put tosleep/shutdown.
+1. ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Investigating local input/render failures rather than blamingPhilippines connection.
+2. Reproduced offlineSudoku inputdeadlock afterbackground (running=false/noresume). Fix checked through3native/visibility cycles withtouchinput, preservedboard/notes/timer andexplicitpause protections.
+3. Reproduced one transientcanvas draw failure permanentlystoppingPinballRAF whileMenuworks. Addingbounded graphics recovery/context-restoration withsame ball/score/shot, not reset. Pool checked too. Existing spriteatlas eagerloads being reviewed to reduce unusedimage memory.
+4. Adding a local copyable Connection&performance report withdevice/WebView/visibility/renderhealth/errors. No automatic uploads; no boards/answers/tokens inreport. PhysicalCamon notconnected, so actualdevicecause remainsunconfirmed untiltested/reported.
+5. Currentpublic version1.0.62 is unchanged untilfinal checks/build/publication. Permanentserverrankings remainexplicitlydeferred. No server deployment or room resets for thisfix.
 
 ## 14. Reported after 1.0.61 publication
 
@@ -256,3 +257,11 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Pinball launcher spring needs audible mechanical pull/tension while dragging, matching supplied Space Cadet pack where available, plus release sound; volume/mute respected.
 - [x] Top navigation/Menu/Qurio/Back buttons need reliable press feedback; leaving a game must confirm first and explain unfinished progress may be lost while saved scores/profiles remain. Cancel must leave game playable.
 - [x] UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts.
+
+## 15. Camon30Pro freezing report
+
+- [x] User confirmed Solo also freezes and Menu remains responsive. Network/location is not the primary explanation.
+- [x] Investigated connection/lifecycle: Pinball passed nine native/visibility resume cycles; shared network delays cannot explain Solo freeze. No server change for this update.
+- [ ] Check AndroidWebView renderer lifecycle and device-density/animation load. Apply only evidence-backed fixes, preserve games/saves and verify affected paths.
+- [ ] Fix reproduced offline Sudoku input deadlock after background/resume without resetting timer/board/notes.
+- [ ] Recover Pinball/Pool from transient canvas or media frame failure/context loss without resetting score/ball/shot; add copyable diagnostics for actual device error.
