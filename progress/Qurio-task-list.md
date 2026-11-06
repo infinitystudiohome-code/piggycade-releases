@@ -114,7 +114,12 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] All games: brief app-background/return resumes state and buttons smoothly; test solo/live and respect explicit pause/finished state without lag or screen freeze.
 - [ ] Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders.
 
-## 14. Shared sound sourcing, checks and release
+## 14. Ultimate Tic-Tac-Toe — latest addition
+- [ ] Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit.
+- [ ] Add recorded free-library placement/action/won-box sounds, respect mute and avoid replay sounds on reconnect.
+- [ ] Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots.
+
+## 15. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
 - [ ] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
 - [ ] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.

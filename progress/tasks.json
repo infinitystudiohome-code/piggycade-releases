@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T08:52:41.634Z",
-  "hash": "185a24c0f1dda9374b041849277348761c9774e2b0459a37cdd4258c04e989bc",
+  "updatedAt": "2026-11-06T09:05:15.297Z",
+  "hash": "30916c61f000b109ffe9ad65c64c4dd66a19964da675a2209b564ac95fd061f4",
   "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -407,7 +407,24 @@
       ]
     },
     {
-      "title": "14. Shared sound sourcing, checks and release",
+      "title": "14. Ultimate Tic-Tac-Toe — latest addition",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit."
+        },
+        {
+          "done": false,
+          "text": "Add recorded free-library placement/action/won-box sounds, respect mute and avoid replay sounds on reconnect."
+        },
+        {
+          "done": false,
+          "text": "Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots."
+        }
+      ]
+    },
+    {
+      "title": "15. Shared sound sourcing, checks and release",
       "tasks": [
         {
           "done": false,
