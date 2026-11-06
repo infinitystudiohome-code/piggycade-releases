@@ -238,7 +238,7 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Now final scoped gate/build/publication.
+1. ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Final scoped gate passed; APK built/signed/scanned and495bundledfiles match. Publication gate/upload running.
 2. Reproduced offlineSudoku inputdeadlock afterbackground (running=false/noresume). Fix checked through3native/visibility cycles withtouchinput, preservedboard/notes/timer andexplicitpause protections.
 3. Reproduced one transientcanvas draw failure permanentlystoppingPinballRAF whileMenuworks. Addingbounded graphics recovery/context-restoration withsame ball/score/shot, not reset. Pool checked too. Pool atlases now load onlyonrequest; Pinball loadsnone ofthose images.
 4. Checked a local copyable Connection&performance report withdevice/WebView/visibility/renderhealth/errors. No automatic uploads; no boards/answers/tokens inreport. PhysicalCamon notconnected, so actualdevicecause remainsunconfirmed untiltested/reported.

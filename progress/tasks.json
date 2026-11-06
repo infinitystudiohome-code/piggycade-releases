@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T08:08:46.452Z",
-  "hash": "2fab5f6826ddadbb1764be39f1b7327b1e386e536a4d85662e633e24ddf591f1",
-  "focus": "ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Now final scoped gate/build/publication.",
+  "updatedAt": "2026-11-06T08:14:41.912Z",
+  "hash": "943bdc72f06d1f9dea8c8548e6e32b7eb3cedc6d99a2d40e0d686bc7b93e434a",
+  "focus": "ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Final scoped gate passed; APK built/signed/scanned and495bundledfiles match. Publication gate/upload running.",
   "publishedVersion": "1.0.62",
   "workingVersion": "1.0.63",
   "sections": [
