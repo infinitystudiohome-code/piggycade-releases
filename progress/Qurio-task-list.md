@@ -238,10 +238,10 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Investigating local input/render failures rather than blamingPhilippines connection.
+1. ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Now final scoped gate/build/publication.
 2. Reproduced offlineSudoku inputdeadlock afterbackground (running=false/noresume). Fix checked through3native/visibility cycles withtouchinput, preservedboard/notes/timer andexplicitpause protections.
-3. Reproduced one transientcanvas draw failure permanentlystoppingPinballRAF whileMenuworks. Addingbounded graphics recovery/context-restoration withsame ball/score/shot, not reset. Pool checked too. Existing spriteatlas eagerloads being reviewed to reduce unusedimage memory.
-4. Adding a local copyable Connection&performance report withdevice/WebView/visibility/renderhealth/errors. No automatic uploads; no boards/answers/tokens inreport. PhysicalCamon notconnected, so actualdevicecause remainsunconfirmed untiltested/reported.
+3. Reproduced one transientcanvas draw failure permanentlystoppingPinballRAF whileMenuworks. Addingbounded graphics recovery/context-restoration withsame ball/score/shot, not reset. Pool checked too. Pool atlases now load onlyonrequest; Pinball loadsnone ofthose images.
+4. Checked a local copyable Connection&performance report withdevice/WebView/visibility/renderhealth/errors. No automatic uploads; no boards/answers/tokens inreport. PhysicalCamon notconnected, so actualdevicecause remainsunconfirmed untiltested/reported.
 5. Currentpublic version1.0.62 is unchanged untilfinal checks/build/publication. Permanentserverrankings remainexplicitlydeferred. No server deployment or room resets for thisfix.
 
 ## 14. Reported after 1.0.61 publication
@@ -262,6 +262,8 @@ Merged into the pending update while retaining the published classic engine for 
 
 - [x] User confirmed Solo also freezes and Menu remains responsive. Network/location is not the primary explanation.
 - [x] Investigated connection/lifecycle: Pinball passed nine native/visibility resume cycles; shared network delays cannot explain Solo freeze. No server change for this update.
-- [ ] Check AndroidWebView renderer lifecycle and device-density/animation load. Apply only evidence-backed fixes, preserve games/saves and verify affected paths.
-- [ ] Fix reproduced offline Sudoku input deadlock after background/resume without resetting timer/board/notes.
-- [ ] Recover Pinball/Pool from transient canvas or media frame failure/context loss without resetting score/ball/shot; add copyable diagnostics for actual device error.
+- [x] Checked native/visibility lifecycle,3× mobile-density diagnostics, transient/persistent graphics faults and lazy texture loading. No physicalCamon attached; report captures its actual WebView and errors.
+- [x] Fix reproduced offline Sudoku input deadlock after background/resume without resetting timer/board/notes.
+- [x] Recover Pinball/Pool from transient canvas or media frame failure/context loss without resetting score/ball/shot; add copyable diagnostics for actual device error.
+- [ ] Build and publish1.0.63; verify updater/download/signature and give partner test/report instructions.
+- [x] Prevent delayed saved-room restoration from replacing an already started Solo game; keep saved reconnect identity and test oldpausedroom response.

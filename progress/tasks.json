@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T07:56:46.353Z",
-  "hash": "187808c03202cd9242dc9b66dc910c749722359773b78cecd0828fb8a369d2d4",
-  "focus": "ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Investigating local input/render failures rather than blamingPhilippines connection.",
+  "updatedAt": "2026-11-06T08:08:46.452Z",
+  "hash": "2fab5f6826ddadbb1764be39f1b7327b1e386e536a4d85662e633e24ddf591f1",
+  "focus": "ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Now final scoped gate/build/publication.",
   "publishedVersion": "1.0.62",
   "workingVersion": "1.0.63",
   "sections": [
@@ -791,16 +791,24 @@
           "text": "Investigated connection/lifecycle: Pinball passed nine native/visibility resume cycles; shared network delays cannot explain Solo freeze. No server change for this update."
         },
         {
-          "done": false,
-          "text": "Check AndroidWebView renderer lifecycle and device-density/animation load. Apply only evidence-backed fixes, preserve games/saves and verify affected paths."
+          "done": true,
+          "text": "Checked native/visibility lifecycle,3× mobile-density diagnostics, transient/persistent graphics faults and lazy texture loading. No physicalCamon attached; report captures its actual WebView and errors."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Fix reproduced offline Sudoku input deadlock after background/resume without resetting timer/board/notes."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Recover Pinball/Pool from transient canvas or media frame failure/context loss without resetting score/ball/shot; add copyable diagnostics for actual device error."
+        },
+        {
+          "done": false,
+          "text": "Build and publish1.0.63; verify updater/download/signature and give partner test/report instructions."
+        },
+        {
+          "done": true,
+          "text": "Prevent delayed saved-room restoration from replacing an already started Solo game; keep saved reconnect identity and test oldpausedroom response."
         }
       ]
     }
