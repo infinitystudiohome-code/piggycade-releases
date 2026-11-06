@@ -19,6 +19,13 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Eren Yeager: approved chibi style, recognizable look and appropriate expression.
 - [ ] Bono: SouthPark-inspired look adapted to shared chibi style, sunglasses/cowboyhat/black-red leather/openchest.
 - [ ] Correct any other inconsistent NPC, compare beside approved roster, ensure no clipped bodies/neighbours and equal optical scale.
+- [ ] Audit correction: PewDiePie chibi consistency.
+- [ ] Audit correction: Michael Jordan chibi consistency.
+- [ ] Audit correction: Nicki Minaj chibi proportions, retain pinkhair/referenceoutfit.
+- [ ] Audit correction: Tobey Maguire chibi consistency.
+- [ ] Audit correction: Willy Wonka chibi consistency.
+- [ ] Audit correction: Oompa Loompa chibi consistency.
+- [ ] Audit correction: Jesus chibi consistency.
 
 ## 3. UNO presentation and interactive house rules
 - [ ] Make hand cards bigger, touchable and readable on narrow phones/landscape without hiding actions.
@@ -57,6 +64,11 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 ## 8. Bartender
 - [ ] Reproduce/recheck real launcher→bar load on bundled assets; handle any loading error with a useful message/retry instead of indefinite loading.
 - [ ] Verify start/mix/serve and native background/return; preserve saved bar progress and local audio.
+
+- [ ] Bartender guests arrive automatically and clearly demand/request drinks, with varied personality and reactions.
+- [ ] Show an illustrated finished-drink target; default order does not reveal the ingredient/mixing solution, player figures it out.
+- [ ] Expand drink recipes and ingredient variety with useful interactions; keep recipe data, appearance and scoring consistent.
+- [ ] Verify the full customer→visualtarget→mix→serve→reaction loop on phone, offline and live highscore mode; no loading deadend.
 
 ## 9. Pinball
 - [ ] Use stronger appropriate bell/ding/metal contact samples, with volume/mute and no clipping.

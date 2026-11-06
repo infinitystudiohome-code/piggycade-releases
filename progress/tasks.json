@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T08:34:51.811Z",
-  "hash": "6dd90abbd1cbf354ea0303e6715d4f85a624627a689e2176a140c0ed88d4f163",
+  "updatedAt": "2026-11-06T08:43:08.376Z",
+  "hash": "6df9724ea4d0dbcf8ca6e9e5dabca123887c75d868e9223c7bfe9666c8361da6",
   "focus": "ACTIVE: Pool mandatory-decision visibility fix first. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -68,6 +68,34 @@
         {
           "done": false,
           "text": "Correct any other inconsistent NPC, compare beside approved roster, ensure no clipped bodies/neighbours and equal optical scale."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: PewDiePie chibi consistency."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: Michael Jordan chibi consistency."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: Nicki Minaj chibi proportions, retain pinkhair/referenceoutfit."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: Tobey Maguire chibi consistency."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: Willy Wonka chibi consistency."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: Oompa Loompa chibi consistency."
+        },
+        {
+          "done": false,
+          "text": "Audit correction: Jesus chibi consistency."
         }
       ]
     },
@@ -202,6 +230,22 @@
         {
           "done": false,
           "text": "Verify start/mix/serve and native background/return; preserve saved bar progress and local audio."
+        },
+        {
+          "done": false,
+          "text": "Bartender guests arrive automatically and clearly demand/request drinks, with varied personality and reactions."
+        },
+        {
+          "done": false,
+          "text": "Show an illustrated finished-drink target; default order does not reveal the ingredient/mixing solution, player figures it out."
+        },
+        {
+          "done": false,
+          "text": "Expand drink recipes and ingredient variety with useful interactions; keep recipe data, appearance and scoring consistent."
+        },
+        {
+          "done": false,
+          "text": "Verify the full customer→visualtarget→mix→serve→reaction loop on phone, offline and live highscore mode; no loading deadend."
         }
       ]
     },
