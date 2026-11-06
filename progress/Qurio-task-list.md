@@ -34,10 +34,10 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Increase the overall size of the cards.
 
 ### 4. Rummy
-- [ ] Make the cards bigger.
-- [ ] Make the table layout bigger.
-- [ ] Implement a real-life hand-holding and arrangement mechanic (fan mechanic): players must be able to lift cards and squeeze them in between wherever they want in their hand.
-- [ ] Allow players to add cards onto the melded pile.
+- [x] Make the cards bigger.
+- [x] Make the table layout bigger.
+- [x] Implement a real-life hand-holding and arrangement mechanic (fan mechanic): players must be able to lift cards and squeeze them in between wherever they want in their hand.
+- [x] Allow players to add cards onto the melded pile.
 
 ### 5. Bartender
 - [ ] Add sound effects.
@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [ ] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game4, Rummy hand fan and drag arrangement, larger layout and meld extension. Games1–3 staged and verified; not published yet.
+1. ACTIVE: Game5, Bartender live station split view, readable text, tropical music/chatter and SFX. Games1–4 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -120,3 +120,5 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Game2: new backend starts rejected atomically; solo/menu/host registrations and bundled presentation assets absent. Private compatibility for already-running old rooms retained; no room reset.
 
 - Game3: manual51-card deals, explicit pairing/ready/owner offer/private picked-card reveal; complete2–10seat simulations with JSON restore and conservation; actual two-client touches and5responsive screenshots pass. Owner shuffle animates on the opponent phone; speech bubble moved above controls. Legacy snapshots retain their original rules.
+
+- Game4: real CDP finger lift/reinsert, persistent private hand arrangement, drag onto an opponent run, exact physical-card conservation and5responsive views/screenshots pass. Existing Rummy meld/layoff/rules tests pass.

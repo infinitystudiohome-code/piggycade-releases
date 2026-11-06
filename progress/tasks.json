@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T21:58:03.332Z",
-  "hash": "9b2bf9cad1b9bed86f711d88f3008f618dc126dc57e3295fbe401bc9e288cd00",
-  "focus": "ACTIVE: Game4, Rummy hand fan and drag arrangement, larger layout and meld extension. Games1–3 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T22:05:58.367Z",
+  "hash": "51ecef6fe5067769177822a4bb24d0595ce4ff411e0a312ae72c8ea820a9e765",
+  "focus": "ACTIVE: Game5, Bartender live station split view, readable text, tropical music/chatter and SFX. Games1–4 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -113,19 +113,19 @@
       "title": "4. Rummy",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make the cards bigger."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make the table layout bigger."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Implement a real-life hand-holding and arrangement mechanic (fan mechanic): players must be able to lift cards and squeeze them in between wherever they want in their hand."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Allow players to add cards onto the melded pile."
         }
       ]
