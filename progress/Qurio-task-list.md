@@ -238,10 +238,10 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE: corrective update1.0.62/code63. Quick round-robin UNO opening is checked. Now running affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.
+1. ACTIVE: corrective update1.0.62/code63. Quick round-robin UNO opening is checked. Affected-game checks and mandatory launcher/update recovery passed; signed APK built. Publication gate/upload is running. Current public APK remains1.0.61 until verification succeeds.
 2. Checked: actual main-menu Bartender/Pac-Man entry; pinball narrowcorridor/flipper seams/upper-left bumperrim/missing dividers; new58.433s music loop468KB withmute; Solitaire shuffle auto-reveal3 and fananimation; repeatedWordlekeyflash; topnavpress + single exitwarning/Cancel; springpullloop andcleanup.
-3. Tests:177backend tests,14pinball physics tests across5levels,4Solitaire offline/live cases, actual launchedgames +navigation Cancel tests. Live worker accepted newSolitaire shuffle for bothplayers with0moves andunchangedtableau. Only explicit Shuffle changes hand; no room reset.
-4. Local Infinity AI reviewed stuck recovery; drain exclusion checked. Codex and parallel reviewers are testing actual input paths and screenshots. Remaining fromprevious release: permanentserver rankings explicitlydeferred; savedlocal results retained.
+3. Tests:177backend tests,14pinball physics tests across5levels,4Solitaire offline/live cases, actual launchedgames +navigation Cancel tests. All494final bundled files match the APK, original signing/appID retained and Defender scan clean. Live worker accepted newSolitaire shuffle for bothplayers with0moves andunchangedtableau. Only explicit Shuffle changes hand; no room reset.
+4. Local Infinity AI reviewed stuck recovery and UNO intro edge cases; drain exclusion and replay checks verified. Codex and parallel reviewers are testing actual input paths and screenshots. Remaining fromprevious release: permanentserver rankings explicitlydeferred; savedlocal results retained.
 
 ## 14. Reported after 1.0.61 publication
 
