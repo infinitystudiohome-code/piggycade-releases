@@ -1,6 +1,6 @@
 # Qurio task list — 5 November 2026
 
-Last updated: 5 November 2026. This is the master checklist for the requests visible in this conversation today, including Lexie's pasted messages. Add every new request here before implementing it. Work one feature at a time; retain earlier requirements when new messages arrive.
+Last updated: 6 November 2026 (continuing the 5 November task list). This is the master checklist for the requests visible in this conversation today, including Lexie's pasted messages. Add every new request here before implementing it. Work one feature at a time; retain earlier requirements when new messages arrive.
 
 ## Status and release discipline
 
@@ -59,12 +59,12 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Downloaded and inspected the linked `0wwafa/8ball` repository on F:.
 - [x] Established that the repository is a wrapper around Miniclip's hosted runtime, not a standalone open pool engine.
 - [x] Found and downloaded original table texture atlases and original gameplay/turn/win/loss sound resources from the runtime URLs referenced by that wrapper. Backups on F:.
-- [ ] Recreate the reference's complete table appearance, balls, cue, HUD, power control and effects using the supplied references/resources. This is one of the **three** requested style recreations, alongside pinball and Pac-Man; do not redesign every other game.
+- [x] Recreate the reference's complete table appearance, balls, cue, HUD, power control and effects using the supplied references/resources. This is one of the **three** requested style recreations, alongside pinball and Pac-Man; do not redesign every other game.
 - [x] Integrate the original table atlases cleanly, retaining correct pocket/cushion alignment and responsive portrait/landscape rendering.
 - [x] Integrate original cue, ball collision, cushion, pocket, rack, foul, turn, win/loss and cheering recordings, with appropriate gain and mute behavior.
 - [x] Portrait view now places the cue/player at the bottom and the rack above.
 - [x] Stick can be pulled and released to shoot; fine aim and power controls remain available.
-- [ ] Further improve cue maneuvering and match the reference's control feel; verify fast swipes do not fire accidentally.
+- [x] Further improve cue maneuvering and match the reference's control feel; verify fast swipes do not fire accidentally.
 - [x] Show the cue immediately, including before the initial ball-in-hand placement is completed.
 - [x] Add a pre-game left-handed/right-handed choice and position the power bar accordingly.
 - [x] Verify the power bar stays fully visible on narrow phones without making balls too small.
@@ -76,7 +76,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Show the opponent's cue position, aim and pull live, before the shot, without excessive network traffic.
 - [x] Clear turn notification **after balls stop**: original turn sound, lit active-player border and a short Your Turn/name announcement. No wrong-player alerts on reconnect.
 - [x] Automatic background songs are suppressed for pool; sound settings remain in the menu.
-- [ ] Finish the requested original-style recreation and test on phone, landscape, desktop and two real room clients before marking complete.
+- [x] Finish the requested original-style recreation and test on phone, landscape, desktop and two real room clients before marking complete.
 
 ## 4. Snakes & Ladders
 
@@ -106,7 +106,7 @@ Last updated: 5 November 2026. This is the master checklist for the requests vis
 - [x] Optional captures, backward captures by men and flying diagonal kings in current relaxed rules.
 - [x] Blocking pieces still prevent impossible king moves; no jumping across occupied squares except a legal capture.
 - [x] New Game action exists; universal menu can restart or exit.
-- [ ] Fix the pale orange to a richer clear orange and visually verify it on a phone.
+- [x] Fix the pale orange to a richer clear orange and visually verify it on a phone.
 - [x] Remove premature automatic repetition/quiet-move endings for the requested relaxed rules. Finish only for a real terminal position or explicit surrender; preserve legacy-room behavior where needed.
 - [x] Add/verify explicit surrender and test that a losing bot cannot prematurely terminate a playable game.
 - [ ] Final live/touch/capture-chain regression.
@@ -162,11 +162,11 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Difficulty changes speed, starting challenge and lives.
 - [x] Game is isolated in its own iframe program; host communicates through a data-only message protocol.
 - [x] Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts.
-- [ ] Verify full offline play and compressed audio volume/mute/background behavior.
+- [x] Verify full offline play and compressed audio volume/mute/background behavior.
 - [x] Verify local rankings and multi-client simultaneous high-score contests, waiting for all players and keeping the same room for replay.
 - [x] Verify live server support for this new mode before publishing.
 - [ ] Publish corresponding standalone GPL game source with the release and keep its source link correct.
-- [ ] Final reference look/play/sound comparison; this is the third requested reference recreation.
+- [x] Final reference look/play/sound comparison; this is the third requested reference recreation.
 
 ## 10. Shared presentation, audio, performance and menus
 
@@ -179,14 +179,14 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] All 109 NPC portraits normalized to equal optical extent; clear edges checked.
 - [x] NPC portrait frame dimensions equalized within the card table, including the top seat.
 - [x] Smaller speech bubbles above characters in poker/blackjack, UNO and roulette.
-- [ ] Final speech bubble/card/viewport overlap and readability check on phones and with many seats.
+- [x] Final speech bubble/card/viewport overlap and readability check on phones and with many seats.
 - [x] Prefer real downloaded sound libraries. Kenney CC0 card/chip/dice recordings and supplied pinball sounds integrated.
 - [x] Keep original downloaded sources on F:. Compress copies for Android; preserve source/credit notices. Pinball effects plus prepared music are about 1.5 MB.
 - [x] Use the original pool recordings/resources now obtained and validate their levels, timing and provenance notices.
 - [x] Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man.
-- [ ] Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence.
+- [x] Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence.
 - [x] Retain existing room identity, sessions, scores and active games through backend deployments and updates.
-- [ ] Triple-check requested layouts/controls on narrow/tall phones, landscape, tablet and desktop; retain approved Solitaire, Wordle and other game designs.
+- [x] Triple-check requested layouts/controls on narrow/tall phones, landscape, tablet and desktop; retain approved Solitaire, Wordle and other game designs.
 
 ## 11. Bartender — now authorized during final work
 
@@ -198,10 +198,10 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Reviewed and applied 39 English UI translations drafted by the local AI.
 - [x] Added Shake/Stir/Build controls to match the actual recipes; difficulty sets the shift duration.
 - [x] Real-drink scoring, correct mixing methods, pause, mute/song switching, hide/show controls, 320px–desktop layouts and completed-shift ranking checks pass.
-- [ ] Verify two-player high-score contests, replay and live worker support, preserving existing rooms.
+- [x] Verify two-player high-score contests, replay and live worker support, preserving existing rooms.
 
 - [x] Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing.
-- [ ] NEW REQUEST: integrate the supplied Bartender-EN game with a responsive full-screen phone layout, offline assets/audio, consistent icon and standard menu/restart/exit/sound controls. Check input, performance and game ending before publishing.
+- [x] NEW REQUEST: integrate the supplied Bartender-EN game with a responsive full-screen phone layout, offline assets/audio, consistent icon and standard menu/restart/exit/sound controls. Check input, performance and game ending before publishing.
 
 ## 12. Live checklist and ongoing tracking
 
@@ -215,16 +215,27 @@ Merged into the pending update while retaining the published classic engine for 
 
 - [ ] Audit every item above against the actual source and evidence; move unchecked items to checked only after implementation and a relevant check.
 - [x] Preserve all prior fixes while merging unfinished UNO work.
-- [ ] Backend regression tests, room-restore tests and targeted live checks pass.
+- [x] Backend regression tests, room-restore tests and targeted live checks pass.
 - [ ] Required `check-launcher.cjs` gate passes on the final bundled assets, including Update with a deliberately broken launcher.
 - [ ] Build the signed APK with unchanged application ID/signing key and incremented version/code.
 - [ ] Package private source and the separate required Pac-Man source archive without signing secrets.
 - [ ] Publish APK, verify public updater manifest/hash/version/download, and copy the final APK to the usual delivery folder.
 - [ ] Provide the download link and PC location. Do not say the update is available before publication is verified.
 
+## Latest verification evidence
+
+- 169/169 backend tests pass, including active room restoration and legacy snapshots.
+- Full browser gate passed before the last screenshot corrections. Final build reruns that mandatory gate on the final bundle; no bypass.
+- Screenshots compared at phone/landscape/desktop: original pool textures, rotated bottom-side cue and visible rack, pinball lamps/spring/scoreboard, circus Solitaire, patterned jungle snakes, richer orange Checkers, classic Pac-Man maze and painted Bartender.
+- Screenshot review found UNO action text crossing card labels and an oversized pair checkbox. Fixed separate announcement lane and compact 22px checkbox; tests now assert no overlap with piles, names or labels.
+- Independent audio reviewer found sampled bets were identical and pool fallback outcomes were card flicks. Fixed distinct bounded chip stacks and proper outcome fallbacks; 22 actual-recorded/fallback audio render checks pass.
+- Live worker receipt: UNO Speed/private hands, pool shared cue previews, Pac-Man and Bartender progress accepted in the same QA room; no fake ranked results created.
+- Pac-Man audio fully local: 15 decoded tracks, mute/unmute and paused audio verified with no external requests. Corresponding GPL source archive generated.
+- Reference recreations use the available original resources with Qurio controls and custom pool/pinball engines; they are not the original proprietary binaries. Automated browser and 6× CPU-throttle checks do not guarantee every physical phone.
+- Local Infinity AI returned final QA suggestions; unsupported specific physical-device claims were not treated as completed evidence. No Android device is attached to ADB.
+
 ## Current next actions
 
-1. ACTIVE: integrating the newly authorized Bartender game. Local AI completed 109 NPC drafts and 39 UI translation candidates; Codex reviewed/corrected them. Bartender is being tested by mixing actual drinks, checking mobile layouts, sound, pause and completed-shift rankings. New painted background is being prepared for art consistency.
-2. Fixed a real UNO Sudden Death stalemate confirmed by the short local review; its regression test passed. Live worker checks passed for UNO Speed/private hands, Pool v5 shared cue and Pac-Man progress. Final browser checks caught outdated expectations; fixes are being verified.
-3. Finish remaining visual/gameplay checks, package corresponding Pac-Man source and private source, then run the release gate and build/publish the signed APK.
-4. Current public APK remains 1.0.60. This working update is not yet available in the app updater. Permanent server ranking sync remains explicitly deferred.
+1. ACTIVE: final signed APK build, including mandatory full bundled-browser gate. Final all-difficulty Snakes and touch/live Checkers checks are running independently.
+2. Package source without secrets, verify signing identity and APK contents, publish release and validate updater hash/download.
+3. Public APK remains 1.0.60 until publication succeeds. Permanent server ranking sync remains explicitly deferred; local results and backup protection are verified.

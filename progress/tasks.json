@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T23:57:43.075Z",
-  "hash": "3b677f684fec00843074833bdcfcf137fda151177981484eb00fca6bd51d8307",
-  "focus": "ACTIVE: integrating the newly authorized Bartender game. Local AI completed 109 NPC drafts and 39 UI translation candidates; Codex reviewed/corrected them. Bartender is being tested by mixing actual drinks, checking mobile layouts, sound, pause and completed-shift rankings. New painted background is being prepared for art consistency.",
+  "updatedAt": "2026-11-06T00:16:28.502Z",
+  "hash": "5cc809a8e28527d66c9720e01750ad7d88e00c6c2eea233a41684b68068d516f",
+  "focus": "ACTIVE: final signed APK build, including mandatory full bundled-browser gate. Final all-difficulty Snakes and touch/live Checkers checks are running independently.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -179,7 +179,7 @@
           "text": "Found and downloaded original table texture atlases and original gameplay/turn/win/loss sound resources from the runtime URLs referenced by that wrapper. Backups on F:."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Recreate the reference's complete table appearance, balls, cue, HUD, power control and effects using the supplied references/resources. This is one of the **three** requested style recreations, alongside pinball and Pac-Man; do not redesign every other game."
         },
         {
@@ -199,7 +199,7 @@
           "text": "Stick can be pulled and released to shoot; fine aim and power controls remain available."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Further improve cue maneuvering and match the reference's control feel; verify fast swipes do not fire accidentally."
         },
         {
@@ -247,7 +247,7 @@
           "text": "Automatic background songs are suppressed for pool; sound settings remain in the menu."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Finish the requested original-style recreation and test on phone, landscape, desktop and two real room clients before marking complete."
         }
       ]
@@ -346,7 +346,7 @@
           "text": "New Game action exists; universal menu can restart or exit."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Fix the pale orange to a richer clear orange and visually verify it on a phone."
         },
         {
@@ -541,7 +541,7 @@
           "text": "Finish post-isolation regression and disable inappropriate built-in debug/skip/menu shortcuts."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify full offline play and compressed audio volume/mute/background behavior."
         },
         {
@@ -557,7 +557,7 @@
           "text": "Publish corresponding standalone GPL game source with the release and keep its source link correct."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final reference look/play/sound comparison; this is the third requested reference recreation."
         }
       ]
@@ -594,7 +594,7 @@
           "text": "Smaller speech bubbles above characters in poker/blackjack, UNO and roulette."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Final speech bubble/card/viewport overlap and readability check on phones and with many seats."
         },
         {
@@ -614,7 +614,7 @@
           "text": "Universal top-right menu, renew/new game, exit to main menu and sound settings in every game, including Pac-Man."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Check/resolve freezing and lag in the changed games, with bounded animations, canceled background loops, offline assets and low-end-device checks. Never promise every device is lag-free without evidence."
         },
         {
@@ -622,7 +622,7 @@
           "text": "Retain existing room identity, sessions, scores and active games through backend deployments and updates."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Triple-check requested layouts/controls on narrow/tall phones, landscape, tablet and desktop; retain approved Solitaire, Wordle and other game designs."
         }
       ]
@@ -659,7 +659,7 @@
           "text": "Real-drink scoring, correct mixing methods, pause, mute/song switching, hide/show controls, 320px–desktop layouts and completed-shift ranking checks pass."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify two-player high-score contests, replay and live worker support, preserving existing rooms."
         },
         {
@@ -667,7 +667,7 @@
           "text": "Inspected the linked Bartender-EN repository and answered that integration is technically possible with mobile adaptation and testing."
         },
         {
-          "done": false,
+          "done": true,
           "text": "NEW REQUEST: integrate the supplied Bartender-EN game with a responsive full-screen phone layout, offline assets/audio, consistent icon and standard menu/restart/exit/sound controls. Check input, performance and game ending before publishing."
         }
       ]
@@ -705,7 +705,7 @@
           "text": "Preserve all prior fixes while merging unfinished UNO work."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Backend regression tests, room-restore tests and targeted live checks pass."
         },
         {
