@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 63,
-  "versionName": "1.0.62",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.62/Qurio.apk",
-  "sha256": "0df2e8ba2f5ac9d4a5f83c433ee9778a41b354c9b041d8367cf6a87ec18fe0eb",
-  "notes": "Fix Bartender and Pac-Man stuck on Getting your game ready when opened through the arcade menu. Fix pinball collision recovery, launch-lane traps, upper-left bumper rims and missing divider collisions. Add supplied Space Cadet theme as a seamless 58-second local loop under 470 KB with volume/mute controls. Solitaire Shuffle now reveals three draw cards automatically, without an extra tap or move/point cost. Existing designs, saved games, scores, rooms and audio settings are preserved. Repeatable Wordle key flashes and top navigation press feedback, confirmed exits with safe Cancel, and mechanical spring tension audio while pulling. No active room or saved board reset; live Solitaire shuffle changes only after a player presses Shuffle."
+  "versionCode": 64,
+  "versionName": "1.0.63",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.63/Qurio.apk",
+  "sha256": "8417b6549b2b172e33c4c18081b1210483948a8d1ea86e75305a80d7b1bf90b8",
+  "notes": "Fix delayed saved-room restoration taking over a Solo game; choosing Solo keeps the saved room available for explicit rejoin. Fix unfinished offline Sudoku remaining unresponsive after backgrounding. Recover Pinball and Pool animation/canvas failures without resetting score, balls or shots. Add local device/WebView diagnostics under Menu so intermittent phone freezes can be identified. Menu Resume safely restarts stopped game presentation. Existing rooms, boards, profiles, scores and audio settings are retained. No room backend deployment or reset."
 }
