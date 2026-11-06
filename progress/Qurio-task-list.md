@@ -103,6 +103,7 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Verify roll completes before movement, manual/live synchronization and exact-roll finish.
 
 ## 13. Shared sound sourcing, checks and release
+- [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
 - [ ] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.
 - [ ] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
 - [ ] Test and screenshot changed layouts and real input paths, narrow/tall/landscape/tablet/desktop; no unnecessary unrelated redesign.

@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T08:43:08.376Z",
-  "hash": "6df9724ea4d0dbcf8ca6e9e5dabca123887c75d868e9223c7bfe9666c8361da6",
+  "updatedAt": "2026-11-06T08:43:52.920Z",
+  "hash": "a2e4aa904e1e667a6a1b45f899030cb95045a8d935fb21a50a54537c84393c76",
   "focus": "ACTIVE: Pool mandatory-decision visibility fix first. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -368,6 +368,10 @@
     {
       "title": "13. Shared sound sourcing, checks and release",
       "tasks": [
+        {
+          "done": false,
+          "text": "Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance."
+        },
         {
           "done": false,
           "text": "Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls."
