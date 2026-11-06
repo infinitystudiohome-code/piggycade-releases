@@ -138,7 +138,8 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Search nearby devices, show paired devices, pair/select/join with clear connection status and permission guidance.
 - [x] Host phone runs authoritative room/game rules locally; synchronize actions/private views over Bluetooth, retain all existing game modes and game privacy.
 - [x] Handle permission denial, Bluetooth disabled, cancellation, disconnected/reconnecting peer and host departure without stuck screens or resetting unrelated games.
-- [x] Preserve saves/rankings and defer server sync until internet returns; no lost/duplicate results.
+- [x] Preserve Bluetooth match records, local rankings/profiles and existing cloud-room session separately across updates; no lost/duplicate local results.
+- [ ] Automatic upload of Bluetooth/solo results after internet returns remains part of the previously deferred live-rankings release; queued local records are preserved.
 - [ ] Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation.
 
 ## 18. Six new card/party games — NEW queued batch

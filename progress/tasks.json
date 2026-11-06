@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T10:23:53.949Z",
-  "hash": "2cecfec59768db0630997c6af85cd2425e0fc2fff406413d5197fbcc79800fe2",
+  "updatedAt": "2026-11-06T10:26:45.489Z",
+  "hash": "5e3a45ddc51798438f1b553b2da1f0ef6cc38ea027788198506d072e1445649c",
   "focus": "ACTIVE:1.0.64 full50-step release gate PASSED; signedAPKbuild is nowrunning (buildscript repeats mandatorychecks), then source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -490,7 +490,11 @@
         },
         {
           "done": true,
-          "text": "Preserve saves/rankings and defer server sync until internet returns; no lost/duplicate results."
+          "text": "Preserve Bluetooth match records, local rankings/profiles and existing cloud-room session separately across updates; no lost/duplicate local results."
+        },
+        {
+          "done": false,
+          "text": "Automatic upload of Bluetooth/solo results after internet returns remains part of the previously deferred live-rankings release; queued local records are preserved."
         },
         {
           "done": false,
