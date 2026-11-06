@@ -25,13 +25,13 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Completely remove this game from the platform.
 
 ### 3. Old Maid
-- [ ] Allow players to look at their hand first and shuffle manually before the other person picks, then allow card removal.
-- [ ] Add more sound effects.
-- [ ] Make the game occupy the whole screen as much as possible without covering the active buttons and menu.
-- [ ] Allow players to clearly see the cards they picked.
-- [ ] Disable automatic matching; players must manually pair cards.
-- [ ] Improve the shuffling animation so players can visually see the other player shuffling their cards.
-- [ ] Increase the overall size of the cards.
+- [x] Allow players to look at their hand first and shuffle manually before the other person picks, then allow card removal.
+- [x] Add more sound effects.
+- [x] Make the game occupy the whole screen as much as possible without covering the active buttons and menu.
+- [x] Allow players to clearly see the cards they picked.
+- [x] Disable automatic matching; players must manually pair cards.
+- [x] Improve the shuffling animation so players can visually see the other player shuffling their cards.
+- [x] Increase the overall size of the cards.
 
 ### 4. Rummy
 - [ ] Make the cards bigger.
@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [ ] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game3, Old Maid manual pairing/offer/shuffle and bigger cards. Games1–2 staged and verified; not published yet.
+1. ACTIVE: Game4, Rummy hand fan and drag arrangement, larger layout and meld extension. Games1–3 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -118,3 +118,5 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Game1: 24 focused backend tests including200 restored sessions, both actual touch judging flows, 12 responsive views, one-word10-seat deals,80 anonymous-entry shuffles, music decode/30%/mute/background checks and11 root navigation paths pass. See .qurio-release-1.0.71/FamilyQuest/delivery and tools/screenshots/suite171-*.png.
 
 - Game2: new backend starts rejected atomically; solo/menu/host registrations and bundled presentation assets absent. Private compatibility for already-running old rooms retained; no room reset.
+
+- Game3: manual51-card deals, explicit pairing/ready/owner offer/private picked-card reveal; complete2–10seat simulations with JSON restore and conservation; actual two-client touches and5responsive screenshots pass. Owner shuffle animates on the opponent phone; speech bubble moved above controls. Legacy snapshots retain their original rules.

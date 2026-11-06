@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T21:54:46.696Z",
-  "hash": "b1272bcc6ffe333a5109ad8908da8a8cb98f81008e963b0c0bb91c92bd9420ec",
-  "focus": "ACTIVE: Game3, Old Maid manual pairing/offer/shuffle and bigger cards. Games1–2 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T21:58:03.332Z",
+  "hash": "9b2bf9cad1b9bed86f711d88f3008f618dc126dc57e3295fbe401bc9e288cd00",
+  "focus": "ACTIVE: Game4, Rummy hand fan and drag arrangement, larger layout and meld extension. Games1–3 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -80,31 +80,31 @@
       "title": "3. Old Maid",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Allow players to look at their hand first and shuffle manually before the other person picks, then allow card removal."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add more sound effects."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make the game occupy the whole screen as much as possible without covering the active buttons and menu."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Allow players to clearly see the cards they picked."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Disable automatic matching; players must manually pair cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Improve the shuffling animation so players can visually see the other player shuffling their cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Increase the overall size of the cards."
         }
       ]
