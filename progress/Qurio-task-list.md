@@ -194,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. COMPLETE: 1.0.68 is published and verified. Qurio Back returns the hosted group to the same lobby; only Exit room leaves. All current software changes shipped; physical phone checks and deferred ranked sync remain.
+1. ACTIVE: 1.0.69 disables accidental long-press selection/copy menus on game UI while preserving editable fields, copy buttons and gameplay gestures. Testing all game documents before release.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -258,3 +258,10 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - SHA256: 47c2394340c158c587f3700919dbe436c5f5b4cf546500ded7f736f89f7fffbb;60,545,087bytes. Stable appID/signing certificate verified.
 - 248 backend tests, six focused gates, actual two-root-client controls, live HTTP transitions and 33 Bluetooth authority cases pass. Mandatory Host/Update/broken-launcher recovery, 590 APK asset checks, public redownload/both updater feeds/private source backup and clean APK/source Defender scans verified.
 - Backend 5656215d-6154-4596-9ff3-cd1fdf9c73fb preserves the active test room’s Sudoku board/notes/start and both sessions. No automatic room reset.
+
+## 25. Long-press game controls — 1.0.69
+- [x] Disable accidental selection and native copy/paste callouts on game UI in every game document, including nested players.
+- [x] Keep name/room-code/numeric fields editable and selectable, and preserve explicit clipboard/report controls.
+- [ ] Verify real long holds, normal taps, Pinball hold/release, Solitaire dragging, dice swipes, Wordle keys and sliders; preserve lobby/group navigation, then sign/publish/verify the update.
+
+- 1.0.69 staged evidence: all 13 actual bundled documents, real long holds/taps, editable fields and actual report Copy, numeric/range controls, Pinball hold/release, Solitaire drag, 3D dice swipe and Wordle key feedback pass. No backend changes.

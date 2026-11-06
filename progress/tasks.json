@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T14:27:13.770Z",
-  "hash": "be4b6b36f25ce6c2e1da664d80dbcc973db70fc233622d05fd2ac77e71bc6c41",
-  "focus": "COMPLETE: 1.0.68 is published and verified. Qurio Back returns the hosted group to the same lobby; only Exit room leaves. All current software changes shipped; physical phone checks and deferred ranked sync remain.",
+  "updatedAt": "2026-11-06T14:45:26.222Z",
+  "hash": "bf46ccd70cf6d764e9b55e308ede27a07bbfef2394585cf6cab56146f215c3b7",
+  "focus": "ACTIVE: 1.0.69 disables accidental long-press selection/copy menus on game UI while preserving editable fields, copy buttons and gameplay gestures. Testing all game documents before release.",
   "publishedVersion": "1.0.68",
-  "workingVersion": "None (software shipped)",
+  "workingVersion": "1.0.69",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -686,6 +686,23 @@
         {
           "done": true,
           "text": "Stop hidden game activity in the lobby, successfully start another game, test actual two-client buttons, sign/publish/verify the update."
+        }
+      ]
+    },
+    {
+      "title": "25. Long-press game controls — 1.0.69",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Disable accidental selection and native copy/paste callouts on game UI in every game document, including nested players."
+        },
+        {
+          "done": true,
+          "text": "Keep name/room-code/numeric fields editable and selectable, and preserve explicit clipboard/report controls."
+        },
+        {
+          "done": false,
+          "text": "Verify real long holds, normal taps, Pinball hold/release, Solitaire dragging, dice swipes, Wordle keys and sliders; preserve lobby/group navigation, then sign/publish/verify the update."
         }
       ]
     }
