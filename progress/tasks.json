@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T10:42:59.519Z",
-  "hash": "97eb8cba05e93e97da7def241199d74db0bb6a3e407960d136d02c96168f8437",
-  "focus": "ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six pure engines/content/art staged onF, firstthree UI under test, otherthree renderers and authoritative integration in progress. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "updatedAt": "2026-11-06T10:57:00.660Z",
+  "hash": "1270067d39457e1c371bb02988110c55ec6efb6d7d4c847473c42ca67eb3842e",
+  "focus": "ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; firstthree bundledtouch/save/private/multiplayer flows pass; otherthree rendering/judging checks and actualfullHost flow under test.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
   "publishedVersion": "1.0.64",
   "workingVersion": "1.0.65",
   "sections": [
@@ -503,7 +503,7 @@
       ]
     },
     {
-      "title": "18. Six new card/party games — NEW queued batch",
+      "title": "18. Six new card/party games — ACTIVE1.0.65 batch",
       "tasks": [
         {
           "done": false,

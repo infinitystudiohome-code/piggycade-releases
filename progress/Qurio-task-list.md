@@ -142,7 +142,7 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Automatic upload of Bluetooth/solo results after internet returns remains part of the previously deferred live-rankings release; queued local records are preserved.
 - [ ] Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation.
 
-## 18. Six new card/party games — NEW queued batch
+## 18. Six new card/party games — ACTIVE1.0.65 batch
 These new additions arrived during1.0.64 final release checks. Keep that verified update moving; implement these one by one in the following isolated game batch, preserving the current work.
 - [ ] Bullsh*t!: research mobile examples/official rules; face-down claims, bluff challenge, liar/false-accuser pile pickup, legal round completion, avatars/live/Bluetooth/solo where appropriate, recorded sounds and animated cards.
 - [ ] Rummy: research mobile examples/rules and clearly document chosen variant; valid sets/runs, draw/discard/meld, round scoring/end, avatars/live/Bluetooth, recorded sounds and animated cards.
@@ -184,6 +184,8 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six pure engines/content/art staged onF, firstthree UI under test, otherthree renderers and authoritative integration in progress. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
+1. ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; firstthree bundledtouch/save/private/multiplayer flows pass; otherthree rendering/judging checks and actualfullHost flow under test.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.64/code65; new six-game work is separate and not published yet.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
+
+- 1.0.65 staging evidence: six-mode private authoritative room wrappers, versioned actions/deadlines/replays;237backendtests pass. Simulated-native Bluetooth sixmode adapters pass. Bundledfirstthree actualtouch inputs,18viewport layouts,15difficulty setups, privateclients/replay/winloss/saves pass. No1.0.65 publication yet.
