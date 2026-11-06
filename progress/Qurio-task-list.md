@@ -153,6 +153,14 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - [ ] Search existing free licensed downloadable audio/asset libraries first for all six; retain sources/licenses, balanced/compressed recordings and sound menu/mute.
 - [ ] Apply shared responsive controls, no duplicated NPCs, profile/ranking/save persistence, clear turn guidance, celebrations and background/rejoin protections; real rule/input/multiplayer tests and screenshots per game.
 
+### 1.0.65 implementation milestones — staged, not yet published
+- [x] Research all six rules/mobile examples; retain official sources and choose explicit variants.
+- [x] Implement all six authoritative engines/private views;237combined backend/rule checks pass.
+- [x] Create original24scene/8critter artwork; inspect framing and32atlasregions.
+- [x] Integrate firstthree touch interfaces and actualbundled offline/privateclient tests.
+- [ ] Finish fullHost-flow and otherthree bundled renderer tests; fix discovered Rummy leave crash/background loading race.
+- [ ] Pass1.0.65 release gate, verify live-room continuity, sign/publish and verify updater/APK.
+
 ## 19. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
 - [x] Prefer downloaded free licensed sound libraries; record sources/licenses, compress recordings, balance volumes and preserve mute controls.

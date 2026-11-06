@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T10:57:00.660Z",
-  "hash": "1270067d39457e1c371bb02988110c55ec6efb6d7d4c847473c42ca67eb3842e",
+  "updatedAt": "2026-11-06T11:01:52.051Z",
+  "hash": "d1218fac0d82a2eb4c8ff67a6350e4b46f6728169b8b0176ce7a712b32394a79",
   "focus": "ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; firstthree bundledtouch/save/private/multiplayer flows pass; otherthree rendering/judging checks and actualfullHost flow under test.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
   "publishedVersion": "1.0.64",
   "workingVersion": "1.0.65",
@@ -536,6 +536,30 @@
         {
           "done": false,
           "text": "Apply shared responsive controls, no duplicated NPCs, profile/ranking/save persistence, clear turn guidance, celebrations and background/rejoin protections; real rule/input/multiplayer tests and screenshots per game."
+        },
+        {
+          "done": true,
+          "text": "Research all six rules/mobile examples; retain official sources and choose explicit variants."
+        },
+        {
+          "done": true,
+          "text": "Implement all six authoritative engines/private views;237combined backend/rule checks pass."
+        },
+        {
+          "done": true,
+          "text": "Create original24scene/8critter artwork; inspect framing and32atlasregions."
+        },
+        {
+          "done": true,
+          "text": "Integrate firstthree touch interfaces and actualbundled offline/privateclient tests."
+        },
+        {
+          "done": false,
+          "text": "Finish fullHost-flow and otherthree bundled renderer tests; fix discovered Rummy leave crash/background loading race."
+        },
+        {
+          "done": false,
+          "text": "Pass1.0.65 release gate, verify live-room continuity, sign/publish and verify updater/APK."
         }
       ]
     },
