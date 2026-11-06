@@ -6,8 +6,8 @@ Last updated: 6 November 2026 (continuing the 5 November task list). This is the
 
 - `[x]` means implemented and checked. This release is now published and its download/updater hash verified.
 - `[ ]` means outstanding, partially implemented, or awaiting the stated verification.
-- Published APK: **1.0.62 / versionCode 63** — https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.62/Qurio.apk
-- Published source: `.qurio-release-1.0.62/FamilyQuest`. Previous 1.0.61 baseline retained.
+- Published APK: **1.0.63 / versionCode 64** — https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.63/Qurio.apk
+- Published source: `.qurio-release-1.0.63/FamilyQuest`. Previous 1.0.62 baseline retained.
 - Keep the original `FamilyQuest` directory's unfinished feature work. Do not accidentally ship that whole tree; merge the requested features deliberately.
 - Do not reset active rooms, scores, player sessions or saved games. Do not sleep or shut down this PC.
 
@@ -238,11 +238,10 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE:1.0.63 phone-freeze corrective update. User confirmed Solo also freezes onCamon30Pro whileMenu works. Three reproduced paths fixed: delayed saved-room response hijackingSolo, Sudokuforeground inputdeadlock, and transientcanvaserror losingRAF. Final scoped gate passed; APK built/signed/scanned and495bundledfiles match. Publication gate/upload running.
-2. Reproduced offlineSudoku inputdeadlock afterbackground (running=false/noresume). Fix checked through3native/visibility cycles withtouchinput, preservedboard/notes/timer andexplicitpause protections.
-3. Reproduced one transientcanvas draw failure permanentlystoppingPinballRAF whileMenuworks. Addingbounded graphics recovery/context-restoration withsame ball/score/shot, not reset. Pool checked too. Pool atlases now load onlyonrequest; Pinball loadsnone ofthose images.
-4. Checked a local copyable Connection&performance report withdevice/WebView/visibility/renderhealth/errors. No automatic uploads; no boards/answers/tokens inreport. PhysicalCamon notconnected, so actualdevicecause remainsunconfirmed untiltested/reported.
-5. Currentpublic version1.0.62 is unchanged untilfinal checks/build/publication. Permanentserverrankings remainexplicitlydeferred. No server deployment or room resets for thisfix.
+1. COMPLETE:1.0.63/code64 published. Publicdownload and both updaterendpoints verified; SHA256 `8417b6549b2b172e33c4c18081b1210483948a8d1ea86e75305a80d7b1bf90b8` . PCcopy C:/Users/Administrator/Documents/ChatGPT/win/FamilyQuest/delivery/Qurio.apk . Download https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.63/Qurio.apk .
+2. Reproduced/fixed delayed saved-room response replacingSolo witholdpausedgame; normalauto-restore/manualrejoin/newroomcreation remainvalid, savedtoken retained. Reproduced/fixed offlineSudoku inputdeadlock afterbackground. Reproduced/fixed transientcanvasfault losingPinball/Poolanimation; bounded3retry recovery/contextrestore preservesball/score/shot, explicitpause/background honored. Pooltexturesloadonlywhenneeded.
+3. Targeted actual-index/device-density/touch/graphicsfault/multiplayer/paused/visible tests passed. Mandatory scopedHost/Update/brokenlauncher gate passed forbuildandpublication.495APKassets match finalbundle;476unrelatedassets/allbackendmodules unchanged. Signing/appID unchanged; Defender APKscan clean. Private source andpubliccorrespondingPac-Man source published. No roombackenddeployment/reset.
+4. Partner should test1.0.63 onactualCamon. Ifitstillfreezes: Menu → Connection & performance report → Copy report. Actualdevicecause notconfirmed byemulationalone. Report stayslocal, redacts tokens andincludes WebView/version/framehealth withoutboards/answers; pauses localgame whilecopying. Permanentserverrankings remainpreviouslydeferred. PC notputtosleep/shutdown.
 
 ## 14. Reported after 1.0.61 publication
 
@@ -265,5 +264,5 @@ Merged into the pending update while retaining the published classic engine for 
 - [x] Checked native/visibility lifecycle,3× mobile-density diagnostics, transient/persistent graphics faults and lazy texture loading. No physicalCamon attached; report captures its actual WebView and errors.
 - [x] Fix reproduced offline Sudoku input deadlock after background/resume without resetting timer/board/notes.
 - [x] Recover Pinball/Pool from transient canvas or media frame failure/context loss without resetting score/ball/shot; add copyable diagnostics for actual device error.
-- [ ] Build and publish1.0.63; verify updater/download/signature and give partner test/report instructions.
+- [x] Build/publish1.0.63, verify primary/fallback updater, publicdownload hash/signature, and provide partner test/report instructions.
 - [x] Prevent delayed saved-room restoration from replacing an already started Solo game; keep saved reconnect identity and test oldpausedroom response.
