@@ -6,8 +6,8 @@ Last updated: 6 November 2026 (continuing the 5 November task list). This is the
 
 - `[x]` means implemented and checked. This release is now published and its download/updater hash verified.
 - `[ ]` means outstanding, partially implemented, or awaiting the stated verification.
-- Published APK: **1.0.61 / versionCode 62** — https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.61/Qurio.apk
-- Published source: `.qurio-release-1.0.61/FamilyQuest`. Previous 1.0.60 baseline retained.
+- Published APK: **1.0.62 / versionCode 63** — https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.62/Qurio.apk
+- Published source: `.qurio-release-1.0.62/FamilyQuest`. Previous 1.0.61 baseline retained.
 - Keep the original `FamilyQuest` directory's unfinished feature work. Do not accidentally ship that whole tree; merge the requested features deliberately.
 - Do not reset active rooms, scores, player sessions or saved games. Do not sleep or shut down this PC.
 
@@ -238,17 +238,17 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. ACTIVE: corrective update1.0.62/code63. Quick round-robin UNO opening is checked. Affected-game checks and mandatory launcher/update recovery passed; signed APK built. Publication gate/upload is running. Current public APK remains1.0.61 until verification succeeds.
-2. Checked: actual main-menu Bartender/Pac-Man entry; pinball narrowcorridor/flipper seams/upper-left bumperrim/missing dividers; new58.433s music loop468KB withmute; Solitaire shuffle auto-reveal3 and fananimation; repeatedWordlekeyflash; topnavpress + single exitwarning/Cancel; springpullloop andcleanup.
-3. Tests:177backend tests,14pinball physics tests across5levels,4Solitaire offline/live cases, actual launchedgames +navigation Cancel tests. All494final bundled files match the APK, original signing/appID retained and Defender scan clean. Live worker accepted newSolitaire shuffle for bothplayers with0moves andunchangedtableau. Only explicit Shuffle changes hand; no room reset.
-4. Local Infinity AI reviewed stuck recovery and UNO intro edge cases; drain exclusion and replay checks verified. Codex and parallel reviewers are testing actual input paths and screenshots. Remaining fromprevious release: permanentserver rankings explicitlydeferred; savedlocal results retained.
+1. COMPLETE: Qurio1.0.62/code63 is published and verified. In-app Update primary and fallback both return it. Public APK download SHA256 matches `0df2e8ba2f5ac9d4a5f83c433ee9778a41b354c9b041d8367cf6a87ec18fe0eb`.
+2. Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.62/Qurio.apk . PC: C:/Users/Administrator/Documents/ChatGPT/win/FamilyQuest/delivery/Qurio.apk . Screenshots: .qurio-release-1.0.62/FamilyQuest/delivery/visual-qa.html . All additions below are included.
+3. Checked177backend tests,14pinball physics cases/groups across5levels, actual main-menu nestedgame entry, UNO2–10seat individualdeal/reconnect/reducedmotion/openingpenalty, Solitaire4solo/live shufflecases +fananimation, Wordlekeypress, sharedtopnavCancel, springpullloop and468KBmusic. Mandatory affected-game launcher/update recovery passed for build andpublication.476unrelated assets byte-identical to1.0.61; all494bundledfiles matchedAPK. Signing/appID unchanged; Defender scan clean. Physicalphone notattached.
+4. Existing rooms/boards/saves retained. Live Solitaire only changes when player explicitly presses Shuffle. Local AI review helped check drain exclusion andUNOintro tests. The sole deferred item remains permanentserver ranking sync; localresults retained. PC not put tosleep/shutdown.
 
 ## 14. Reported after 1.0.61 publication
 
 - [x] Fix Bartender getting stuck on main-menu loading; verify real launcher entry, not only direct game URL.
 - [x] Check the same launcher ready handshake for Pac-Man.
 - [x] Fix pinball ball becoming stuck; compare visible rails with collision geometry using supplied screenshot, and test corner/ramp/launch-lane escapes.
-- [ ] Build and publish the corrective update with saved games and rooms retained.
+- [x] Build and publish the corrective update with saved games and rooms retained.
 - [x] Add supplied Space Cadet music from https://youtu.be/j5K5TMabOXM as a short seamless compressed loop instead of an hour-long file; preserve volume/mute settings.
 - [x] Check upper-left pinball pass-through and all visible solid obstacles against collision geometry; add a regression for reported passage.
 - [x] Solitaire Shuffle should automatically reveal the next draw-three hand, top card only playable, with no extra tap, move or point cost; verify solo/live/undo.

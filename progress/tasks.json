@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-06T07:33:43.181Z",
-  "hash": "25f3b019ed4b1a0dcea447cef64cad00c880b787fe79814e7cb972743a553475",
-  "focus": "ACTIVE: corrective update1.0.62/code63. Quick round-robin UNO opening is checked. Affected-game checks and mandatory launcher/update recovery passed; signed APK built. Publication gate/upload is running. Current public APK remains1.0.61 until verification succeeds.",
-  "publishedVersion": "1.0.61",
+  "updatedAt": "2026-11-06T07:38:05.975Z",
+  "hash": "13c09c5ecd9f3d1645058945629fbf48c8b4dc2e594b52ca06f3921cc8fefe90",
+  "focus": "COMPLETE: Qurio1.0.62/code63 is published and verified. In-app Update primary and fallback both return it. Public APK download SHA256 matches `0df2e8ba2f5ac9d4a5f83c433ee9778a41b354c9b041d8367cf6a87ec18fe0eb`.",
+  "publishedVersion": "1.0.62",
   "workingVersion": "1.0.62",
   "sections": [
     {
@@ -746,7 +746,7 @@
           "text": "Fix pinball ball becoming stuck; compare visible rails with collision geometry using supplied screenshot, and test corner/ramp/launch-lane escapes."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Build and publish the corrective update with saved games and rooms retained."
         },
         {
