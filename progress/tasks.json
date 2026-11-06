@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T11:01:52.051Z",
-  "hash": "d1218fac0d82a2eb4c8ff67a6350e4b46f6728169b8b0176ce7a712b32394a79",
-  "focus": "ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; firstthree bundledtouch/save/private/multiplayer flows pass; otherthree rendering/judging checks and actualfullHost flow under test.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
-  "publishedVersion": "1.0.64",
-  "workingVersion": "1.0.65",
+  "updatedAt": "2026-11-06T11:20:25.134Z",
+  "hash": "999f6520f4d990760806af26a18a3fdb56cdd09849d427243c3ab845fc2c3dac",
+  "focus": "ACTIVE:1.0.65 is published and verified. Continue remaining checklist verification and targeted1.0.66 fresh-hosted Pool rules/cue fix; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "publishedVersion": "1.0.65",
+  "workingVersion": "1.0.66",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -294,15 +294,15 @@
           "text": "Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Ask handedness before starting; place power rail accordingly and remember choice."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify wrong first contact gives opponent ball-in-hand anywhere legal; both groups and actual hosted play."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make table/cue/balls bigger responsively while retaining visible required controls."
         },
         {
@@ -503,38 +503,38 @@
       ]
     },
     {
-      "title": "18. Six new card/party games — ACTIVE1.0.65 batch",
+      "title": "18. Six new card/party games — PUBLISHED1.0.65",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Bullsh*t!: research mobile examples/official rules; face-down claims, bluff challenge, liar/false-accuser pile pickup, legal round completion, avatars/live/Bluetooth/solo where appropriate, recorded sounds and animated cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Rummy: research mobile examples/rules and clearly document chosen variant; valid sets/runs, draw/discard/meld, round scoring/end, avatars/live/Bluetooth, recorded sounds and animated cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Old Maid: research mobile examples/rules; matching pairs, manual draw from next player, single unmatched card/last-player loss, avatars/live/Bluetooth/solo, recorded sounds and animated cards."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Cockroach Poker: research mobile examples/official rules; animal claims, pass/reveal/accept/challenge, correct failed-claim pile assignment and defeat rule, themed artwork, avatars/live/Bluetooth, recorded sounds and animations."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Cards Against Humanity-style party game: research mobile examples/rules; original prompt/answer decks, anonymous submissions, rotating human judge, points/rounds, avatars/live/Bluetooth, animated reveals and recorded sounds."
         },
         {
-          "done": false,
+          "done": true,
           "text": "What Do You Meme?-style caption game: research mobile examples/rules; original image/caption content, hidden submissions/rotating human judge/points, avatars/live/Bluetooth, image/caption reveal effects and recorded sounds."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Search existing free licensed downloadable audio/asset libraries first for all six; retain sources/licenses, balanced/compressed recordings and sound menu/mute."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Apply shared responsive controls, no duplicated NPCs, profile/ranking/save persistence, clear turn guidance, celebrations and background/rejoin protections; real rule/input/multiplayer tests and screenshots per game."
         },
         {
@@ -554,11 +554,11 @@
           "text": "Integrate firstthree touch interfaces and actualbundled offline/privateclient tests."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Finish fullHost-flow and otherthree bundled renderer tests; fix discovered Rummy leave crash/background loading race."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Pass1.0.65 release gate, verify live-room continuity, sign/publish and verify updater/APK."
         }
       ]
@@ -593,6 +593,23 @@
         {
           "done": true,
           "text": "Publish final source backup and deliver APK link/PC path; mark published only after verification."
+        }
+      ]
+    },
+    {
+      "title": "20. TargetedPoolfollowup1.0.66",
+      "tasks": [
+        {
+          "done": false,
+          "text": "FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules."
+        },
+        {
+          "done": false,
+          "text": "Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect."
+        },
+        {
+          "done": false,
+          "text": "ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate."
         }
       ]
     }

@@ -82,9 +82,9 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Make cue manipulation directly on the stick easier, without accidental shots during aiming.
 - [x] Make cue-ball pickup/placement easier.
 - [x] Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup.
-- [ ] Ask handedness before starting; place power rail accordingly and remember choice.
-- [ ] Verify wrong first contact gives opponent ball-in-hand anywhere legal; both groups and actual hosted play.
-- [ ] Make table/cue/balls bigger responsively while retaining visible required controls.
+- [x] Ask handedness before starting; place power rail accordingly and remember choice.
+- [x] Verify wrong first contact gives opponent ball-in-hand anywhere legal; both groups and actual hosted play.
+- [x] Make table/cue/balls bigger responsively while retaining visible required controls.
 - [ ] Verify freezes, required decisions, touch, background/return and two-client shot/aim behavior.
 
 - [ ] Review supplied MiniclipGIF https://support.miniclip.com/hc/article_attachments/41975201180817 for smooth placement/ball motion; improve ball rendering/motion without changing legal physics.
@@ -142,24 +142,24 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Automatic upload of Bluetooth/solo results after internet returns remains part of the previously deferred live-rankings release; queued local records are preserved.
 - [ ] Verify protocol/host authorization/version compatibility and actual Android two-phone pairing/play/resume; clearly distinguish simulated checks from real-device validation.
 
-## 18. Six new card/party games — ACTIVE1.0.65 batch
+## 18. Six new card/party games — PUBLISHED1.0.65
 These new additions arrived during1.0.64 final release checks. Keep that verified update moving; implement these one by one in the following isolated game batch, preserving the current work.
-- [ ] Bullsh*t!: research mobile examples/official rules; face-down claims, bluff challenge, liar/false-accuser pile pickup, legal round completion, avatars/live/Bluetooth/solo where appropriate, recorded sounds and animated cards.
-- [ ] Rummy: research mobile examples/rules and clearly document chosen variant; valid sets/runs, draw/discard/meld, round scoring/end, avatars/live/Bluetooth, recorded sounds and animated cards.
-- [ ] Old Maid: research mobile examples/rules; matching pairs, manual draw from next player, single unmatched card/last-player loss, avatars/live/Bluetooth/solo, recorded sounds and animated cards.
-- [ ] Cockroach Poker: research mobile examples/official rules; animal claims, pass/reveal/accept/challenge, correct failed-claim pile assignment and defeat rule, themed artwork, avatars/live/Bluetooth, recorded sounds and animations.
-- [ ] Cards Against Humanity-style party game: research mobile examples/rules; original prompt/answer decks, anonymous submissions, rotating human judge, points/rounds, avatars/live/Bluetooth, animated reveals and recorded sounds.
-- [ ] What Do You Meme?-style caption game: research mobile examples/rules; original image/caption content, hidden submissions/rotating human judge/points, avatars/live/Bluetooth, image/caption reveal effects and recorded sounds.
-- [ ] Search existing free licensed downloadable audio/asset libraries first for all six; retain sources/licenses, balanced/compressed recordings and sound menu/mute.
-- [ ] Apply shared responsive controls, no duplicated NPCs, profile/ranking/save persistence, clear turn guidance, celebrations and background/rejoin protections; real rule/input/multiplayer tests and screenshots per game.
+- [x] Bullsh*t!: research mobile examples/official rules; face-down claims, bluff challenge, liar/false-accuser pile pickup, legal round completion, avatars/live/Bluetooth/solo where appropriate, recorded sounds and animated cards.
+- [x] Rummy: research mobile examples/rules and clearly document chosen variant; valid sets/runs, draw/discard/meld, round scoring/end, avatars/live/Bluetooth, recorded sounds and animated cards.
+- [x] Old Maid: research mobile examples/rules; matching pairs, manual draw from next player, single unmatched card/last-player loss, avatars/live/Bluetooth/solo, recorded sounds and animated cards.
+- [x] Cockroach Poker: research mobile examples/official rules; animal claims, pass/reveal/accept/challenge, correct failed-claim pile assignment and defeat rule, themed artwork, avatars/live/Bluetooth, recorded sounds and animations.
+- [x] Cards Against Humanity-style party game: research mobile examples/rules; original prompt/answer decks, anonymous submissions, rotating human judge, points/rounds, avatars/live/Bluetooth, animated reveals and recorded sounds.
+- [x] What Do You Meme?-style caption game: research mobile examples/rules; original image/caption content, hidden submissions/rotating human judge/points, avatars/live/Bluetooth, image/caption reveal effects and recorded sounds.
+- [x] Search existing free licensed downloadable audio/asset libraries first for all six; retain sources/licenses, balanced/compressed recordings and sound menu/mute.
+- [x] Apply shared responsive controls, no duplicated NPCs, profile/ranking/save persistence, clear turn guidance, celebrations and background/rejoin protections; real rule/input/multiplayer tests and screenshots per game.
 
 ### 1.0.65 implementation milestones — staged, not yet published
 - [x] Research all six rules/mobile examples; retain official sources and choose explicit variants.
 - [x] Implement all six authoritative engines/private views;237combined backend/rule checks pass.
 - [x] Create original24scene/8critter artwork; inspect framing and32atlasregions.
 - [x] Integrate firstthree touch interfaces and actualbundled offline/privateclient tests.
-- [ ] Finish fullHost-flow and otherthree bundled renderer tests; fix discovered Rummy leave crash/background loading race.
-- [ ] Pass1.0.65 release gate, verify live-room continuity, sign/publish and verify updater/APK.
+- [x] Finish fullHost-flow and otherthree bundled renderer tests; fix discovered Rummy leave crash/background loading race.
+- [x] Pass1.0.65 release gate, verify live-room continuity, sign/publish and verify updater/APK.
 
 ## 19. Shared sound sourcing, checks and release
 - [ ] Add cohesive bounded motion: subtle floating/idle elements, arrival/serve/pour effects, responsive feedback bubbles and transitions. Keep aiming/dragging stable, pause hidden motion, honor reduced-motion and verify phone performance.
@@ -192,8 +192,20 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; firstthree bundledtouch/save/private/multiplayer flows pass; otherthree rendering/judging checks and actualfullHost flow under test.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
-2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.64/code65; new six-game work is separate and not published yet.
+1. ACTIVE:1.0.65 is published and verified. Continue remaining checklist verification and targeted1.0.66 fresh-hosted Pool rules/cue fix; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
+2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.65/code66; six new games are shipped. Pool followup is separate1.0.66.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
-- 1.0.65 staging evidence: six-mode private authoritative room wrappers, versioned actions/deadlines/replays;237backendtests pass. Simulated-native Bluetooth sixmode adapters pass. Bundledfirstthree actualtouch inputs,18viewport layouts,15difficulty setups, privateclients/replay/winloss/saves pass. No1.0.65 publication yet.
+- 1.0.65 staging evidence: six-mode private authoritative room wrappers, versioned actions/deadlines/replays;237backendtests pass. Simulated-native Bluetooth sixmode adapters pass. Bundledfirstthree actualtouch inputs,18viewport layouts,15difficulty setups, privateclients/replay/winloss/saves pass. 1.0.65 published and verified.
+
+## Published1.0.65
+- Sixnewgames shipped. Download https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.65/Qurio.apk
+- SHA256:0326d7b2708b7d880bf74fc83ad76ffebfa052b051938716045880ceee83a959;60540291bytes;actualstableappID/signingcertverified.
+- 239backend/rulechecks;11changedgamegates+mandatoryHost/Update/brokenlauncher;662source/bundlecomparisons;589APKassetchecks;publicredownload/bothupdaters/GPLsource/privatesourcebackup;Defender no threats.
+- ActualHTTP sixmode actions/privacy/pause/rejoin/freeplaynorankPASS. Bothbackenddeployments retainedactiveQA Sudoku board/notes/start/sessions.
+- Poolremainingaudit: handedness/reload, bothsolids/stripeswrongfirstcontact, repeatlegalplacement/responsiveballradius15 and two-clientaim pass. Found freshhostpack usesrules4insteadof5; fix tracked below.
+
+## 20. TargetedPoolfollowup1.0.66
+- [ ] FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules.
+- [ ] Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect.
+- [ ] ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate.
