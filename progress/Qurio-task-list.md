@@ -194,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE: 1.0.69 disables accidental long-press selection/copy menus on game UI while preserving editable fields, copy buttons and gameplay gestures. Testing all game documents before release.
+1. COMPLETE: 1.0.69 is published and verified. Accidental long-press selection is disabled across all games; editable fields and gameplay gestures remain usable. All current software requests shipped; physical phone checks and deferred ranking sync remain.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -259,9 +259,16 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - 248 backend tests, six focused gates, actual two-root-client controls, live HTTP transitions and 33 Bluetooth authority cases pass. Mandatory Host/Update/broken-launcher recovery, 590 APK asset checks, public redownload/both updater feeds/private source backup and clean APK/source Defender scans verified.
 - Backend 5656215d-6154-4596-9ff3-cd1fdf9c73fb preserves the active test room’s Sudoku board/notes/start and both sessions. No automatic room reset.
 
-## 25. Long-press game controls — 1.0.69
+## 25. Long-press game controls — published 1.0.69
 - [x] Disable accidental selection and native copy/paste callouts on game UI in every game document, including nested players.
 - [x] Keep name/room-code/numeric fields editable and selectable, and preserve explicit clipboard/report controls.
-- [ ] Verify real long holds, normal taps, Pinball hold/release, Solitaire dragging, dice swipes, Wordle keys and sliders; preserve lobby/group navigation, then sign/publish/verify the update.
+- [x] Verify real long holds, normal taps, Pinball hold/release, Solitaire dragging, dice swipes, Wordle keys and sliders; preserve lobby/group navigation, then sign/publish/verify the update.
 
 - 1.0.69 staged evidence: all 13 actual bundled documents, real long holds/taps, editable fields and actual report Copy, numeric/range controls, Pinball hold/release, Solitaire drag, 3D dice swipe and Wordle key feedback pass. No backend changes.
+
+## Published 1.0.69
+- Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.69/Qurio.apk
+- F: copy: F:/infinity/Qurio/releases/Qurio-1.0.69.apk
+- SHA256:14ab7e5a642bad00448539e340188030cbe0c12a9ceef9a01cab7a6d3fa1385a;60,546,003bytes. AppID/signingcertificate retained.
+- All13 game documents and long-press/tap/editable/clipboard/hold/drag/swipe/key tests pass. Five focused gates plus mandatory Host/Update/broken-launcher,665source/bundle comparisons,591APKassetchecks,publicredownload/bothupdaters/private-sourcechecksum and clean APK/source Defender scans verified.
+- The temporary raw updater CDN cache delay resolved; actual native request pattern now returns1.0.69. No backend deployment or room reset.
