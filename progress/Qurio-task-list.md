@@ -192,7 +192,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE:1.0.65 is published and verified. Continue remaining checklist verification and targeted1.0.66 fresh-hosted Pool rules/cue fix; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
+1. ACTIVE:1.0.65 is published and verified. Signed1.0.66 Pool/fresh-room music-recovery update passed244backendchecks andactualtwo-clientroot/livequietroom tests; publication underway. ContinueSnakesreferencegraphicsstaging and remaining lifecycle verification; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.65/code66; six new games are shipped. Pool followup is separate1.0.66.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -206,6 +206,16 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Poolremainingaudit: handedness/reload, bothsolids/stripeswrongfirstcontact, repeatlegalplacement/responsiveballradius15 and two-clientaim pass. Found freshhostpack usesrules4insteadof5; fix tracked below.
 
 ## 20. TargetedPoolfollowup1.0.66
-- [ ] FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules.
-- [ ] Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect.
+- [x] FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules.
+- [x] Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect.
 - [ ] ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate.
+
+- [x] FixfreshFXonlyroomswithmalformedmusic-offmetadata; normalizeolderpartialroommusicwithoutchangingboards/notes/chips/turns.244backendchecksandactualHTTPfivegamesPASS; deployed43efb1b4-e043-4185-8edb-50b42bf35a3cwithactiveSudokuroomcontinuityPASS.
+- [x] Root/two-clientfreshPoolrules5/radius15/cuevisible/touchplacement/oneshot/requiredchoices; malformedlegacymusicwirestatedoesnotfreezeUI.
+
+## 21. RemainingSnakesreferencegraphics — stagednext
+- [ ] Replaceplainrectangulargridappearancewithwindingstone-ribbonpathandjunglegaps, retainingall100correctinteractivecentersandrules.
+- [ ] Biggerpatternedsnakeswithopenmouths/fangs/tongues; keepapprovedillustratedjungleframe.
+- [ ] Fitwholeplayableboardwithoutdicepanelcoveringbottomrowsorlargeemptybottomspace; phone/tall/landscapeactualhit/throw/hoptests.
+
+- Snakesfunctional12casesPASSon1.0.65(all5levels,touchstrength,manualplacement,exactfinish,legacy/snapshot/rejoin/reducedmotion/background). Referencevisualgapremainsunchecked; lushframealreadyhasvines/temple/chest/waterfall/parrot/monkey.

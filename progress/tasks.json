@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T11:20:25.134Z",
-  "hash": "999f6520f4d990760806af26a18a3fdb56cdd09849d427243c3ab845fc2c3dac",
-  "focus": "ACTIVE:1.0.65 is published and verified. Continue remaining checklist verification and targeted1.0.66 fresh-hosted Pool rules/cue fix; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "updatedAt": "2026-11-06T11:32:19.711Z",
+  "hash": "700f5de13c9b4043238cfabab4b0bee7d045baf0d8d19615f648c87747cc8ece",
+  "focus": "ACTIVE:1.0.65 is published and verified. Signed1.0.66 Pool/fresh-room music-recovery update passed244backendchecks andactualtwo-clientroot/livequietroom tests; publication underway. ContinueSnakesreferencegraphicsstaging and remaining lifecycle verification; all six engines/content/art integrated in1.0.65 staging.237backend/rule tests pass; all six bundledtouch/save/private/multiplayer flows, eight fullHost flows and actualHTTPserver tests pass.559existingruntime/gamefiles are byte-identical to1.0.64. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
   "publishedVersion": "1.0.65",
   "workingVersion": "1.0.66",
   "sections": [
@@ -600,16 +600,41 @@
       "title": "20. TargetedPoolfollowup1.0.66",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "FreshhostedPool choosesrules5fromrequestedmode, independentofpreviouslyopenedgame. Preserveexistingroomrules."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Initialcuevisiblebeforefirstplacement; liftglove/placement/shotlockingremaincorrect."
         },
         {
           "done": false,
           "text": "ActualfreshrootHost/twoclientinputs, Poolrules/placement/aim/foreground tests and unchanged-othergame/sourcebundle gates; signpublishverifyupdate."
+        },
+        {
+          "done": true,
+          "text": "FixfreshFXonlyroomswithmalformedmusic-offmetadata; normalizeolderpartialroommusicwithoutchangingboards/notes/chips/turns.244backendchecksandactualHTTPfivegamesPASS; deployed43efb1b4-e043-4185-8edb-50b42bf35a3cwithactiveSudokuroomcontinuityPASS."
+        },
+        {
+          "done": true,
+          "text": "Root/two-clientfreshPoolrules5/radius15/cuevisible/touchplacement/oneshot/requiredchoices; malformedlegacymusicwirestatedoesnotfreezeUI."
+        }
+      ]
+    },
+    {
+      "title": "21. RemainingSnakesreferencegraphics — stagednext",
+      "tasks": [
+        {
+          "done": false,
+          "text": "Replaceplainrectangulargridappearancewithwindingstone-ribbonpathandjunglegaps, retainingall100correctinteractivecentersandrules."
+        },
+        {
+          "done": false,
+          "text": "Biggerpatternedsnakeswithopenmouths/fangs/tongues; keepapprovedillustratedjungleframe."
+        },
+        {
+          "done": false,
+          "text": "Fitwholeplayableboardwithoutdicepanelcoveringbottomrowsorlargeemptybottomspace; phone/tall/landscapeactualhit/throw/hoptests."
         }
       ]
     }
