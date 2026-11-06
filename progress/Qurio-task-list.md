@@ -12,14 +12,14 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 ## Master Development Queue (Live Tracker)
 
 ### 1. Cards Against Humanity / "What do you meme" (Apply fixes to both)
-- [ ] Fix error in UNO game modes where players cannot go back.
-- [ ] Announce who wins clearly for both the judge and the players.
-- [ ] Shuffle the entries automatically so the judge does not know which player submitted which entry.
-- [ ] Include pop culture references, mixed with a healthy balance of explicit, satirical, and normal sentences.
-- [ ] Add silly background music and sound effects (SFX).
-- [ ] Include punchlines, innuendos, and dad jokes in the card pool.
-- [ ] Add a singular-word card mechanic/option.
-- [ ] Apply these exact fixes and changes to both Cards Against Humanity and What Do You Meme.
+- [x] Fix error in UNO game modes where players cannot go back.
+- [x] Announce who wins clearly for both the judge and the players.
+- [x] Shuffle the entries automatically so the judge does not know which player submitted which entry.
+- [x] Include pop culture references, mixed with a healthy balance of explicit, satirical, and normal sentences.
+- [x] Add silly background music and sound effects (SFX).
+- [x] Include punchlines, innuendos, and dad jokes in the card pool.
+- [x] Add a singular-word card mechanic/option.
+- [x] Apply these exact fixes and changes to both Cards Against Humanity and What Do You Meme.
 
 ### 2. Cockroach Poker
 - [ ] Completely remove this game from the platform.
@@ -107,10 +107,12 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [ ] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game1, Cards Against Humanity / What Do You Meme. Inspect actual private judging, setup navigation and sound paths; implement and verify both before Game2.
+1. ACTIVE: Game2, remove Cockroach Poker. Game1 implemented and verified in staged bundle; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
 ## Evidence
 - Stable1.0.70 remains published. New workspace: .qurio-release-1.0.71. No new APK published for this suite yet.
 - No physical phones attached: desktop/mobile viewport evidence is separate from actual phone acceptance.
+
+- Game1: 24 focused backend tests including200 restored sessions, both actual touch judging flows, 12 responsive views, one-word10-seat deals,80 anonymous-entry shuffles, music decode/30%/mute/background checks and11 root navigation paths pass. See .qurio-release-1.0.71/FamilyQuest/delivery and tools/screenshots/suite171-*.png.

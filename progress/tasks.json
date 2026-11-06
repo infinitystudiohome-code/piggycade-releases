@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T21:44:29.952Z",
-  "hash": "048acb4f0d49725529321fd56e7624dcce7fb288ed165d96b43ae6f970b043b8",
-  "focus": "ACTIVE: Game1, Cards Against Humanity / What Do You Meme. Inspect actual private judging, setup navigation and sound paths; implement and verify both before Game2.",
+  "updatedAt": "2026-11-06T21:51:19.836Z",
+  "hash": "ddc969bcaa731ae7ab43482d6842f68d677d11535dfbf42838497b084e769c4a",
+  "focus": "ACTIVE: Game2, remove Cockroach Poker. Game1 implemented and verified in staged bundle; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -34,35 +34,35 @@
       "title": "1. Cards Against Humanity / \"What do you meme\" (Apply fixes to both)",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Fix error in UNO game modes where players cannot go back."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Announce who wins clearly for both the judge and the players."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Shuffle the entries automatically so the judge does not know which player submitted which entry."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Include pop culture references, mixed with a healthy balance of explicit, satirical, and normal sentences."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add silly background music and sound effects (SFX)."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Include punchlines, innuendos, and dad jokes in the card pool."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add a singular-word card mechanic/option."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Apply these exact fixes and changes to both Cards Against Humanity and What Do You Meme."
         }
       ]
