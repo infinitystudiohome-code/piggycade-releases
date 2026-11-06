@@ -66,7 +66,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Add a mirrored board/camera version for the second player so it is fair and nobody has to play upside down.
 
 ### 10. Snakes and Ladders
-- [x] Fix the exact winning tile rule: rolls exceeding tile100 bounce backward, e.g.99+3 lands98. Win only on100 with an exact count.
+- [x] Fix the exact winning tile rule: When near the end and a roll exceeds tile 100, the player must bounce backward. (Example: If on tile 99 needing 1 to win, and you roll a 3, you count forward 1 to 100, then bounce backward 2 steps, landing on tile 98). You can only win on tile 100 with an exact count.
 
 ### 11. Solitaire
 - [x] Reduce card size slightly (they don't need to be overly massive).

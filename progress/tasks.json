@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T23:00:04.090Z",
-  "hash": "f18b22f0d5dbced56c45946fff0ab7253b7566f40ab2d2deb92f9267f8c68b12",
+  "updatedAt": "2026-11-06T23:04:57.509Z",
+  "hash": "1f98eed9eec9137d8f05c155e2b7fb555da3581979166393dcfdf514d168f5a9",
   "focus": "ACTIVE: Final integrated regression, room restoration, Android build and release checks. Games1–17 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
-  "workingVersion": "1.0.71 (Game1 in progress)",
+  "workingVersion": "1.0.71 (final release checks)",
   "sections": [
     {
       "title": "Global Cross-Game Requirements",
@@ -224,7 +224,7 @@
       "tasks": [
         {
           "done": true,
-          "text": "Fix the exact winning tile rule: rolls exceeding tile100 bounce backward, e.g.99+3 lands98. Win only on100 with an exact count."
+          "text": "Fix the exact winning tile rule: When near the end and a roll exceeds tile 100, the player must bounce backward. (Example: If on tile 99 needing 1 to win, and you roll a 3, you count forward 1 to 100, then bounce backward 2 steps, landing on tile 98). You can only win on tile 100 with an exact count."
         }
       ]
     },
