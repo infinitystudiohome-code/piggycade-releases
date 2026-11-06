@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T10:26:45.489Z",
-  "hash": "5e3a45ddc51798438f1b553b2da1f0ef6cc38ea027788198506d072e1445649c",
-  "focus": "ACTIVE:1.0.64 full50-step release gate PASSED; signedAPKbuild is nowrunning (buildscript repeats mandatorychecks), then source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
-  "publishedVersion": "1.0.63",
-  "workingVersion": "1.0.64",
+  "updatedAt": "2026-11-06T10:42:59.519Z",
+  "hash": "97eb8cba05e93e97da7def241199d74db0bb6a3e407960d136d02c96168f8437",
+  "focus": "ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six pure engines/content/art staged onF, firstthree UI under test, otherthree renderers and authoritative integration in progress. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.",
+  "publishedVersion": "1.0.64",
+  "workingVersion": "1.0.65",
   "sections": [
     {
       "title": "1. Pool blocked turn — supplied screenshot/report FIRST",
@@ -563,11 +563,11 @@
           "text": "Preserve existing rooms/saves/chips/profiles/rankings and old snapshot compatibility. Version any new multiplayer rule state; no room resets."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Pass mandatory launcher/update-recovery gate, sign with existing appID/key, publish and verify the in-app updater/download hash."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Publish final source backup and deliver APK link/PC path; mark published only after verification."
         }
       ]

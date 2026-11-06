@@ -1,6 +1,6 @@
 # Qurio — NEW task list · 6 November 2026
 
-This is the new active batch, separate from completed1.0.63 work. Every new request is added here before implementation. Checked means implemented and verified, not necessarily published. Published1.0.63/code64; working1.0.64/code65. Artwork consistency, saved progress and persistent rooms remain mandatory. No PC sleep/shutdown.
+This is the new active batch, separate from completed1.0.63 work. Every new request is added here before implementation. Checked means implemented and verified, not necessarily published. Published1.0.64/code65; working1.0.65/code66. Artwork consistency, saved progress and persistent rooms remain mandatory. No PC sleep/shutdown.
 
 ## 1. Pool blocked turn — supplied screenshot/report FIRST
 - [x] Identify exact blocker: Illegal break requires a choice; Focus hides the choice buttons. Report shows no canvas fault, no busy wait and no room connection. Source and screenshot agree.
@@ -159,8 +159,13 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - [x] Use localAI for bounded assistance, verify its suggestions and monitor resources; do not unpause unrelated Infinity master work.
 - [x] Test and screenshot changed layouts and real input paths, narrow/tall/landscape/tablet/desktop; no unnecessary unrelated redesign.
 - [x] Preserve existing rooms/saves/chips/profiles/rankings and old snapshot compatibility. Version any new multiplayer rule state; no room resets.
-- [ ] Pass mandatory launcher/update-recovery gate, sign with existing appID/key, publish and verify the in-app updater/download hash.
-- [ ] Publish final source backup and deliver APK link/PC path; mark published only after verification.
+- [x] Pass mandatory launcher/update-recovery gate, sign with existing appID/key, publish and verify the in-app updater/download hash.
+- [x] Publish final source backup and deliver APK link/PC path; mark published only after verification.
+
+## Published1.0.64
+- Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.64/Qurio.apk
+- SHA256:9fe3d0b0168e786cc70fa4c2ac4841a506ff5f84ff82429c50237abc5e6c515d;59167237bytes; appID/key unchanged.
+- Both updater feeds, publicredownload, private source backup andpublicGPLsource verified. Native64-bitDefender found no threats.
 
 ## Verification evidence
 - Avatar audit:113 rendered portraits,148±2 optical size/clear alpha; all15 replacements installed, mainfour retained.
@@ -179,6 +184,6 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE:1.0.64 full50-step release gate PASSED; signedAPKbuild is nowrunning (buildscript repeats mandatorychecks), then source/updater publication. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
-2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is still1.0.63 until this batch is checked and published.
+1. ACTIVE:1.0.64 is published and verified. Continue1.0.65 six-game batch one-by-one; all six pure engines/content/art staged onF, firstthree UI under test, otherthree renderers and authoritative integration in progress. Pool, Solitaire, UNO, Bartender, casino layouts, all15chibi replacements, Pinball, Snakes, Hangman/Sudoku, UTTT and player-specific recorded outcomes have targeted passing evidence. Bluetooth nativecompile/framing/33authoritycases and actualtwo-clientHostUI pass; physicalphonepairing remains untested.
+2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is1.0.64/code65; new six-game work is separate and not published yet.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
