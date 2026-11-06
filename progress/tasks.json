@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T23:12:20.045Z",
-  "hash": "e46da04c1772ff8a808f21c3e399435438b844c36de8a32aaef9bc3d6ea3dd54",
-  "focus": "ACTIVE: Signed APK built and scanned; publishing and verifying public updater/download. Games1–17 staged and verified; not published yet.",
-  "publishedVersion": "1.0.70",
-  "workingVersion": "1.0.71 (final release checks)",
+  "updatedAt": "2026-11-06T23:19:43.517Z",
+  "hash": "5062d4b819fb7225fb092edd433406fdc08954433fd96f7618ed20c70f4348dd",
+  "focus": "COMPLETE: All64 items implemented and verified; signed1.0.71 published, public APK redownload and both updater feeds verified.",
+  "publishedVersion": "1.0.71",
+  "workingVersion": "1.0.71 (complete and published)",
   "sections": [
     {
       "title": "Global Cross-Game Requirements",
