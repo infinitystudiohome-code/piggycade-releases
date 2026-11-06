@@ -238,7 +238,21 @@ Merged into the pending update while retaining the published classic engine for 
 
 ## Current next actions
 
-1. COMPLETE: Qurio 1.0.61/code 62 is published. In-app Update primary and fallback endpoints both return the verified release. The public APK download matches SHA256 `3434ce8ea067e2c9b90a080eb834cdb689c1748e42027f44d5c1f6ec1b991d7e`.
-2. Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.61/Qurio.apk . PC copy: C:/Users/Administrator/Documents/ChatGPT/win/FamilyQuest/delivery/Qurio.apk . Screenshots: .qurio-release-1.0.61/FamilyQuest/delivery/visual-qa.html . Private full source backup and public corresponding Pac-Man source are published.
-3. All requested checklist work for this release is checked. The sole open item is permanent server ranking sync, previously explicitly deferred. Local results and backup recovery remain verified. No physical Android device was attached; gameplay tests used browser phone emulation.
-4. Existing rooms were preserved. No PC sleep/shutdown was performed. Upstream Bartender Windows payload was quarantined, never executed and excluded; isolated web runtime and final APK scans were clean.
+1. ACTIVE: corrective update1.0.62/code63. Finishing quick round-robin UNO shuffle/deal opening, then run affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.
+2. Checked: actual main-menu Bartender/Pac-Man entry; pinball narrowcorridor/flipper seams/upper-left bumperrim/missing dividers; new58.433s music loop468KB withmute; Solitaire shuffle auto-reveal3 and fananimation; repeatedWordlekeyflash; topnavpress + single exitwarning/Cancel; springpullloop andcleanup.
+3. Tests:177backend tests,14pinball physics tests across5levels,4Solitaire offline/live cases, actual launchedgames +navigation Cancel tests. Live worker accepted newSolitaire shuffle for bothplayers with0moves andunchangedtableau. Only explicit Shuffle changes hand; no room reset.
+4. Local Infinity AI reviewed stuck recovery; drain exclusion checked. Codex and parallel reviewers are testing actual input paths and screenshots. Remaining fromprevious release: permanentserver rankings explicitlydeferred; savedlocal results retained.
+
+## 14. Reported after 1.0.61 publication
+
+- [x] Fix Bartender getting stuck on main-menu loading; verify real launcher entry, not only direct game URL.
+- [x] Check the same launcher ready handshake for Pac-Man.
+- [x] Fix pinball ball becoming stuck; compare visible rails with collision geometry using supplied screenshot, and test corner/ramp/launch-lane escapes.
+- [ ] Build and publish the corrective update with saved games and rooms retained.
+- [x] Add supplied Space Cadet music from https://youtu.be/j5K5TMabOXM as a short seamless compressed loop instead of an hour-long file; preserve volume/mute settings.
+- [x] Check upper-left pinball pass-through and all visible solid obstacles against collision geometry; add a regression for reported passage.
+- [x] Solitaire Shuffle should automatically reveal the next draw-three hand, top card only playable, with no extra tap, move or point cost; verify solo/live/undo.
+- [x] Wordle on-screen keys must show consistent press/flash animation on every touch, including repeated taps; preserve key clue colors.
+- [x] Pinball launcher spring needs audible mechanical pull/tension while dragging, matching supplied Space Cadet pack where available, plus release sound; volume/mute respected.
+- [x] Top navigation/Menu/Qurio/Back buttons need reliable press feedback; leaving a game must confirm first and explain unfinished progress may be lost while saved scores/profiles remain. Cancel must leave game playable.
+- [ ] UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts.

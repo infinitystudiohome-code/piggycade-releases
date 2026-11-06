@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T00:27:01.388Z",
-  "hash": "1a6e95377b702b3919c1343efb4d1ce24be6138543ea8149aa9d1274fa027f57",
-  "focus": "COMPLETE: Qurio 1.0.61/code 62 is published. In-app Update primary and fallback endpoints both return the verified release. The public APK download matches SHA256 `3434ce8ea067e2c9b90a080eb834cdb689c1748e42027f44d5c1f6ec1b991d7e`.",
+  "updatedAt": "2026-11-06T07:20:36.538Z",
+  "hash": "17845d4b711ca95651c064323f8e52f94ff6c3d9bcc0d81dae81a981acf4d2e0",
+  "focus": "ACTIVE: corrective update1.0.62/code63. Finishing quick round-robin UNO shuffle/deal opening, then run affected-game checks, mandatory launcher/update recovery, build and publish. Current public APK remains1.0.61 until verification succeeds.",
   "publishedVersion": "1.0.61",
-  "workingVersion": "1.0.61",
+  "workingVersion": "1.0.62",
   "sections": [
     {
       "title": "1. Solitaire",
@@ -727,6 +727,55 @@
         {
           "done": true,
           "text": "Provide the download link and PC location. Do not say the update is available before publication is verified."
+        }
+      ]
+    },
+    {
+      "title": "14. Reported after 1.0.61 publication",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Fix Bartender getting stuck on main-menu loading; verify real launcher entry, not only direct game URL."
+        },
+        {
+          "done": true,
+          "text": "Check the same launcher ready handshake for Pac-Man."
+        },
+        {
+          "done": true,
+          "text": "Fix pinball ball becoming stuck; compare visible rails with collision geometry using supplied screenshot, and test corner/ramp/launch-lane escapes."
+        },
+        {
+          "done": false,
+          "text": "Build and publish the corrective update with saved games and rooms retained."
+        },
+        {
+          "done": true,
+          "text": "Add supplied Space Cadet music from https://youtu.be/j5K5TMabOXM as a short seamless compressed loop instead of an hour-long file; preserve volume/mute settings."
+        },
+        {
+          "done": true,
+          "text": "Check upper-left pinball pass-through and all visible solid obstacles against collision geometry; add a regression for reported passage."
+        },
+        {
+          "done": true,
+          "text": "Solitaire Shuffle should automatically reveal the next draw-three hand, top card only playable, with no extra tap, move or point cost; verify solo/live/undo."
+        },
+        {
+          "done": true,
+          "text": "Wordle on-screen keys must show consistent press/flash animation on every touch, including repeated taps; preserve key clue colors."
+        },
+        {
+          "done": true,
+          "text": "Pinball launcher spring needs audible mechanical pull/tension while dragging, matching supplied Space Cadet pack where available, plus release sound; volume/mute respected."
+        },
+        {
+          "done": true,
+          "text": "Top navigation/Menu/Qurio/Back buttons need reliable press feedback; leaving a game must confirm first and explain unfinished progress may be lost while saved scores/profiles remain. Cancel must leave game playable."
+        },
+        {
+          "done": false,
+          "text": "UNO opening: visible shuffle then round-robin cards fly from stock to every player; no playable cards until deal completes, avoid replaying intro on reconnect, support reduced motion and all seat counts."
         }
       ]
     }
