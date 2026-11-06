@@ -4,9 +4,9 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 
 ## 1. Pool blocked turn — supplied screenshot/report FIRST
 - [x] Identify exact blocker: Illegal break requires a choice; Focus hides the choice buttons. Report shows no canvas fault, no busy wait and no room connection. Source and screenshot agree.
-- [ ] Keep every required decision visible/actionable with controls hidden, without forcing optional controls open.
-- [ ] Verify illegalbreak and8-on-break choices, solo/host/guest/spectator,375×747 andlandscape; retain current game/score.
-- [ ] Expand diagnostics to distinguish mandatory decision, cue-ball placement, turn and graphics wait from a freeze.
+- [x] Keep every required decision visible/actionable with controls hidden, without forcing optional controls open.
+- [x] Verify illegalbreak and8-on-break choices, solo/host/guest/spectator,375×747 andlandscape; retain current game/score.
+- [x] Expand diagnostics to distinguish mandatory decision, cue-ball placement, turn and graphics wait from a freeze.
 
 ## 2. NPC art consistency — entire roster
 - [ ] Audit all NPC portraits together against the approved chibi roster: proportions, shading, outline, optical size and transparent edges.
@@ -112,6 +112,6 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Publish final source backup and deliver APK link/PC path; mark published only after verification.
 
 ## Current next actions
-1. ACTIVE: Pool mandatory-decision visibility fix first. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.
+1. ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is still1.0.63 until this batch is checked and published.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.

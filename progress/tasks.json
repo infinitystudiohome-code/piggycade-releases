@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T08:43:52.920Z",
-  "hash": "a2e4aa904e1e667a6a1b45f899030cb95045a8d935fb21a50a54537c84393c76",
-  "focus": "ACTIVE: Pool mandatory-decision visibility fix first. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
+  "updatedAt": "2026-11-06T08:45:49.033Z",
+  "hash": "ed861608be84d5f3a89de9225da7eb32d050d55230f0f01b32b3a23f708a41bc",
+  "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
   "sections": [
@@ -13,15 +13,15 @@
           "text": "Identify exact blocker: Illegal break requires a choice; Focus hides the choice buttons. Report shows no canvas fault, no busy wait and no room connection. Source and screenshot agree."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep every required decision visible/actionable with controls hidden, without forcing optional controls open."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify illegalbreak and8-on-break choices, solo/host/guest/spectator,375×747 andlandscape; retain current game/score."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Expand diagnostics to distinguish mandatory decision, cue-ball placement, turn and graphics wait from a freeze."
         }
       ]
