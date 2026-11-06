@@ -28,23 +28,23 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Audit correction: Jesus chibi consistency.
 
 ## 3. UNO presentation and interactive house rules
-- [ ] Make hand cards bigger, touchable and readable on narrow phones/landscape without hiding actions.
-- [ ] Place human and computer players around the table in multiplayer; preserve circular order and clear centre piles.
-- [ ] Flip: show both card sides where allowed by the mode, keeping opponents' hidden hands private.
-- [ ] Flip: bold FLIP card back/label and a prominent centre button so each player manually flips their hand when triggered.
-- [ ] Slap: last human or bot to slap gets the configured penalty; verify timing/ties/disconnect behavior.
-- [ ] Exchange: visible clockwise prompt/arrows and manual drag-to-next-player hand transfer; synchronize all clients before play continues.
-- [ ] Keep existing quick shuffle/individual deal, turn locks, all variants and private information correct; test solo/live/rejoin/reduced-motion.
+- [x] Make hand cards bigger, touchable and readable on narrow phones/landscape without hiding actions.
+- [x] Place human and computer players around the table in multiplayer; preserve circular order and clear centre piles.
+- [x] Flip: show both card sides where allowed by the mode, keeping opponents' hidden hands private.
+- [x] Flip: bold FLIP card back/label and a prominent centre button so each player manually flips their hand when triggered.
+- [x] Slap: last human or bot to slap gets the configured penalty; verify timing/ties/disconnect behavior.
+- [x] Exchange: visible clockwise prompt/arrows and manual drag-to-next-player hand transfer; synchronize all clients before play continues.
+- [x] Keep existing quick shuffle/individual deal, turn locks, all variants and private information correct; test solo/live/rejoin/reduced-motion.
 
 ## 4. Solitaire
-- [ ] Make Shuffle a little bigger with comfortable touch target.
-- [ ] Make stock pile bigger and centered.
-- [ ] Add a right-handed Draw button under Shuffle, acting on the stock.
-- [ ] Hints show useful legal moves with clear source/destination/explanation; avoid pointless cycles.
-- [ ] Shuffle randomizes remaining cards and automatically reveals next hand; avoid showing identical order again where alternatives exist; no added moves/points.
-- [ ] Add faint circus details to card backs while keeping them calm and readable.
-- [ ] Stop forced instant auto-finish; let player complete the foundation stacks manually, with an optional explicit finish action if appropriate.
-- [ ] Verify drag/drop/top-waste/undo/manualfinish and all five difficulties; buttons fit phones/landscape.
+- [x] Make Shuffle a little bigger with comfortable touch target.
+- [x] Make stock pile bigger and centered.
+- [x] Add a right-handed Draw button under Shuffle, acting on the stock.
+- [x] Hints show useful legal moves with clear source/destination/explanation; avoid pointless cycles.
+- [x] Shuffle randomizes remaining cards and automatically reveals next hand; avoid showing identical order again where alternatives exist; no added moves/points.
+- [x] Add faint circus details to card backs while keeping them calm and readable.
+- [x] Stop forced instant auto-finish; let player complete the foundation stacks manually, with an optional explicit finish action if appropriate.
+- [x] Verify drag/drop/top-waste/undo/manualfinish and all five difficulties; buttons fit phones/landscape.
 
 ## 5. Texas Hold’em
 - [x] After losing/new game, place New opponents and Deal again controls at the bottom; keep table, profile/chips and multiplayer room behavior.
@@ -62,13 +62,13 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Verify betting buttons, wheel, announcements and bubbles do not overlap or clip.
 
 ## 8. Bartender
-- [ ] Reproduce/recheck real launcher→bar load on bundled assets; handle any loading error with a useful message/retry instead of indefinite loading.
-- [ ] Verify start/mix/serve and native background/return; preserve saved bar progress and local audio.
+- [x] Reproduce/recheck real launcher→bar load on bundled assets; handle any loading error with a useful message/retry instead of indefinite loading.
+- [x] Verify start/mix/serve and native background/return; preserve saved bar progress and local audio.
 
-- [ ] Bartender guests arrive automatically and clearly demand/request drinks, with varied personality and reactions.
-- [ ] Show an illustrated finished-drink target; default order does not reveal the ingredient/mixing solution, player figures it out.
-- [ ] Expand drink recipes and ingredient variety with useful interactions; keep recipe data, appearance and scoring consistent.
-- [ ] Verify the full customer→visualtarget→mix→serve→reaction loop on phone, offline and live highscore mode; no loading deadend.
+- [x] Bartender guests arrive automatically and clearly demand/request drinks, with varied personality and reactions.
+- [x] Show an illustrated finished-drink target; default order does not reveal the ingredient/mixing solution, player figures it out.
+- [x] Expand drink recipes and ingredient variety with useful interactions; keep recipe data, appearance and scoring consistent.
+- [x] Verify the full customer→visualtarget→mix→serve→reaction loop on phone, offline and live highscore mode; no loading deadend.
 
 ## 9. Pinball
 - [ ] Use stronger appropriate bell/ding/metal contact samples, with volume/mute and no clipping.
@@ -105,12 +105,12 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [ ] Verify roll completes before movement, manual/live synchronization and exact-roll finish.
 
 ## 13. Hangman, Sudoku and app foreground — latest additions
-- [ ] Hangman correct word: grand recorded victory cue, confetti/fireworks/sparkles, then advance only after celebration; live players stay synchronized.
-- [ ] Hangman wrong letter: wrong/buzz effect plus supported-phone haptic vibration, honoring mute/haptic settings and no repeats for an already-tried letter.
-- [ ] Sudoku: larger board/tiles responsively, controls/notes still reachable.
-- [ ] Sudoku: small sun/moon Light/Dark switch with white/dark board, per-player saved preference, no puzzle reset.
-- [ ] Sudoku: unique completed row/column sound and bounded flicker/highlight once per newly completed line.
-- [ ] Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers.
+- [x] Hangman correct word: grand recorded victory cue, confetti/fireworks/sparkles, then advance only after celebration; live players stay synchronized.
+- [x] Hangman wrong letter: wrong/buzz effect plus supported-phone haptic vibration, honoring mute/haptic settings and no repeats for an already-tried letter.
+- [x] Sudoku: larger board/tiles responsively, controls/notes still reachable.
+- [x] Sudoku: small sun/moon Light/Dark switch with white/dark board, per-player saved preference, no puzzle reset.
+- [x] Sudoku: unique completed row/column sound and bounded flicker/highlight once per newly completed line.
+- [x] Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers.
 - [ ] All games: brief app-background/return resumes state and buttons smoothly; test solo/live and respect explicit pause/finished state without lag or screen freeze.
 - [ ] Snakes: use supplied lush jungle/adventure reference (temple/treasure/waterfalls/vines/animals, winding stone path), keep Qurio name/consistent illustration, correct1–100 playable numbering and matching snakes/ladders.
 
@@ -118,6 +118,9 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - [x] Enlarge board and use available bottom space on narrow/tall phones; preserve large touch targets and landscape/desktop fit.
 - [x] Add recorded free-library placement/action/won-box sounds, respect mute and avoid replay sounds on reconnect.
 - [x] Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots.
+
+- [x] Hide controls expands UTTT board further into the available height; verify larger than shown-controls state.
+- [x] Heart and X use clearly distinct recorded placement effects; conquered box separate from whole-match result.
 
 ## 15. Sound effects priority — latest request
 - [ ] Source engaging recorded effects from free online libraries; keep license/source records, compress carefully and balance volume without clipping.
@@ -139,6 +142,11 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 - Casino: bundled fiveviewport layouts plus two-client Hit/Stand/Fold/replay/next/newopponents/roulettebets; persistent rooms/tokens/chips; all pass.
 - UTTT: fiveviewport fit/81targets, real local/live placements and recorded sounds/dedup/mute; existing colors/rules/saves retained.
 - Pool placement: backend legality/snapshot/repeatedplacement/cancelledinvalidshot/validshotlock; actual touch and drag glove preview/commit/cancel, foreground, no scriptfaults pass.
+
+- Bundled UNO interaction/layout checks now pass all variants at portrait/landscape/tablet after fixing7px clipped actions in phone landscape.
+- Bartender complete customer/target/mix/serve loop,48recipes/36ingredients, retries/legacy saves/nativepause pass against bundled assets.
+- Solitaire manualfinish/rightDraw/centredstock/usefulhints and500shuffles/52cards/no addedpoints tests pass.
+- Hangman/Sudoku realinput/theme/feedback/resume/snapshot tests pass; no physicalCamon test claimed.
 
 ## Current next actions
 1. ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.

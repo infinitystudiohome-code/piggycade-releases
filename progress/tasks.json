@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T09:09:03.084Z",
-  "hash": "e2851aa1db9c37c733f6deaac38e4a7a463fcd84707d1750b2834485492cf9b1",
+  "updatedAt": "2026-11-06T09:21:14.020Z",
+  "hash": "fa2964162430c5ba34fbfbdd37c1850b8e91c983708709b09274a1744c645cca",
   "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -103,31 +103,31 @@
       "title": "3. UNO presentation and interactive house rules",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make hand cards bigger, touchable and readable on narrow phones/landscape without hiding actions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Place human and computer players around the table in multiplayer; preserve circular order and clear centre piles."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Flip: show both card sides where allowed by the mode, keeping opponents' hidden hands private."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Flip: bold FLIP card back/label and a prominent centre button so each player manually flips their hand when triggered."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Slap: last human or bot to slap gets the configured penalty; verify timing/ties/disconnect behavior."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Exchange: visible clockwise prompt/arrows and manual drag-to-next-player hand transfer; synchronize all clients before play continues."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Keep existing quick shuffle/individual deal, turn locks, all variants and private information correct; test solo/live/rejoin/reduced-motion."
         }
       ]
@@ -136,35 +136,35 @@
       "title": "4. Solitaire",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make Shuffle a little bigger with comfortable touch target."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Make stock pile bigger and centered."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add a right-handed Draw button under Shuffle, acting on the stock."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Hints show useful legal moves with clear source/destination/explanation; avoid pointless cycles."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Shuffle randomizes remaining cards and automatically reveals next hand; avoid showing identical order again where alternatives exist; no added moves/points."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add faint circus details to card backs while keeping them calm and readable."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Stop forced instant auto-finish; let player complete the foundation stacks manually, with an optional explicit finish action if appropriate."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify drag/drop/top-waste/undo/manualfinish and all five difficulties; buttons fit phones/landscape."
         }
       ]
@@ -224,27 +224,27 @@
       "title": "8. Bartender",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Reproduce/recheck real launcher→bar load on bundled assets; handle any loading error with a useful message/retry instead of indefinite loading."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify start/mix/serve and native background/return; preserve saved bar progress and local audio."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Bartender guests arrive automatically and clearly demand/request drinks, with varied personality and reactions."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Show an illustrated finished-drink target; default order does not reveal the ingredient/mixing solution, player figures it out."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Expand drink recipes and ingredient variety with useful interactions; keep recipe data, appearance and scoring consistent."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Verify the full customer→visualtarget→mix→serve→reaction loop on phone, offline and live highscore mode; no loading deadend."
         }
       ]
@@ -373,27 +373,27 @@
       "title": "13. Hangman, Sudoku and app foreground — latest additions",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Hangman correct word: grand recorded victory cue, confetti/fireworks/sparkles, then advance only after celebration; live players stay synchronized."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Hangman wrong letter: wrong/buzz effect plus supported-phone haptic vibration, honoring mute/haptic settings and no repeats for an already-tried letter."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Sudoku: larger board/tiles responsively, controls/notes still reachable."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Sudoku: small sun/moon Light/Dark switch with white/dark board, per-player saved preference, no puzzle reset."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Sudoku: unique completed row/column sound and bounded flicker/highlight once per newly completed line."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Sudoku: wrong-number buzz sound and clear feedback without exposing correct answers."
         },
         {
@@ -420,6 +420,14 @@
         {
           "done": true,
           "text": "Preserve pink heart/purple X, orange/green turns, dice mini-game, rankings and current rules; verify real touch input and screenshots."
+        },
+        {
+          "done": true,
+          "text": "Hide controls expands UTTT board further into the available height; verify larger than shown-controls state."
+        },
+        {
+          "done": true,
+          "text": "Heart and X use clearly distinct recorded placement effects; conquered box separate from whole-match result."
         }
       ]
     },
