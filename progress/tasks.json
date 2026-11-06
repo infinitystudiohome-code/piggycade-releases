@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T22:51:25.722Z",
-  "hash": "c0004375311593d594dc7fea3795e2c1895cceb3d34857d2f25a62b5c86be1b0",
-  "focus": "ACTIVE: Global character correction, player management and replay verification. Games1–17 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T23:00:04.090Z",
+  "hash": "f18b22f0d5dbced56c45946fff0ab7253b7566f40ab2d2deb92f9267f8c68b12",
+  "focus": "ACTIVE: Final integrated regression, room restoration, Android build and release checks. Games1–17 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -9,23 +9,23 @@
       "title": "Global Cross-Game Requirements",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Character Correction Fix: Fix Phoebe Buffay currently showing Rapunzel / Sabrina Carpenter. Correct her asset and sprite to actual Phoebe Buffay in the established chibi style."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Play Again Feature: All games. Keep human players; NPC opponents may randomize. Verify the existing 1.0.70 implementation for this suite."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Menu Player Management: Main-menu options to configure/add multiple human players and computer opponents."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Global Audio Standard: All games have audio; source free SFX libraries including Mixkit and keep licensing/provenance."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Global Art & Character Standard: Consistent chibi artwork, complete silhouettes and equal scale; regenerate mismatched assets and verify visually."
         }
       ]

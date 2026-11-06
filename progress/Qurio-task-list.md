@@ -3,11 +3,11 @@
 Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkboxes mean implemented AND verified, not a promise. Games are handled in the exact requested order. A current game must pass before the next starts. Existing rooms and saved scores are protected.
 
 ## Global Cross-Game Requirements
-- [ ] Character Correction Fix: Fix Phoebe Buffay currently showing Rapunzel / Sabrina Carpenter. Correct her asset and sprite to actual Phoebe Buffay in the established chibi style.
-- [ ] Play Again Feature: All games. Keep human players; NPC opponents may randomize. Verify the existing 1.0.70 implementation for this suite.
-- [ ] Menu Player Management: Main-menu options to configure/add multiple human players and computer opponents.
-- [ ] Global Audio Standard: All games have audio; source free SFX libraries including Mixkit and keep licensing/provenance.
-- [ ] Global Art & Character Standard: Consistent chibi artwork, complete silhouettes and equal scale; regenerate mismatched assets and verify visually.
+- [x] Character Correction Fix: Fix Phoebe Buffay currently showing Rapunzel / Sabrina Carpenter. Correct her asset and sprite to actual Phoebe Buffay in the established chibi style.
+- [x] Play Again Feature: All games. Keep human players; NPC opponents may randomize. Verify the existing 1.0.70 implementation for this suite.
+- [x] Menu Player Management: Main-menu options to configure/add multiple human players and computer opponents.
+- [x] Global Audio Standard: All games have audio; source free SFX libraries including Mixkit and keep licensing/provenance.
+- [x] Global Art & Character Standard: Consistent chibi artwork, complete silhouettes and equal scale; regenerate mismatched assets and verify visually.
 
 ## Master Development Queue (Live Tracker)
 
@@ -107,7 +107,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Global character correction, player management and replay verification. Games1–17 staged and verified; not published yet.
+1. ACTIVE: Final integrated regression, room restoration, Android build and release checks. Games1–17 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -148,3 +148,7 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Game16: separate Standard/PvP labels and default competitive host choice; distinct recorded buzzer and brief shake/deduped mistakes. Two actual independent client boards use the same puzzle, first finish stops both;13 Sudoku rules plus theme/notes/resume checks pass.
 
 - Game17: made-up/exploratory guesses accepted at all5 difficulty levels with five-letter validation, duplicate rejection and correct scoring; hard-mode clues no longer forbid experiments. Recorded CC0 mechanical typewriter sample actually decodes/plays for10 keystrokes and respects mute. Touch flash, duplicate clues,4 responsive sizes and online no-repeat feedback pass.
+
+- Global replay: actual two-root UNO/Wordle/Checkers final recaps, guest requests/host approvals, same group, UNO scores/rules, both scoreboard routes, separate lobby and offline replay pass. Phoebe replaced with bohemian singer portrait and refined head scale after gallery comparison.
+
+- Globals: main-menu saved two-human pass-phone profiles and selected computer seats verified in real new games; separate-phone humans retain Host/Join. All113 portraits rendered at148±2 optical extent with full alpha margins; reviewed all4 gallery sheets, Phoebe proportion correction accepted. Downloaded casino/board/outcome samples and new per-game audio checks pass, credits and compressed sources retained.
