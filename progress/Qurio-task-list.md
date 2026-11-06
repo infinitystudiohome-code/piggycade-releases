@@ -90,24 +90,24 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - [x] In "Uno Flip" game mode, all players must be able to see both the top and back of the cards like in real life (seeing the flip side, and seeing the normal side when flipped).
 
 ### 14. Blackjack
-- [ ] Make the table slightly longer to provide each player proper spacing, but optimize layout to prevent vertical scrolling.
+- [x] Make the table slightly longer to provide each player proper spacing, but optimize layout to prevent vertical scrolling.
 
 ### 15. Extreme Tic-Tac-Toe
-- [ ] Return the board to its normal aspect ratio (it is currently stretched too much).
-- [ ] Change tiles from rectangular to square with rounded corners.
+- [x] Return the board to its normal aspect ratio (it is currently stretched too much).
+- [x] Change tiles from rectangular to square with rounded corners.
 
 ### 16. Sudoku
-- [ ] Change the incorrect-entry sound effect to a distinct buzzer and add a screen shake effect.
-- [ ] Implement two distinct game modes:
+- [x] Change the incorrect-entry sound effect to a distinct buzzer and add a screen shake effect.
+- [x] Implement two distinct game modes:
   - Mode1: Standard single-player puzzle.
   - Mode2: Competitive PvP mode where players try to solve the exact same puzzle simultaneously against each other.
 
 ### 17. Wordle
-- [ ] Allow players to intentionally input incorrect/dummy letters on purpose to test and find letter placements.
-- [ ] Add mechanical typewriter sound effects when typing letters.
+- [x] Allow players to intentionally input incorrect/dummy letters on purpose to test and find letter placements.
+- [x] Add mechanical typewriter sound effects when typing letters.
 
 ## Current next actions
-1. ACTIVE: Game14, Blackjack spacing and viewport fit. Games1–13 staged and verified; not published yet.
+1. ACTIVE: Global character correction, player management and replay verification. Games1–17 staged and verified; not published yet.
 2. Globals remain tracked above and are verified without changing the queue order.
 3. Infinity AI advisory requested; bridge refuses inference while MASTER-PAUSE protects its active workload. No bypass performed. Codex continues.
 
@@ -140,3 +140,11 @@ Status: ACTIVE, unpublished 1.0.71 workspace. Published stable: 1.0.70. Checkbox
 - Game12:10layouts cover2/4players, pinned wheel under betting scroll, beside dealer, side-by-side2P and ring4P, full avatars/controls. Actual wheel/ball clip pause/resume and winning confetti pass; authority payout/ready/lock/persistence/two-client replay pass.
 
 - Game13: all outward Flip faces visible while current playable hands stay private; pending manual-turn exposure and light/dark restore pass. Three actual client flips, clockwise drag exchanges, reduced motion and2–10seat opening deals pass.
+
+- Game14: longer580px felt, responsive opponent widths prevent narrow-phone overlap;10 actual four-player viewport/focus checks pass without vertical scrolling,39 card-rule/Blackjack tests pass.
+
+- Game15: square board and81 rounded square touch tiles at5 viewport sizes; recorded heart/X sounds, accepted live moves/no duplicate sounds, save/resume, themes, focus expansion and7 dice rules pass.
+
+- Game16: separate Standard/PvP labels and default competitive host choice; distinct recorded buzzer and brief shake/deduped mistakes. Two actual independent client boards use the same puzzle, first finish stops both;13 Sudoku rules plus theme/notes/resume checks pass.
+
+- Game17: made-up/exploratory guesses accepted at all5 difficulty levels with five-letter validation, duplicate rejection and correct scoring; hard-mode clues no longer forbid experiments. Recorded CC0 mechanical typewriter sample actually decodes/plays for10 keystrokes and respects mute. Touch flash, duplicate clues,4 responsive sizes and online no-repeat feedback pass.

@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T22:43:21.013Z",
-  "hash": "896e42d01f33945cf905f0d82556fb8e6f03fad605aac81da51b8e9e780db5c1",
-  "focus": "ACTIVE: Game14, Blackjack spacing and viewport fit. Games1–13 staged and verified; not published yet.",
+  "updatedAt": "2026-11-06T22:51:25.722Z",
+  "hash": "c0004375311593d594dc7fea3795e2c1895cceb3d34857d2f25a62b5c86be1b0",
+  "focus": "ACTIVE: Global character correction, player management and replay verification. Games1–17 staged and verified; not published yet.",
   "publishedVersion": "1.0.70",
   "workingVersion": "1.0.71 (Game1 in progress)",
   "sections": [
@@ -307,7 +307,7 @@
       "title": "14. Blackjack",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Make the table slightly longer to provide each player proper spacing, but optimize layout to prevent vertical scrolling."
         }
       ]
@@ -316,11 +316,11 @@
       "title": "15. Extreme Tic-Tac-Toe",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Return the board to its normal aspect ratio (it is currently stretched too much)."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Change tiles from rectangular to square with rounded corners."
         }
       ]
@@ -329,11 +329,11 @@
       "title": "16. Sudoku",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Change the incorrect-entry sound effect to a distinct buzzer and add a screen shake effect."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Implement two distinct game modes:"
         }
       ]
@@ -342,11 +342,11 @@
       "title": "17. Wordle",
       "tasks": [
         {
-          "done": false,
+          "done": true,
           "text": "Allow players to intentionally input incorrect/dummy letters on purpose to test and find letter placements."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Add mechanical typewriter sound effects when typing letters."
         }
       ]
