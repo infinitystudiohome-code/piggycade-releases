@@ -194,7 +194,7 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Nextsixgames researched withofficialrules/mobileviews; firstthreepureengines pass15stagingtests. Newstagingwork stays onF: outside1.0.64 release. LocalGPUcaptiondraft reviewed/revised; invalidlocalrulesadvice rejected.
 
 ## Current next actions
-1. ACTIVE: Quick 1.0.68 fix: Qurio Back returns the whole hosted group to the lobby; only Exit room leaves. Preserve connections, players and room code, then test switching games and publish.
+1. COMPLETE: 1.0.68 is published and verified. Qurio Back returns the hosted group to the same lobby; only Exit room leaves. All current software changes shipped; physical phone checks and deferred ranked sync remain.
 2. Every new request goes into this NEW list; previous work remains in Qurio-task-list.md. Public APK is 1.0.67/code68. Six new games, Pool/room recovery, the Snakes reference presentation and shared background/resume fixes are shipped.
 3. LocalAI provides advisory checks only; implementation and screenshots are verified. All avatars must match the same approved chibi style.
 
@@ -245,9 +245,16 @@ These new additions arrived during1.0.64 final release checks. Keep that verifie
 - Public redownload, both updater feeds, public GPL source and private complete-source checksum verified. Defender found no threats in the APK or source package; flagged Bartender reference payloads are excluded and blocked from future packaging.
 - No backend deployment for this version. Existing rooms, rules, profiles, scores and saved game state are retained.
 
-## 24. Urgent room-preserving back button — 1.0.68
+## 24. Room-preserving back button — published 1.0.68
 - [x] Qurio Back / menu navigation returns the host and whole group to the lobby without leaving or disbanding. Same room code, players and host.
 - [x] Only explicit Exit room leaves. Guests stay connected; preserve authority, scores and active rooms until the host explicitly returns to lobby.
-- [ ] Stop hidden game activity in the lobby, successfully start another game, test actual two-client buttons, sign/publish/verify the update.
+- [x] Stop hidden game activity in the lobby, successfully start another game, test actual two-client buttons, sign/publish/verify the update.
 
 - 1.0.68 evidence: 248 backend tests and actual two-root-client Pool/Poker header/Menu/Android Back flows pass. Same room/host/players/tokens; no leave or false win on Back. Cached Pool→Snakes startup and explicit Exit room pass.
+
+## Published 1.0.68
+- Download: https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.68/Qurio.apk
+- Same room code, host, players and connections remain when the host uses Qurio Back, Menu → Return to lobby, or Android Back. Only Exit room leaves. Ready/start another game works; no false score/result on leaving the unfinished round.
+- SHA256: 47c2394340c158c587f3700919dbe436c5f5b4cf546500ded7f736f89f7fffbb;60,545,087bytes. Stable appID/signing certificate verified.
+- 248 backend tests, six focused gates, actual two-root-client controls, live HTTP transitions and 33 Bluetooth authority cases pass. Mandatory Host/Update/broken-launcher recovery, 590 APK asset checks, public redownload/both updater feeds/private source backup and clean APK/source Defender scans verified.
+- Backend 5656215d-6154-4596-9ff3-cd1fdf9c73fb preserves the active test room’s Sudoku board/notes/start and both sessions. No automatic room reset.
