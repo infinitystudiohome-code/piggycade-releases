@@ -81,11 +81,13 @@ This is the new active batch, separate from completed1.0.63 work. Every new requ
 ## 10. 8-Ball Pool controls/rules/layout
 - [ ] Make cue manipulation directly on the stick easier, without accidental shots during aiming.
 - [ ] Make cue-ball pickup/placement easier.
-- [ ] Allow repositioning the white ball again before taking the shot while ball-in-hand rights remain; no illegal normal-turn pickup.
+- [ ] Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup.
 - [ ] Ask handedness before starting; place power rail accordingly and remember choice.
 - [ ] Verify wrong first contact gives opponent ball-in-hand anywhere legal; both groups and actual hosted play.
 - [ ] Make table/cue/balls bigger responsively while retaining visible required controls.
 - [ ] Verify freezes, required decisions, touch, background/return and two-client shot/aim behavior.
+
+- [ ] Review supplied MiniclipGIF https://support.miniclip.com/hc/article_attachments/41975201180817 for smooth placement/ball motion; improve ball rendering/motion without changing legal physics.
 
 ## 11. Checkers audio/immersion
 - [ ] Distinct move swoosh and landing sound.

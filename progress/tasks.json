@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T08:45:49.033Z",
-  "hash": "ed861608be84d5f3a89de9225da7eb32d050d55230f0f01b32b3a23f708a41bc",
+  "updatedAt": "2026-11-06T08:47:24.592Z",
+  "hash": "b7496eb2390540d1547da7cdf1983b3322a3e70d8bc3d448bdea1c989f121df4",
   "focus": "ACTIVE: Pool mandatory-decision fix checked at375×747/320/landscape/desktop andtwo liveclients; choices remainvisiblewithHidecontrols. Now working Solitaire controls/hints/manualfinish andcue-ball rights. Parallel bounded work will cover UNO interactions, cabinet/board/audio improvements and avatar consistency; main thread handles Pool/Solitaire/layout integration.",
   "publishedVersion": "1.0.63",
   "workingVersion": "1.0.64",
@@ -291,7 +291,7 @@
         },
         {
           "done": false,
-          "text": "Allow repositioning the white ball again before taking the shot while ball-in-hand rights remain; no illegal normal-turn pickup."
+          "text": "Allow continuous white-ball pickup/repositioning during ball-in-hand until pulling/taking the shot; small lifting-hand indicator/animation, cancelled drag/pull handled; no illegal normal-turn pickup."
         },
         {
           "done": false,
@@ -308,6 +308,10 @@
         {
           "done": false,
           "text": "Verify freezes, required decisions, touch, background/return and two-client shot/aim behavior."
+        },
+        {
+          "done": false,
+          "text": "Review supplied MiniclipGIF https://support.miniclip.com/hc/article_attachments/41975201180817 for smooth placement/ball motion; improve ball rendering/motion without changing legal physics."
         }
       ]
     },
