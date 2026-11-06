@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-06T00:17:58.911Z",
-  "hash": "9e8eeaf8f9e26010a7f56d0036f0058689edddcca3d108e79cf75f1702c2bf9a",
-  "focus": "ACTIVE: final signed APK build, including mandatory full bundled-browser gate. All-difficulty Snakes and touch/live Checkers checks passed independently.",
+  "updatedAt": "2026-11-06T00:20:40.920Z",
+  "hash": "b8e2f2075f4b304dadf73e1cbeecc7f8a0efe45eab2bceab8191c6e6adf1aadc",
+  "focus": "ACTIVE: publishing signed APK 1.0.61/code 62 after all build gates passed. All 493 bundled files match tested assets, signing certificate/app ID match 1.0.60, and final APK Defender scan is clean. Publication repeats the mandatory gate.",
   "publishedVersion": "1.0.60",
   "workingVersion": "1.0.61",
   "sections": [
@@ -709,15 +709,15 @@
           "text": "Backend regression tests, room-restore tests and targeted live checks pass."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Required `check-launcher.cjs` gate passes on the final bundled assets, including Update with a deliberately broken launcher."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Build the signed APK with unchanged application ID/signing key and incremented version/code."
         },
         {
-          "done": false,
+          "done": true,
           "text": "Package private source and the separate required Pac-Man source archive without signing secrets."
         },
         {
