@@ -1,8 +1,8 @@
 {
   "available": true,
-  "versionCode": 72,
-  "versionName": "1.0.71",
-  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.71/Qurio.apk",
-  "sha256": "69a60965727292842cd4816c8df1bfe62d962199b2e3c50b90a0c5bbcbc086c3",
-  "notes": "Completes the17-game update suite: anonymous party judging and one-word cards; manual Old Maid pairing; Rummy hand arranging and layoff; live Bartender stations with tropical audio; larger Pac-Man and Pinball; Pool handedness and result screens; mirrored Checkers; Snakes finish bounce; sharper circus Solitaire and recorded SFX; pinned Roulette; visible Uno Flip reverse faces; responsive Blackjack and square Tic-Tac-Toe; Sudoku race/buzzer; exploratory Wordle guesses and typewriter sounds. Adds main-menu human/computer setup and corrected chibi Phoebe. Cockroach Poker retired. Keeps Play Again, existing groups and saved progress."
+  "versionCode": 73,
+  "versionName": "1.0.72",
+  "url": "https://github.com/infinitystudiohome-code/piggycade-releases/releases/download/v1.0.72/Qurio.apk",
+  "sha256": "5fc06ea4a572ddee479df5cc315dcd46deb2737410f654214bc5ebeafacabe82",
+  "notes": "Solitaire now offers A · Circus or B · Adventure Time at setup. Adventure Time includes 52 distinct illustrations, a cozy treehouse card back, and a moonlit Land of Ooo table. Use Card pack during a game to switch without restarting your deal."
 }
