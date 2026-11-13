@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-06T23:19:43.517Z",
-  "hash": "5062d4b819fb7225fb092edd433406fdc08954433fd96f7618ed20c70f4348dd",
-  "focus": "COMPLETE: All64 items implemented and verified; signed1.0.71 published, public APK redownload and both updater feeds verified.",
-  "publishedVersion": "1.0.71",
-  "workingVersion": "1.0.71 (complete and published)",
+  "updatedAt": "2026-11-13T20:20:16.460Z",
+  "hash": "bbad4b6f8b2800c95c80bed8aeabba6894ef14882f88658b8dcf7985b80aea45",
+  "focus": "Published 1.0.72: choose Circus or Adventure Time in Solitaire.",
+  "publishedVersion": "1.0.72",
+  "workingVersion": "1.0.72 (complete and published)",
   "sections": [
     {
       "title": "Global Cross-Game Requirements",
@@ -348,6 +348,27 @@
         {
           "done": true,
           "text": "Add mechanical typewriter sound effects when typing letters."
+        }
+      ]
+    },
+    {
+      "title": "Solitaire packs · 1.0.72 · 13 November 2026",
+      "tasks": [
+        {
+          "done": true,
+          "text": "Choose A · Circus or B · Adventure Time when opening Solitaire."
+        },
+        {
+          "done": true,
+          "text": "Adventure Time ships 52 distinct faces, the indoor treehouse back, and the separate moonlit outdoor table."
+        },
+        {
+          "done": true,
+          "text": "Change packs during play without changing the deal; preference is retained on reopening."
+        },
+        {
+          "done": true,
+          "text": "Signed APK, Solitaire regression checks, and both public updater feeds verified."
         }
       ]
     }

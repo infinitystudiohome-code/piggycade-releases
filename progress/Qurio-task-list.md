@@ -156,3 +156,10 @@ Status: COMPLETE — published and verified1.0.71/code72. Published stable:1.0.7
 - Final integrated gate:40/40 checks pass plus mandatory actual Host/Update/broken-launcher recovery;265 backend tests;695 source/bundle comparisons and616 unchanged runtime/backend/native files. Backend1dbef243-9318-451e-b242-60916e46c2a7 deployed with a live Sudoku room preserving board, notes, start time, scores and player IDs; partner move accepted afterwards. Signed APK1.0.71/code72 built:70,300,667bytes,613 bundled files verified, stable appID/certificate retained. APK and full private source Defender scans found no threats. Publication and public-download verification in progress.
 
 - RELEASE VERIFIED: https://github.com/infinitystudiohome-code/piggycade-releases/releases/tag/v1.0.71 ;70,300,667bytes; SHA25669a60965727292842cd4816c8df1bfe62d962199b2e3c50b90a0c5bbcbc086c3. Both updater feeds verified. Full private source239,452,395bytes published and GitHub digest matched. StandardPC and F:/infinity/Qurio/releases/Qurio-1.0.71.apk copies match. No physical phone hardware acceptance claimed.
+
+### Solitaire packs · 1.0.72 · 13 November 2026
+
+- [x] Choose A · Circus or B · Adventure Time when opening Solitaire.
+- [x] Adventure Time ships 52 distinct faces, the indoor treehouse back, and the separate moonlit outdoor table.
+- [x] Change packs during play without changing the deal; preference is retained on reopening.
+- [x] Signed APK, Solitaire regression checks, and both public updater feeds verified.
